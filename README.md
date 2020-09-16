@@ -8,7 +8,7 @@ You can download it in [![Curse Forge](http://cf.way2muchnoise.eu/full_404532_do
 
 ## About this Modpack:
 
-This Modpack contains AOA, Grimoire of Gaia, Techgun which added many hostility entities in the world. On the other hand, it added thirst and temperature in survival mode. In this extreme case, can you survive?
+This Modpack consists many types of adventure mods examples like AOA, Grimoire of Gaia, Techguns which adds a ton of hostility entities in the world. On the other hand, Modpack has included thirst and temperature mechanics in survival mode which makes surviving even harder. Under such extreme conditions, can you manage to survive here?
 
 ## Mod list:
 
