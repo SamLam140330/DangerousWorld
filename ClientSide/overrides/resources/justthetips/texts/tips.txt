@@ -1,9 +1,10 @@
 Auto-craft is your best friend
 Don't forget you have Seared Heater and Melter in Tinkers' Complement
-There must have a blood moon every 30 days
+There will have a blood moon every 30 days and a 5% chance each day
 Use F7 to see the light levels on the ground
 Use F9 to see the chunk borders
-Grue will spawn when the light levels is lower than 6
-Get cobblestone as fast as possible in first day
+Grue will spawn when the light levels are lower than 5
+Get cobblestone as fast as possible on the first day
 Mekanism cables tend to cause lag, be careful not to overuse them
-The sound much more realistic in this Modpack
+The sound is much more realistic in this Modpack
+Always bring some light source like torch when you go to the adventure

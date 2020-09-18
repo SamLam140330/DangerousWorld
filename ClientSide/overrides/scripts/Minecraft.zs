@@ -14,7 +14,7 @@ recipes.remove(<minecraft:furnace>);
 recipes.addShaped("Minecraft Furnace", <minecraft:furnace>, [
 [<extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>],
 [<extrautils2:compressedcobblestone:1>, <ore:gearStone>, <extrautils2:compressedcobblestone:1>],
-[<extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>]]);
+[<extrautils2:compressedcobblestone:1>, <ore:gearStone>, <extrautils2:compressedcobblestone:1>]]);
 
 recipes.remove(<minecraft:torch>);
 recipes.addShaped("Minecraft Torch", <minecraft:torch> * 2, [

@@ -1,5 +1,62 @@
 # Dangerous World Modpack Changelog
 
+## 0.6 (Beta)
+
+Forge Version: 1.12.2-14.23.5.2847
+Total Mods: 255
+
+**Changes**
+
+- Decrease the Mandragora spawn rate from 60 to 20
+- The grue spawn light level decrease to 4 from 5
+- Increase the spawn probability of certus quartz
+- Decrease the spawn limit multiplier and spawn speed of Bloodmoon
+- Change some configs
+- Add some recipes
+- Add some scripts
+- Optimize the Modpack
+
+**Updated Mods**
+
+- Aether
+- Advent of Ascension
+- Brandons Core
+- Common Capabilities
+- Craft Presence
+- Craft Tweaker2
+- Divine RPG
+- Draconic Additions
+- Draconic Evolution
+- Ender IO
+- Integrated Dynamics
+- Integrated Tunnels
+- Random Patches
+- Thaumic Augmentation
+- Twilight Forest
+
+**Added Mods**
+
+- AdvsolarPatch
+- Dank Null
+- FTB Backups
+- FTB Lib
+- FTB Utilities
+- Ido
+- Not Enough Wands
+- Plustic
+- Progressive Bosses
+- Serene Seasons
+- The One Probe
+- Tiny Progressions
+- p455w0rd's MOTD Customizer (Server Side Only)
+
+**Removed Mods**
+
+- Hwyla
+- Sunglasses and More
+- Wawla
+- Waila Harvestability
+
 ## 0.5 (Beta)
 
 Forge: 1.12.2-14.23.5.2847

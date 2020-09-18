@@ -12,4 +12,6 @@ recipes.addShaped("Diamond Lattice", <avaritia:resource>, [
 [null, <ore:blockDiamond>, null],
 [<ore:blockDiamond>, null, <ore:blockDiamond>]]);
 
+recipes.remove(<avaritia:resource:6>);
+
 print("Finished to initialize Avaritia.zs");
