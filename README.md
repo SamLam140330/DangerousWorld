@@ -2,7 +2,9 @@
 
 The official repository of Minecraft Modpack for Dangerous World
 
-You can download it in [![Curse Forge](http://cf.way2muchnoise.eu/full_404532_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/dangerousworld)[![](http://cf.way2muchnoise.eu/versions/404532.svg)](https://www.curseforge.com/minecraft/modpacks/dangerousworld)
+You can download it in [CurseForge](https://www.curseforge.com/minecraft/modpacks/dangerousworld/files)
+
+[![](http://cf.way2muchnoise.eu/full_404532_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/dangerousworld)[![](http://cf.way2muchnoise.eu/versions/404532.svg)](https://www.curseforge.com/minecraft/modpacks/dangerousworld)
 
 **This Modpack is still under development!**
 
