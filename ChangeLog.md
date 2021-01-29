@@ -7,9 +7,50 @@ Total Mods: ???
 
 **Changes**
 
+**Updated Mods**
+
+- The Betweenlands
+- Actually Additions
+- Avaritia
+- Bewitchment
+- Buildcraft
+- Chunk-Pregenerator
+- Construct's Armory
+- CraftPresence
+- CraftTweaker
+- Cyclic
+- Cyclops Core
+- DivineRPG
+- Draconic Additions
+- Dynamic Surroundings
+- Electroblob's Wizardry
+- Ender IO
+- ExtraPlanets
+- Flux Networks
+- FoamFix
+- FTB Utilities
+- Gas Conduits
+- Hammer (Lib) Core
+- Idō
+- Industrial Craft
+- Integrated Dynamics
+- Integrated Tunnels
+- LLibrary
+- NuclearCraft
+- Patchouli
+- Psi
+- RandomPatches
+- Rockhounding Mod: Chemistry
+- Rockhounding Mod: Core
+- Thaumic Additions: Reconstructed
+- Thaumic Augmentation
+- The Aether
+- TickCentral
+
 **Added Mods**
 
 - Better Builder's Wands
+- Obfuscate
 - Translocators
 
 ## 0.6 (Beta)
