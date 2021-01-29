@@ -1,5 +1,17 @@
 # Dangerous World Modpack Changelog
 
+## 0.7 (Beta)
+
+Forge Version: 1.12.2-14.23.5.2847
+Total Mods: ???
+
+**Changes**
+
+**Added Mods**
+
+- Better Builder's Wands
+- Translocators
+
 ## 0.6 (Beta)
 
 Forge Version: 1.12.2-14.23.5.2847

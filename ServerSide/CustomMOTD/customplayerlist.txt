@@ -1,0 +1,11 @@
+&6&k{radio}&r&a&l Dangerous World Server &r&6&k{radio}&r
+&cDangerous World Modpack
+&a==========================&r
+&bDifficulty: &c{difficulty}
+&6Minecraft Version: &d{mcversion}
+&eForge Version: &d14.23.5.2847
+&aModpack Version: &d Beta 0.7
+&9Server Version: &d20210129
+&a==========================&r
+&l&oPlayers Online: {playercount}/{maxplayers}
+{playerlist}
