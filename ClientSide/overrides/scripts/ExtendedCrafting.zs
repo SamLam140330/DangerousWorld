@@ -3,6 +3,9 @@ print("Starting to initialize ExtendedCrafting.zs");
 recipes.remove(<extendedcrafting:ender_crafter>);
 mods.actuallyadditions.Empowerer.addRecipe(<extendedcrafting:ender_crafter>, <extendedcrafting:trimmed:3>, <extendedcrafting:ender_alternator>, <extendedcrafting:ender_alternator>, <extendedcrafting:ender_alternator>, <extendedcrafting:ender_alternator>, 1250000, 100, [0.0, 1.0, 0.0]);
 
+mods.extendedcrafting.CompressionCrafting.remove(<extendedcrafting:singularity:33>);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<extendedcrafting:singularity:33>, <alchemistry:ingot:24>, 25000, <extendedcrafting:material:11>, 2000000000);
+
 recipes.remove(<extendedcrafting:material:36>);
 recipes.addShaped("Ender Ingot", <extendedcrafting:material:36>, [
 [<ore:enderpearl>, <ore:enderpearl>, <ore:enderpearl>],
