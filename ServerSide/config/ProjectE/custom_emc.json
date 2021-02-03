@@ -3,6 +3,10 @@
     {
       "item": "thaumadditions:adaminite_ingot|0",
       "emc": 323214500
+    },
+    {
+      "item": "deepmoblearning:glitch_infused_ingot|0",
+      "emc": 89685750
     }
   ]
 }
