@@ -38,6 +38,8 @@ Total Mods: 259
 - Flux Networks
 - FoamFix
 - FTB Utilities
+- Galacticraft Core
+- Galacticraft Planets
 - Gas Conduits
 - Hammer (Lib) Core
 - Idō
@@ -45,6 +47,7 @@ Total Mods: 259
 - Integrated Dynamics
 - Integrated Tunnels
 - LLibrary
+- Micdoodle Core
 - NuclearCraft
 - Patchouli
 - Psi
@@ -59,6 +62,7 @@ Total Mods: 259
 **Added Mods**
 
 - Better Builder's Wands
+- Mixin Bootstrap
 - Obfuscate
 - Translocators
 
