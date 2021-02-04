@@ -138,6 +138,14 @@
                 "gui": "credits"
             }
         },
+        "version":
+        {
+            "text": "Version 0.7-Beta",
+            "posX": -85,
+            "posY": -22,
+            "color": -1,
+            "alignment": "bottom_right"
+        },
         "fml":
         {
             "text": "",

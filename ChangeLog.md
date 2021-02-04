@@ -1,5 +1,71 @@
 # Dangerous World Modpack Changelog
 
+## 0.7 (Beta)
+
+Forge Version: 1.12.2-14.23.5.2847
+Total Mods: 259
+
+**Changes**
+
+- The grue spawn light level increase from 4 to 5
+- The grue spawn time increase decrease from 10 to 7
+- Add version number in the main menu right bottom
+- Fix no recipe of chromium singularity
+- Edit tip text
+- Add EMC for adaminite ingot, glitch infused ingot and ironwood ingot
+- Change the recipe of Ultimate Singularity
+
+**Updated Mods**
+
+- The Betweenlands
+- Actually Additions
+- Alchemistry
+- Avaritia
+- Bewitchment
+- Buildcraft
+- Chunk-Pregenerator
+- Construct's Armory
+- CraftPresence
+- CraftTweaker
+- Cyclic
+- Cyclops Core
+- DivineRPG
+- Draconic Additions
+- Dynamic Surroundings
+- Electroblob's Wizardry
+- Ender IO
+- ExtraPlanets
+- Flux Networks
+- FoamFix
+- FTB Utilities
+- Galacticraft Core
+- Galacticraft Planets
+- Gas Conduits
+- Hammer (Lib) Core
+- Idō
+- Industrial Craft
+- Integrated Dynamics
+- Integrated Tunnels
+- LLibrary
+- Micdoodle Core
+- NuclearCraft
+- Patchouli
+- Psi
+- RandomPatches
+- Rockhounding Mod: Chemistry
+- Rockhounding Mod: Core
+- Thaumic Additions: Reconstructed
+- Thaumic Augmentation
+- The Aether
+- TickCentral
+
+**Added Mods**
+
+- Better Builder's Wands
+- Mixin Bootstrap
+- Obfuscate
+- Translocators
+
 ## 0.6 (Beta)
 
 Forge Version: 1.12.2-14.23.5.2847

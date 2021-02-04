@@ -1,4 +1,16 @@
 {
-  "entries": [],
-  "__comment": "Use the in-game commands to edit this file"
+  "entries": [
+    {
+      "item": "thaumadditions:adaminite_ingot|0",
+      "emc": 323214500
+    },
+    {
+      "item": "deepmoblearning:glitch_infused_ingot|0",
+      "emc": 89685750
+    },
+    {
+      "item": "twilightforest:ironwood_ingot|0",
+      "emc": 68426520
+    }
+  ]
 }
