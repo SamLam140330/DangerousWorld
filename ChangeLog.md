@@ -3,13 +3,14 @@
 ## 0.8 (Aplha)
 
 Forge Version: 1.12.2-14.23.5.2847
-Total Mods: 262
+Total Mods: 263
 
 **Added Mods**
 
 - Better Questing
 - Better Questing - Standard Expansion
 - Better Questing - Quest Book
+- Roost
 
 ## 0.7 (Beta)
 
