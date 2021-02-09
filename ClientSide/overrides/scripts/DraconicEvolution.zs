@@ -17,27 +17,27 @@ recipes.addShaped("Crystal Binder", <draconicevolution:crystal_binder>, [
 [<draconicevolution:draconic_core>, <draconicevolution:draconic_core>, <ore:ingotDraconium>]]);
 
 recipes.remove(<draconicevolution:wyvern_helm>);
-mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:wyvern_helm>, [
+mods.extendedcrafting.TableCrafting.addShaped(1, <draconicevolution:wyvern_helm>, [
 [<ore:blockDraconium>, <draconicevolution:wyvern_core>, <ore:blockDraconium>],
-[<ore:netherStar>, <ic2:quantum_helmet:26>, <ore:netherStar>],
+[<ore:netherStar>, <ic2:quantum_helmet>.withTag({charge: 1.0E7}), <ore:netherStar>],
 [<ore:blockDraconium>, <draconicevolution:wyvern_energy_core>, <ore:blockDraconium>]]);
 
 recipes.remove(<draconicevolution:wyvern_chest>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:wyvern_chest>, [
 [<ore:blockDraconium>, <draconicevolution:wyvern_core>, <ore:blockDraconium>],
-[<ore:netherStar>, <ic2:quantum_chestplate:26>, <ore:netherStar>],
+[<ore:netherStar>, <ic2:quantum_chestplate>.withTag({charge: 1.0E7}), <ore:netherStar>],
 [<ore:blockDraconium>, <draconicevolution:wyvern_energy_core>, <ore:blockDraconium>]]);
 
 recipes.remove(<draconicevolution:wyvern_legs>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:wyvern_legs>, [
 [<ore:blockDraconium>, <draconicevolution:wyvern_core>, <ore:blockDraconium>],
-[<ore:netherStar>, <ic2:quantum_leggings:26>, <ore:netherStar>],
+[<ore:netherStar>, <ic2:quantum_leggings>.withTag({charge: 1.0E7}), <ore:netherStar>],
 [<ore:blockDraconium>, <draconicevolution:wyvern_energy_core>, <ore:blockDraconium>]]);
 
 recipes.remove(<draconicevolution:wyvern_boots>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:wyvern_boots>, [
 [<ore:blockDraconium>, <draconicevolution:wyvern_core>, <ore:blockDraconium>],
-[<ore:netherStar>, <ic2:quantum_boots:26>, <ore:netherStar>],
+[<ore:netherStar>, <ic2:quantum_boots>.withTag({charge: 1.0E7}), <ore:netherStar>],
 [<ore:blockDraconium>, <draconicevolution:wyvern_energy_core>, <ore:blockDraconium>]]);
 
 recipes.remove(<draconicevolution:wyvern_energy_core>);
