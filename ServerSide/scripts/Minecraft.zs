@@ -10,6 +10,11 @@ recipes.addShaped("Minecraft Shield", <minecraft:shield>, [
 [<minecraft:iron_ingot>, <ore:logWood>, <minecraft:iron_ingot>],
 [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
 
+recipes.remove(<minecraft:crafting_table>);
+recipes.addShaped("Minecraft Crafting Table", <minecraft:crafting_table>, [
+[<ore:logWood>, <ore:logWood>],
+[<ore:logWood>, <ore:logWood>]]);
+
 recipes.remove(<minecraft:furnace>);
 recipes.addShaped("Minecraft Furnace", <minecraft:furnace>, [
 [<extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>],
