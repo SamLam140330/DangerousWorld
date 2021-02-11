@@ -1,5 +1,30 @@
 # Dangerous World Modpack Changelog
 
+## 0.8 (Aplha)
+
+Forge Version: 1.12.2-14.23.5.2847
+Total Mods: 263
+
+**Changes**
+
+- Change the recipe of crafting table
+- Change some recipes of Roost mod
+- Edit discord info
+- Edit different season temp
+- Edit some EMC value
+- Fix the wrong recipe of wyvern armor
+- Increase divinerpg mobs health and damage
+- Make biomesoplenty as default world type
+- Remove all techgun mobs spawn in divinerpg dimension
+- Fix the grammar of discord chat (Server-side)
+
+**Added Mods**
+
+- Better Questing
+- Better Questing - Standard Expansion
+- Better Questing - Quest Book
+- Roost
+
 ## 0.7 (Beta)
 
 Forge Version: 1.12.2-14.23.5.2847

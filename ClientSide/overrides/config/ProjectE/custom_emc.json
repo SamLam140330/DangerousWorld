@@ -6,11 +6,23 @@
     },
     {
       "item": "deepmoblearning:glitch_infused_ingot|0",
-      "emc": 89685750
+      "emc": 68452500
     },
     {
-      "item": "twilightforest:ironwood_ingot|0",
-      "emc": 68426520
+      "item": "deepmoblearning:polymer_clay|0",
+      "emc": 0
+    },
+    {
+      "item": "patchouli:guide_book|0",
+      "emc": 0
+    },
+    {
+      "item": "iceandfire:ice_dragon_blood|0",
+      "emc": 31856230
+    },
+    {
+      "item": "iceandfire:fire_dragon_blood|0",
+      "emc": 31856230
     }
   ]
 }
