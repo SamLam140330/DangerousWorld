@@ -1,6 +1,11 @@
 # Dangerous World Modpack Changelog
 
-## 0.8 (Aplha)
+## 0.9 (Beta)
+
+Forge Version: 1.12.2-???
+Total Mods: ???
+
+## 0.8 (Beta)
 
 Forge Version: 1.12.2-14.23.5.2847
 Total Mods: 263
