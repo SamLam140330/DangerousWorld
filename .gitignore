@@ -1,2 +1,4 @@
-/[Cc]lientSide/overrides/mods/
-/[Ss]erverSide/mods/
+/[Cc]lientSide/overrides/mods/*.jar
+/[Cc]lientSide/overrides/mods/1.12.2
+/[Cc]lientSide/overrides/mods/memory_repo
+/[Cc]lientSide/overrides/mods/hats/**/*.tbl
