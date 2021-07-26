@@ -9,7 +9,8 @@ Total Mods: 265
 
 **Updated Mods**
 
-- Advanced Solar Panels Patcher
+- Advanced Solar Panels Patcher > 1.2.1 (Not yet uploaded to curseforge)
+**Thanks for Su5eD fixing the issues**
 - Aether
 - Bewitchment
 - Botania
