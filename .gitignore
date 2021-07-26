@@ -1,9 +1,3 @@
-<<<<<<< Updated upstream
-/[Cc]lientSide/overrides/mods/*.jar
-/[Cc]lientSide/overrides/mods/1.12.2
-/[Cc]lientSide/overrides/mods/memory_repo
-/[Cc]lientSide/overrides/mods/hats/**/*.tbl
-=======
 /.mixin.out
 /asm
 /assets
@@ -40,4 +34,3 @@ patchouli_data.json
 servers.dat
 usercache.json
 usernamecache.json
->>>>>>> Stashed changes
