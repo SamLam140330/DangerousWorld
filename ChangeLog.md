@@ -2,8 +2,53 @@
 
 ## 0.9 (Beta)
 
-Forge Version: 1.12.2-???
-Total Mods: ???
+Forge Version: 1.12.2-14.23.5.2847
+Total Mods: 265
+
+**Changes**
+
+**Updated Mods**
+
+- Advanced Solar Panels Patcher
+- Aether
+- Bewitchment
+- Botania
+- Build Craft
+- Carryon
+- Chunk Pregenerator
+- Craft Presence (Client)
+- Craft Tweaker2
+- Cyclic
+- Draconic Additions
+- Ender IO
+- Erebus
+- Extra Cells
+- Extra Planets
+- Extreme Reactors
+- FoamFix
+- Gas Conduits
+- Hammer (Lib) Core
+- Immersive Petroleum
+- MJRLegends Lib
+- Mod Tweaker
+- More Tool Mats
+- Mouse Tweaks
+- MTLib
+- Nuclear Craft
+- Patchouli
+- Prefab
+- Reborn Core
+- Rockhounding Chemistry
+- Rockhounding Core
+- Thaumic Additions
+- Thaumic Augmentation
+- The Betweenlands
+- Tool Progression
+- Zero Core
+
+**Added Mod**
+
+- Surge
 
 ## 0.8 (Beta)
 
