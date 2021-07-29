@@ -439,6 +439,11 @@
         "result": "draconicadditions:chaotic_staff_of_power,1,0",
         "catalyst": "draconicevolution:draconic_staff_of_power,1,0"
     },
+	{
+		"mode": "REMOVE",
+        "result": "draconicadditions:chaotic_bow,1,0",
+        "catalyst": "draconicevolution:draconic_bow,1,0"
+	},
     {
         "mode": "REMOVE",
         "result": "draconicadditions:chaotic_helm,1,0",

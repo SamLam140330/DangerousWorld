@@ -54,4 +54,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<draconicevolution:draconium
 mods.extendedcrafting.CombinationCrafting.addRecipe(<draconicevolution:draconic_energy_core>, 700000000, 500000, <draconicevolution:wyvern_energy_core>,
 [<ore:blockDraconiumAwakened>, <ore:blockDraconiumAwakened>, <ore:blockDraconiumAwakened>, <ore:blockDraconiumAwakened>, <draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <ore:blockRedstone>, <actuallyadditions:block_crystal_empowered>, <thermalfoundation:fertilizer:2>, <ore:blockArdite>, <ore:blockMithminite>, <immersiveengineering:metal_decoration0:3>]);
 
+mods.extendedcrafting.CombinationCrafting.addRecipe(<draconicadditions:chaos_heart>, 600000000, 600000, <draconicevolution:dragon_heart>,
+[<draconicevolution:draconium_block:1>, <ore:ingotCosmicNeutronium>, <draconicevolution:awakened_core>, <draconicevolution:draconium_block:1>, <ore:ingotBlackIron>, <draconicevolution:awakened_core>, <draconicevolution:draconium_block:1>, <ore:ingotColdIron>, <draconicevolution:awakened_core>, <draconicevolution:draconium_block:1>, <ore:ingotSamarium>, <draconicevolution:awakened_core>]);
+
 print("Finished to initialize DraconicEvolution.zs");

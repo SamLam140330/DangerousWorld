@@ -164,7 +164,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:table_ultimat
 [<aoa3:creeponia_bricks>, <astralsorcery:itemcoloredlens:2>, <ore:blockVibrantAlloy>, <extrautils2:teleporter:1>, <ore:blockVibrantAlloy>, <ore:ingotElecanium>, <aoa3:creeponia_bricks>]]);
 
 mods.extendedcrafting.TableCrafting.remove(<extendedcrafting:material:24>);
-mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:material:24>, [
+mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:storage:3>, [
 [<ore:ingotLapis>, <ore:ingotLapis>, <ore:ingotLapis>, <ore:ingotLapis>, <ore:ingotLapis>, <ore:ingotLapis>, <ore:ingotLapis>],
 [<actuallyadditions:item_crystal_empowered:2>, <ore:ingotGhoulish>, <ore:ingotGhoulish>, <ore:ingotGhoulish>, <ore:ingotGhoulish>, <ore:ingotGhoulish>, <actuallyadditions:item_crystal_empowered:2>],
 [<actuallyadditions:item_crystal_empowered:2>, <ore:ingotMendelevium>, <deepmoblearning:glitch_infused_ingot>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}), <ore:manaDiamond>, <ore:ingotMendelevium>, <actuallyadditions:item_crystal_empowered:2>],

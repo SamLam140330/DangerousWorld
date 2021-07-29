@@ -1,3 +1,4 @@
+# Client Side
 /.mixin.out
 /asm
 /assets
@@ -34,3 +35,24 @@ patchouli_data.json
 servers.dat
 usercache.json
 usernamecache.json
+
+# Server Side
+/ServerSide/mods/*.jar
+/ServerSide/mods/*.disabled
+/ServerSide/mods/1.12.2
+/ServerSide/mods/memory_repo
+/ServerSide/mods/hats/**/*.tbl
+/ServerSide/.mixin.out
+/ServerSide/asm
+/ServerSide/astralsorcery
+/ServerSide/journeymap
+/ServerSide/llibrary
+/ServerSide/local
+/ServerSide/logs
+/ServerSide/TombManyGraves
+/ServerSide/eula.txt
+/ServerSide/banned-ips.json
+/ServerSide/banned-players.json
+/ServerSide/ops.json
+/ServerSide/whitelist.json
+/ServerSide/world
