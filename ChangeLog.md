@@ -7,9 +7,24 @@ Total Mods: 265
 
 **Changes**
 
+- Remove ebwizardry folder for recreate new version
+- Add HatModMobSupport.json
+- Change hats.cfg
+- Change ichunutil.cfg
+- Change AE2 VersionChecker.cfg
+- Change BetterFPS.cfg
+- Change DraconicEvolution.cfg
+- Change ActuallyAdditions.cfg
+- Change Defaultoptions config
+- Fix tool_overwrites.cfg
+- Change crystaltine output from ingot to block
+- Delay the read timeout time
+- Add back the recipe of chaotic stuffs
+- Remove ctm (Server Side)
+
 **Updated Mods**
 
-- Advanced Solar Panels Patcher > 1.2.1 (Not yet uploaded to curseforge)
+- Advanced Solar Panels Patcher
 **Thanks for Su5eD fixing the issues**
 - Aether
 - Bewitchment
@@ -50,6 +65,13 @@ Total Mods: 265
 **Added Mod**
 
 - Surge
+
+**Downgraded Mod**
+
+- Galacticraft Core
+- Galacticraft Planets
+- Micdoodle Core
+(https://www.reddit.com/r/Galacticraft/comments/kd3n6q/galacticraft_planets_402281/)
 
 ## 0.8 (Beta)
 
