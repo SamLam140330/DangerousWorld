@@ -171,7 +171,7 @@ ECHO. 1>>  "%~dp0logs\serverstart.log" 2>&1
 	GOTO ERROR
 	)	
 
-REM  LOAD Settings from config
+REM LOAD Settings from config
 ECHO INFO: Loading variables from settings.cfg 1>>  "%~dp0logs\serverstart.log" 2>&1 
 for /F "delims=; tokens=1 eol=;" %%A in (settings.cfg) DO (
 	REM Only process the line if it contains an "equals" sign
@@ -193,8 +193,8 @@ IF %MC_SERVER_TMP_FLAG% LSS 1 (SET MC_SERVER_TMP_FLAG=1)
 REM Set some placeholder defaults (failsafe if settings.cfg is old version or corrupt somehow
 SET MC_SERVER_MAX_RAM=8G
 SET MC_SERVER_JVM_ARGS=-Xmx%MC_SERVER_MAX_RAM%
-SET MC_SERVER_MAX_CRASH=5
-SET MC_SERVER_CRASH_TIMER=600
+SET MC_SERVER_MAX_CRASH=3
+SET MC_SERVER_CRASH_TIMER=800
 SET MC_SERVER_RUN_FROM_BAD_FOLDER=0
 SET MC_SERVER_IGNORE_OFFLINE=0
 SET MC_SERVER_IGNORE_JAVA=0
@@ -716,9 +716,9 @@ IF NOT EXIST "%~dp0server.properties" (
 		) >"%~dp0server.properties"
 	)
 IF NOT EXIST "%~dp0eula.txt" (
-	ECHO Could not find eula.txt, creating initial copy...
-	ECHO INFO: eula.txt not found... populating default
-	ECHO eula=false>>"%~dp0eula.txt"
+	ECHO Could not find eula.txt, creating initial copy... 1>>  "%~dp0logs\serverstart.log" 2>&1
+	ECHO INFO: eula.txt not found... populating default 1>>  "%~dp0logs\serverstart.log" 2>&1
+	ECHO eula=false 1>> "%~dp0eula.txt"  2> "%~dp0logs\serverstart.log"
 	)
 	
 ECHO.

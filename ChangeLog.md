@@ -1,6 +1,79 @@
 # Dangerous World Modpack Changelog
 
-## 0.8 (Aplha)
+## 0.9 (Beta)
+
+Forge Version: 1.12.2-14.23.5.2847
+Total Mods: 265
+
+**Changes**
+
+- Remove ebwizardry folder for recreate new version
+- Add HatModMobSupport.json
+- Change hats.cfg
+- Change ichunutil.cfg
+- Change AE2 VersionChecker.cfg
+- Change BetterFPS.cfg
+- Change DraconicEvolution.cfg
+- Change ActuallyAdditions.cfg
+- Change Defaultoptions config
+- Fix tool_overwrites.cfg
+- Change crystaltine output from ingot to block
+- Delay the read timeout time
+- Add back the recipe of chaotic stuffs
+- Remove ctm (Server Side)
+
+**Updated Mods**
+
+- Advanced Solar Panels Patcher
+**Thanks for Su5eD fixing the issues**
+- Aether
+- Bewitchment
+- Botania
+- Build Craft
+- Carryon
+- Chunk Pregenerator
+- Craft Presence (Client)
+- Craft Tweaker2
+- Cyclic
+- Draconic Additions
+- Ender IO
+- Erebus
+- Extra Cells
+- Extra Planets
+- Extreme Reactors
+- FoamFix
+- Gas Conduits
+- Hammer (Lib) Core
+- Immersive Petroleum
+- MJRLegends Lib
+- Mod Tweaker
+- More Tool Mats
+- Mouse Tweaks
+- MTLib
+- Nuclear Craft
+- Patchouli
+- Prefab
+- Reborn Core
+- Rockhounding Chemistry
+- Rockhounding Core
+- Thaumic Additions
+- Thaumic Augmentation
+- The Betweenlands
+- Tool Progression
+- Zero Core
+
+**Added Mod**
+
+- Surge
+
+**Downgraded Mod**
+
+- Galacticraft Core
+- Galacticraft Planets
+- Micdoodle Core
+(https://www.reddit.com/r/Galacticraft/comments/kd3n6q/galacticraft_planets_402281/)
+
+## 0.8 (Beta)
 
 Forge Version: 1.12.2-14.23.5.2847
 Total Mods: 263

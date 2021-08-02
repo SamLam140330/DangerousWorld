@@ -151,8 +151,8 @@ echo "INFO: Starting script at $(date -u +%Y-%m-%d_%H:%M:%S)" >logs/serverstart.
 export MC_SERVER_MAX_RAM=8G
 export MC_SERVER_GAME_ARGS=nogui
 export MC_SERVER_JAVA_ARGS='-server -XX:+AggressiveOpts -XX:ParallelGCThreads=3 -XX:+UseConcMarkSweepGC -XX:+UnlockExperimentalVMOptions -XX:+UseParNewGC -XX:+ExplicitGCInvokesConcurrent -XX:MaxGCPauseMillis=10 -XX:GCPauseIntervalMillis=50 -XX:+UseFastAccessorMethods -XX:+OptimizeStringConcat -XX:NewSize=84m -XX:+UseAdaptiveGCBoundary -XX:NewRatio=3'
-export MC_SERVER_CRASH_COUNT=5
-export MC_SERVER_CRASH_TIMER=600
+export MC_SERVER_CRASH_COUNT=3
+export MC_SERVER_CRASH_TIMER=800
 export MC_SERVER_JAVA_PATH=DISABLE
 export MC_SERVER_RUN_FROM_BAD_FOLDER=0
 export MC_SERVER_IGNORE_OFFLINE=0

@@ -4,8 +4,8 @@
 &bDifficulty: &c{difficulty}
 &6Minecraft Version: &d{mcversion}
 &eForge Version: &d14.23.5.2847
-&aModpack Version: &d Beta 0.8
-&9Server Version: &d20210210
+&aModpack Version: &d Beta 0.9 (1.0-rc1)
+&9Server Version: &d20210730
 &a==========================&r
 &l&oPlayers Online: {playercount}/{maxplayers}
 {playerlist}
