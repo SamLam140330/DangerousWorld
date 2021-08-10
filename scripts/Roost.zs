@@ -1,5 +1,3 @@
-import crafttweaker.item.IItemStack as IItemStack;
-
 print("Starting to initialize Roost.zs");
 
 recipes.remove(<roost:roost>);
