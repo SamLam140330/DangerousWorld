@@ -1,8 +1,8 @@
 print("Starting to initialize NotEnoughWands.zs");
 
-mods.jei.JEI.removeAndHide(<notenoughwands:illumination_wand>);
-mods.jei.JEI.removeAndHide(<notenoughwands:protection_wand>);
-mods.jei.JEI.removeAndHide(<notenoughwands:master_protection_wand>);
+recipes.remove(<notenoughwands:illumination_wand>);
+recipes.remove(<notenoughwands:protection_wand>);
+recipes.remove(<notenoughwands:master_protection_wand>);
 
 recipes.remove(<notenoughwands:wandcore>);
 recipes.addShaped("Wand Core", <notenoughwands:wandcore>, [
