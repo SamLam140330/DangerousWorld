@@ -155,13 +155,13 @@ recipes.addShaped("Ultimate Catalyst", <extendedcrafting:material:11>, [
 
 recipes.remove(<extendedcrafting:table_ultimate>);
 mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:table_ultimate>, [
-[<galacticraftplanets:mars:7>, <ore:blockUranium238>, <ore:blockVibrantAlloy>, <extrautils2:quarryproxy>, <ore:blockVibrantAlloy>, <divinerpg:arlemite_lamp>, <galacticraftplanets:mars:7>],
+[<galacticraftplanets:mars:7>, <ore:blockUranium238>, <ore:blockVibrantAlloy>, <extendedcrafting:singularity_custom:16>, <ore:blockVibrantAlloy>, <divinerpg:arlemite_lamp>, <galacticraftplanets:mars:7>],
 [<deepmoblearning:infused_ingot_block>, <iceandfire:shiny_scales>, <thaumadditions:vis_seeds>, <tp:octuple_compressed_sugar_cane>, <thaumadditions:seal_symbol>, <iceandfire:shiny_scales>, <actuallyadditions:item_damage_lens>],
-[<extracells:storage.component:10>, <ic2:quad_mox_fuel_rod>, <extendedcrafting:material:17>, <extendedcrafting:singularity:7>, <extendedcrafting:material:17>, <ic2:quad_mox_fuel_rod>, <extracells:storage.component:10>],
+[<extracells:storage.component:10>, <ic2:quad_mox_fuel_rod>, <extendedcrafting:material:17>, <extendedcrafting:trimmed:3>, <extendedcrafting:material:17>, <ic2:quad_mox_fuel_rod>, <extracells:storage.component:10>],
 [<ore:blockDemonicMetal>, <xreliquary:potion_essence>, <extendedcrafting:table_elite>, <extendedcrafting:material:11>, <extendedcrafting:table_elite>, <xreliquary:potion_essence>, <ore:blockEvilMetal>],
 [<extracells:storage.component:10>, <mekanism:basicblock2:4>, <extendedcrafting:material:17>, <extendedcrafting:trimmed:3>, <extendedcrafting:material:17>, <mekanism:basicblock2:4>, <extracells:storage.component:10>],
 [<animus:fragmenthealing>, <iceandfire:shiny_scales>, <projectred-transportation:routing_chip:7>, <ore:blockOsgloglas>, <ore:projredIllumar>, <iceandfire:shiny_scales>, <botania:brewflask>],
-[<aoa3:creeponia_bricks>, <astralsorcery:itemcoloredlens:2>, <ore:blockVibrantAlloy>, <extrautils2:teleporter:1>, <ore:blockVibrantAlloy>, <ore:ingotElecanium>, <aoa3:creeponia_bricks>]]);
+[<aoa3:creeponia_bricks>, <astralsorcery:itemcoloredlens:2>, <ore:blockVibrantAlloy>, <extendedcrafting:singularity_custom:7>, <ore:blockVibrantAlloy>, <ore:ingotElecanium>, <aoa3:creeponia_bricks>]]);
 
 mods.extendedcrafting.TableCrafting.remove(<extendedcrafting:material:24>);
 mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:storage:3>, [

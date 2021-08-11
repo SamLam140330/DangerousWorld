@@ -1,6 +1,65 @@
 # Dangerous World Modpack Changelog
 
-## 0.9 (Beta)
+## 0.10 (1.0-rc2)
+
+Forge Version: 1.12.2-14.23.5.2847
+Total Mods: 247
+
+**Changes**
+
+- Fixed the recipe of Digital Miner
+- Decreased the chance of Blood moon to 3%
+- The crab will no longer be spawned to improve the game performance when Blood Moon
+- Removed wrong gear stone recipe
+- Removed wrong compressed steel recipe
+- Changed the recipe of bonsai pot
+- Fixed the recipe of Grim reaper and Infiltrator
+- Added the recipe of nether combat and power armor mk2
+- Fixed the recipe of disk platter
+- Fixed some bugs of my script
+- Changed the recipe of ultimate crafting table
+- Changed the recipe of draconic armar
+- Added recipe of florbs and morbs
+- Modpack optimization
+- Removed Tough As Nails and Serene Seasons mods (Resolves #5, resolves #6)
+
+**Updated Mods**
+
+- Brandons Core
+- Craft Tweaker2
+- Discord-Integration (Server-Side)
+
+**Added Mods**
+
+- Entity Culling
+- Galacticraft Tweaker
+
+**Removed Mods**
+
+- Better Builders Wands
+- Dank Null
+- Davincis Vessels
+- Even More TNT
+- Hat
+- iChunUtil
+- lv Tool Kit
+- Lunatriuscore
+- Morph O Tool
+- Moving World
+- PandorasBox
+- Prefab
+- Schematica
+- Serene Seasons
+- Tough As Nails
+- Unloader
+
+**Temporary Removed Mods**
+
+- BetterQuesting
+- Questbook
+- StandardExpansion
+
+## 0.9 (1.0-rc1)
 
 Forge Version: 1.12.2-14.23.5.2847
 Total Mods: 265

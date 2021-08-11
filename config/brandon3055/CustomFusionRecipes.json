@@ -293,16 +293,18 @@
         "tier": 2,
         "ingredients":
         [
-            "iceandfire:dragonsteel_ice_helmet",
-            "iceandfire:dragonsteel_fire_helmet",
-            "aoa3:sharpshot_helmet",
-            "draconicadditions:potato_helm,1,0,{Energy:100000}",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:draconic_energy_core",
-            "draconicevolution:draconic_energy_core",
-            "ore:blockDraconiumAwakened",
-            "ore:blockDraconiumAwakened"
+			"iceandfire:dragonsteel_ice_helmet",
+			"iceandfire:dragonsteel_fire_helmet",
+			"aoa3:sharpshot_helmet",
+			"deepmoblearning:glitch_infused_helmet",
+			"divinerpg:wither_reaper_helmet",
+			"botania:elementiumhelm",
+			"draconicevolution:awakened_core",
+			"draconicevolution:awakened_core",
+			"draconicevolution:draconic_energy_core",
+			"draconicevolution:draconic_energy_core",
+			"ore:blockDraconiumAwakened",
+			"ore:blockDraconiumAwakened"
         ]
     },
     {
@@ -318,16 +320,18 @@
         "tier": 2,
         "ingredients":
         [
-            "iceandfire:dragonsteel_ice_chestplate",
-            "iceandfire:dragonsteel_fire_chestplate",
-            "aoa3:sharpshot_chestplate",
-            "draconicadditions:potato_chest,1,0,{Energy:100000}",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:draconic_energy_core",
-            "draconicevolution:draconic_energy_core",
-            "ore:blockDraconiumAwakened",
-            "ore:blockDraconiumAwakened"
+			"iceandfire:dragonsteel_ice_chestplate",
+			"iceandfire:dragonsteel_fire_chestplate",
+			"aoa3:sharpshot_chestplate",
+			"deepmoblearning:glitch_infused_chestplate",
+			"divinerpg:wither_reaper_chestplate",
+			"botania:elementiumchest",
+			"draconicevolution:awakened_core",
+			"draconicevolution:awakened_core",
+			"draconicevolution:draconic_energy_core",
+			"draconicevolution:draconic_energy_core",
+			"ore:blockDraconiumAwakened",
+			"ore:blockDraconiumAwakened"
         ]
     },
     {
@@ -343,16 +347,18 @@
         "tier": 2,
         "ingredients":
         [
-            "iceandfire:dragonsteel_ice_leggings",
-            "iceandfire:dragonsteel_fire_leggings",
-            "aoa3:sharpshot_legs",
-            "draconicadditions:potato_legs,1,0,{Energy:100000}",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:draconic_energy_core",
-            "draconicevolution:draconic_energy_core",
-            "ore:blockDraconiumAwakened",
-            "ore:blockDraconiumAwakened"
+			"iceandfire:dragonsteel_ice_leggings",
+			"iceandfire:dragonsteel_fire_leggings",
+			"aoa3:sharpshot_legs",
+			"deepmoblearning:glitch_infused_leggings",
+			"divinerpg:wither_reaper_leggings",
+			"botania:elementiumlegs",
+			"draconicevolution:awakened_core",
+			"draconicevolution:awakened_core",
+			"draconicevolution:draconic_energy_core",
+			"draconicevolution:draconic_energy_core",
+			"ore:blockDraconiumAwakened",
+			"ore:blockDraconiumAwakened"
         ]
     },
     {
@@ -368,16 +374,18 @@
         "tier": 2,
         "ingredients":
         [
-            "iceandfire:dragonsteel_ice_boots",
-            "iceandfire:dragonsteel_fire_boots",
-            "aoa3:sharpshot_boots",
-            "draconicadditions:potato_boots,1,0,{Energy:100000}",
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "draconicevolution:draconic_energy_core",
-            "draconicevolution:draconic_energy_core",
-            "ore:blockDraconiumAwakened",
-            "ore:blockDraconiumAwakened"
+			"iceandfire:dragonsteel_ice_boots",
+			"iceandfire:dragonsteel_fire_boots",
+			"aoa3:sharpshot_boots",
+			"deepmoblearning:glitch_infused_boots",
+			"divinerpg:wither_reaper_boots",
+			"botania:elementiumboots",
+			"draconicevolution:awakened_core",
+			"draconicevolution:awakened_core",
+			"draconicevolution:draconic_energy_core",
+			"draconicevolution:draconic_energy_core",
+			"ore:blockDraconiumAwakened",
+			"ore:blockDraconiumAwakened"
         ]
     },
     {
@@ -399,7 +407,7 @@
             "draconicevolution:awakened_core",
             "draconicevolution:draconic_energy_core",
             "draconicevolution:draconic_energy_core",
-            "ic2:energy_crystal,1,0,{charge:1000000.0}",
+            "ic2:energy_crystal,1,0,{charge: 1000000.0}",
             "avaritia:singularity,1,3",
             "aoa3:limonite_pickaxe",
             "divinerpg:eden_pickaxe",
@@ -468,8 +476,8 @@
             "draconicadditions:chaos_heart",
             "astralsorcery:blockblackmarble,1,5",
             "astralsorcery:blockblackmarble,1,5",
-            "draconicadditions:chaos_crystal_stable,1,0,{isStable: 1 as byte}",
-            "draconicadditions:chaos_crystal_stable,1,0,{isStable: 1 as byte}"
+            "draconicadditions:chaos_crystal_stable",
+            "draconicadditions:chaos_crystal_stable"
         ]
     },
     {
@@ -510,8 +518,8 @@
         [
             "draconicevolution:dislocator_receptacle",
             "draconicevolution:dislocator_receptacle",
-            "draconicadditions:chaos_crystal_stable,1,0,{isStable: 1 as byte}",
-            "draconicadditions:chaos_crystal_stable,1,0,{isStable: 1 as byte}"
+            "draconicadditions:chaos_crystal_stable",
+            "draconicadditions:chaos_crystal_stable"
         ]
     },
     {

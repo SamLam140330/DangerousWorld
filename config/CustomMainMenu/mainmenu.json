@@ -104,7 +104,7 @@
             "action": 
             {
                 "type": "openLink",
-                "link": "https://www.curseforge.com/minecraft/modpacks/dangerous-world"
+                "link": "https://www.curseforge.com/minecraft/modpacks/dangerousworld"
             }
         },
         "quit":
@@ -140,8 +140,8 @@
         },
         "version":
         {
-            "text": "Version Beta 0.9 (1.0-rc1)",
-            "posX": -85,
+            "text": "Version Beta 0.10 (1.0-rc2)",
+            "posX": -140,
             "posY": -22,
             "color": -1,
             "alignment": "bottom_right"
