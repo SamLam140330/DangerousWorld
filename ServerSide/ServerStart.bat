@@ -184,9 +184,9 @@ for /F "delims=; tokens=1 eol=;" %%A in (settings.cfg) DO (
 	REM Old way to parse settings--> broke if args had an "equals" (=) character
 	REM for /f "delims==; tokens=1,2 eol=;" %%G in (settings.cfg) do set %%G=%%H 
 
-REM Define Xms (min heap) as Floor(MAX_RAM / 2)
+REM Define Xms (min heap) as Floor(MAX_RAM)
 SET MC_SERVER_TMP_FLAG=
-SET /A "MC_SERVER_TMP_FLAG=%MAX_RAM:~0,-1%/2"
+SET /A "MC_SERVER_TMP_FLAG=%MAX_RAM:~0,-1%"
 FOR /f "tokens=1 delims=." %%a  in ("%MC_SERVER_TMP_FLAG%") DO (SET MC_SERVER_TMP_FLAG=%%a)
 IF %MC_SERVER_TMP_FLAG% LSS 1 (SET MC_SERVER_TMP_FLAG=1)
 
