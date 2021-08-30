@@ -140,8 +140,8 @@
         },
         "version":
         {
-            "text": "Version Beta 0.10 (1.0-rc2)",
-            "posX": -140,
+            "text": "Version 1.0",
+            "posX": -58,
             "posY": -22,
             "color": -1,
             "alignment": "bottom_right"

@@ -1,8 +1,39 @@
 # Dangerous World Modpack Changelog
 
+## 1.0
+
+Forge Version: 1.12.2-14.23.5.2847  
+Total Mods: 248
+
+**Changes**
+
+- Modpack performance optimization
+- Changed the relationship of recipes between infinity armor and chaos armor
+- Changed the max level of tinker tools to 40
+
+**Updated Mods**
+
+- Craft Presence
+- Craft Tweaker 2
+- Darkness Lib
+- Draconic Evolution
+- Grue
+- Tesla Core Lib
+- Thaumic Augmentation
+
+**Added Mods**
+
+- MC Doom
+- Thaumic Energistics
+
+**Removed Mods**
+
+- Electroblobs Wizardry
+- Mixin Bootstrap
+
 ## 0.10 (1.0-rc2)
 
-Forge Version: 1.12.2-14.23.5.2847
+Forge Version: 1.12.2-14.23.5.2847  
 Total Mods: 247
 
 **Changes**
@@ -61,7 +92,7 @@ Total Mods: 247
 
 ## 0.9 (1.0-rc1)
 
-Forge Version: 1.12.2-14.23.5.2847
+Forge Version: 1.12.2-14.23.5.2847  
 Total Mods: 265
 
 **Changes**
@@ -134,7 +165,7 @@ Total Mods: 265
 
 ## 0.8 (Beta)
 
-Forge Version: 1.12.2-14.23.5.2847
+Forge Version: 1.12.2-14.23.5.2847  
 Total Mods: 263
 
 **Changes**
@@ -159,7 +190,7 @@ Total Mods: 263
 
 ## 0.7 (Beta)
 
-Forge Version: 1.12.2-14.23.5.2847
+Forge Version: 1.12.2-14.23.5.2847  
 Total Mods: 259
 
 **Changes**
@@ -225,7 +256,7 @@ Total Mods: 259
 
 ## 0.6 (Beta)
 
-Forge Version: 1.12.2-14.23.5.2847
+Forge Version: 1.12.2-14.23.5.2847  
 Total Mods: 255
 
 **Changes**
@@ -353,4 +384,4 @@ Forge: 1.12.2-14.23.5.2847
 
 Forge: 1.12.2-14.23.5.2847
 
-First Alpha version Release
+- First Alpha version Release
