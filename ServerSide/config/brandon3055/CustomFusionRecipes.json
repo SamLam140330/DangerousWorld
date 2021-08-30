@@ -538,7 +538,7 @@
             "draconicadditions:chaos_stabilizer_core",
             "draconicadditions:chaotic_energy_core",
             "draconicevolution:ender_energy_manipulator",
-            "avaritia:infinity_sword"
+            "aoa3:shadow_sword"
         ]
     },
 	{
@@ -557,7 +557,7 @@
             "draconicadditions:chaos_stabilizer_core",
             "draconicadditions:chaotic_energy_core",
             "draconicevolution:ender_energy_manipulator",
-            "avaritia:infinity_bow"
+            "aoa3:wither_bow"
         ]
     },
     {
@@ -576,7 +576,7 @@
             "draconicadditions:chaos_stabilizer_core",
             "draconicadditions:chaotic_energy_core",
             "draconicevolution:ender_energy_manipulator",
-            "avaritia:infinity_helmet"
+            "aoa3:wither_helmet"
         ]
     },
     {
@@ -595,7 +595,7 @@
             "draconicadditions:chaos_stabilizer_core",
             "draconicadditions:chaotic_energy_core",
             "draconicevolution:ender_energy_manipulator",
-            "avaritia:infinity_chestplate"
+            "aoa3:wither_chestplate"
         ]
     },
     {
@@ -614,7 +614,7 @@
             "draconicadditions:chaos_stabilizer_core",
             "draconicadditions:chaotic_energy_core",
             "draconicevolution:ender_energy_manipulator",
-            "avaritia:infinity_pants"
+            "aoa3:wither_legs"
         ]
     },
     {
@@ -633,7 +633,7 @@
             "draconicadditions:chaos_stabilizer_core",
             "draconicadditions:chaotic_energy_core",
             "draconicevolution:ender_energy_manipulator",
-            "avaritia:infinity_boots"
+            "aoa3:wither_boots"
         ]
     }
 ]
