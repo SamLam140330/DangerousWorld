@@ -6,5 +6,6 @@ Use F9 to see the chunk borders
 Grue will spawn when the light levels < 6
 Get as many cobblestones as possible on the first day
 Don't overuse Mekanism cables since it tend to cause lag
-The sound is much more realistic in this Modpack
-Always bring some light source like torch when you go outside
+The sound is much realistic in this Modpack
+Always bring some light source like torch when you go to adventure
+The maximum level of Tinker Tools is 40
