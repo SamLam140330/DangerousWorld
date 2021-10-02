@@ -133,6 +133,6 @@ recipes.addShaped("Gear Constantan", <thermalfoundation:material:292>, [
 [<ore:stickWood>, <ore:ingotConstantan>, <ore:stickWood>]]);
 
 mods.thermalexpansion.Infuser.removeRecipe(<thermalfoundation:fertilizer:1>);
-mods.bloodmagic.BloodAltar.addRecipe(<thermalfoundation:fertilizer:2>, <thermalfoundation:fertilizer:1>, 2, 30000, 25, 25);
+mods.bloodmagic.BloodAltar.addRecipe(<thermalfoundation:fertilizer:2>, <thermalfoundation:fertilizer:1>, 2, 15000, 50, 25);
 
 print("Finished to initialize ThermalFoundation.zs");
