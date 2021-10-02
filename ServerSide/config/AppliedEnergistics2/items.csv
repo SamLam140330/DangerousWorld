@@ -49,8 +49,8 @@ minecraft:sandstone:0, Sandstone
 minecraft:sandstone:1, Chiseled Sandstone
 minecraft:sandstone:2, Smooth Sandstone
 minecraft:noteblock, Note Block
-minecraft:golden_rail, Powered Rail
-minecraft:detector_rail, Detector Rail
+minecraft:golden_rail, Booster Track
+minecraft:detector_rail, Detector Track
 minecraft:sticky_piston, Sticky Piston
 minecraft:web, Cobweb
 minecraft:tallgrass:1, Grass
@@ -109,7 +109,7 @@ minecraft:crafting_table, Crafting Table
 minecraft:farmland, Farmland
 minecraft:furnace, Furnace
 minecraft:ladder, Ladder
-minecraft:rail, Rail
+minecraft:rail, Track
 minecraft:stone_stairs, Cobblestone Stairs
 minecraft:lever, Lever
 minecraft:stone_pressure_plate, Stone Pressure Plate
@@ -208,7 +208,7 @@ minecraft:quartz_block:0, Block of Quartz
 minecraft:quartz_block:1, Chiseled Quartz Block
 minecraft:quartz_block:2, Pillar Quartz Block
 minecraft:quartz_stairs, Quartz Stairs
-minecraft:activator_rail, Activator Rail
+minecraft:activator_rail, Activator Track
 minecraft:dropper, Dropper
 minecraft:stained_hardened_clay:0, White Terracotta
 minecraft:stained_hardened_clay:1, Orange Terracotta
@@ -466,8 +466,8 @@ minecraft:reeds, Sugar Canes
 minecraft:paper, Paper
 minecraft:book, Book
 minecraft:slime_ball, Slimeball
-minecraft:chest_minecart, Minecart with Chest
-minecraft:furnace_minecart, Minecart with Furnace
+minecraft:chest_minecart, Chest Cart
+minecraft:furnace_minecart, Furnace Cart
 minecraft:egg, Egg
 minecraft:compass, Compass
 minecraft:fishing_rod, Fishing Rod
@@ -570,8 +570,8 @@ minecraft:enchanted_book, Enchanted Book
 minecraft:comparator, Redstone Comparator
 minecraft:netherbrick, Nether Brick
 minecraft:quartz, Nether Quartz
-minecraft:tnt_minecart, Minecart with TNT
-minecraft:hopper_minecart, Minecart with Hopper
+minecraft:tnt_minecart, TNT Cart
+minecraft:hopper_minecart, Hopper Cart
 minecraft:prismarine_shard, Prismarine Shard
 minecraft:prismarine_crystals, Prismarine Crystals
 minecraft:rabbit, Raw Rabbit
@@ -3478,6 +3478,543 @@ opencomputers:misc:0, EEPROM (Lua BIOS)
 enderstorage:ender_storage:0, Ender Chest
 enderstorage:ender_storage:1, Ender Tank
 enderstorage:ender_pouch, Ender Pouch
+railcraft:creosote, Creosote
+railcraft:steam, Steam
+railcraft:tool_crowbar_iron, Iron Crowbar
+railcraft:tool_crowbar_steel, Steel Crowbar
+railcraft:tool_axe_steel, Steel Axe
+railcraft:tool_hoe_steel, Steel Hoe
+railcraft:tool_pickaxe_steel, Steel Pickaxe
+railcraft:tool_shears_steel, Steel Shears
+railcraft:tool_shovel_steel, Steel Shovel
+railcraft:tool_sword_steel, Steel Sword
+railcraft:armor_helmet_steel, Steel Helmet
+railcraft:armor_chestplate_steel, Steel Chestplate
+railcraft:armor_leggings_steel, Steel Leggings
+railcraft:armor_boots_steel, Steel Boots
+railcraft:tool_magnifying_glass, Magnifying Glass
+railcraft:armor_goggles, Trackman's Goggles
+railcraft:armor_overalls, Engineer's Overalls
+railcraft:tool_notepad, Trackman's Notepad
+railcraft:rail:0, Standard Rail
+railcraft:rail:1, Advanced Rail
+railcraft:rail:2, Wooden Rail
+railcraft:rail:3, H.S. Rail
+railcraft:rail:4, Reinforced Rail
+railcraft:rail:5, Electric Rail
+railcraft:tie:0, Wooden Tie
+railcraft:tie:1, Stone Tie
+railcraft:rebar, Rebar
+railcraft:cart_spawner:0, Spawner Cart
+railcraft:detector:0, Cart Detector - Item
+railcraft:detector:1, Cart Detector - Any
+railcraft:detector:2, Cart Detector - Empty
+railcraft:detector:3, Cart Detector - Mob
+railcraft:detector:4, Cart Detector - Player
+railcraft:detector:5, Cart Detector - Animal
+railcraft:detector:6, Cart Detector - Tank
+railcraft:detector:7, Cart Detector - Advanced
+railcraft:detector:8, Cart Detector - Age
+railcraft:detector:9, Cart Detector - Train
+railcraft:detector:10, Cart Detector - Sheep
+railcraft:detector:11, Cart Detector - Villager
+railcraft:detector:12, Cart Detector - Locomotive
+railcraft:detector:13, Cart Detector - Routing
+railcraft:manipulator:0, Item Loader
+railcraft:manipulator:1, Item Unloader
+railcraft:manipulator:2, Adv. Item Loader
+railcraft:manipulator:3, Adv. Item Unloader
+railcraft:manipulator:4, Fluid Loader
+railcraft:manipulator:5, Fluid Unloader
+railcraft:manipulator:6, Ic2 EU Loader
+railcraft:manipulator:7, Ic2 EU Unloader
+railcraft:manipulator:10, Redstone Flux Loader
+railcraft:manipulator:11, Redstone Flux Unloader
+railcraft:manipulator:8, Cart Dispenser
+railcraft:manipulator:9, Train Dispenser
+railcraft:equipment:0, Manual Rolling Machine
+railcraft:equipment:1, Powered Rolling Machine
+railcraft:equipment:2, Feed Station
+railcraft:equipment:3, Smoker
+railcraft:trade_station:0, Trade Station
+railcraft:force_track_emitter, Force Track Emitter
+railcraft:track_force, Force Track
+railcraft:filter_blank, Blank Filter
+railcraft:filter_type, Item Type Filter
+railcraft:filter_ore_dict, Ore Dictionary Filter
+railcraft:bore:0, Tunnel Bore
+railcraft:borehead_bronze, Bronze Bore Head
+railcraft:borehead_iron, Iron Bore Head
+railcraft:borehead_steel, Steel Bore Head
+railcraft:borehead_diamond, Diamond Bore Head
+railcraft:mow_track_layer:0, Track Layer Cart
+railcraft:mow_track_relayer:0, Track Relayer Cart
+railcraft:mow_track_remover:0, Track Remover Cart
+railcraft:mow_undercutter:0, Undercutter Cart
+railcraft:cart_trade_station:0, Trade Station Cart
+railcraft:cart_work:0, Work Cart
+railcraft:cart_jukebox:0, Jukebox Cart
+railcraft:cart_bed:0, Bed Cart
+railcraft:battery_nickel_iron, Nickel-Iron Battery
+railcraft:battery_nickel_zinc, Nickel-Zinc Battery
+railcraft:battery_zinc_carbon, Zinc-Carbon Battery
+railcraft:battery_zinc_silver, Zinc-Silver Battery
+railcraft:charge_feeder:0, IC2 Charge Feeder Unit
+railcraft:charge_feeder:1, Admin Charge Feeder Unit
+railcraft:charge_trap, Charge Trap
+railcraft:frame, Wire Support Frame
+railcraft:steam_turbine:0, Steam Turbine Housing
+railcraft:wire, Charge Shunting Wire
+railcraft:charge:0, Charge Coil
+railcraft:charge:1, Charge Terminal
+railcraft:charge:2, Small Charge Wire Spool
+railcraft:charge:3, Medium Charge Wire Spool
+railcraft:charge:4, Large Charge Wire Spool
+railcraft:charge:5, Charge Motor
+railcraft:charge:6, Nickel Electrode
+railcraft:charge:7, Iron Electrode
+railcraft:charge:8, Zinc Electrode
+railcraft:charge:9, item.railcraft.charge.electrode.carbon.name
+railcraft:charge:10, item.railcraft.charge.electrode.silver.name
+railcraft:tool_charge_meter, Charge Meter
+railcraft:turbine_blade, Turbine Blade
+railcraft:turbine_disk, Turbine Disk
+railcraft:turbine_rotor, Turbine Rotor
+railcraft:worldspike:0, Admin Worldspike
+railcraft:worldspike:1, Passive Worldspike
+railcraft:worldspike:2, Personal Worldspike
+railcraft:worldspike:3, Standard Worldspike
+railcraft:worldspike_point, Worldspike Point
+railcraft:cart_worldspike_standard:0, Standard Worldspike Cart
+railcraft:cart_worldspike_admin:0, Admin Worldspike Cart
+railcraft:cart_worldspike_personal:0, Personal Worldspike Cart
+railcraft:emblem, Emblem
+railcraft:anvil:0, Steel Anvil
+railcraft:anvil:1, Slightly Damaged Steel Anvil
+railcraft:anvil:2, Very Damaged Steel Anvil
+railcraft:fuel_coke, Coal Coke
+railcraft:coke_oven:0, Coke Oven Brick
+railcraft:coke_oven_red:0, tile.railcraft.coke.oven.red.name
+railcraft:blast_furnace:0, Blast Furnace Brick
+railcraft:rock_crusher:0, Rock Crusher
+railcraft:steam_oven:0, Steam Oven
+railcraft:tank_iron_gauge:0, Iron Tank Gauge
+railcraft:tank_iron_gauge:1, Iron Tank Gauge
+railcraft:tank_iron_gauge:2, Iron Tank Gauge
+railcraft:tank_iron_gauge:3, Iron Tank Gauge
+railcraft:tank_iron_gauge:4, Iron Tank Gauge
+railcraft:tank_iron_gauge:5, Iron Tank Gauge
+railcraft:tank_iron_gauge:6, Iron Tank Gauge
+railcraft:tank_iron_gauge:7, Iron Tank Gauge
+railcraft:tank_iron_gauge:8, Iron Tank Gauge
+railcraft:tank_iron_gauge:9, Iron Tank Gauge
+railcraft:tank_iron_gauge:10, Iron Tank Gauge
+railcraft:tank_iron_gauge:11, Iron Tank Gauge
+railcraft:tank_iron_gauge:12, Iron Tank Gauge
+railcraft:tank_iron_gauge:13, Iron Tank Gauge
+railcraft:tank_iron_gauge:14, Iron Tank Gauge
+railcraft:tank_iron_gauge:15, Iron Tank Gauge
+railcraft:tank_iron_valve:0, Iron Tank Valve
+railcraft:tank_iron_valve:1, Iron Tank Valve
+railcraft:tank_iron_valve:2, Iron Tank Valve
+railcraft:tank_iron_valve:3, Iron Tank Valve
+railcraft:tank_iron_valve:4, Iron Tank Valve
+railcraft:tank_iron_valve:5, Iron Tank Valve
+railcraft:tank_iron_valve:6, Iron Tank Valve
+railcraft:tank_iron_valve:7, Iron Tank Valve
+railcraft:tank_iron_valve:8, Iron Tank Valve
+railcraft:tank_iron_valve:9, Iron Tank Valve
+railcraft:tank_iron_valve:10, Iron Tank Valve
+railcraft:tank_iron_valve:11, Iron Tank Valve
+railcraft:tank_iron_valve:12, Iron Tank Valve
+railcraft:tank_iron_valve:13, Iron Tank Valve
+railcraft:tank_iron_valve:14, Iron Tank Valve
+railcraft:tank_iron_valve:15, Iron Tank Valve
+railcraft:tank_iron_wall:0, Iron Tank Wall
+railcraft:tank_iron_wall:1, Iron Tank Wall
+railcraft:tank_iron_wall:2, Iron Tank Wall
+railcraft:tank_iron_wall:3, Iron Tank Wall
+railcraft:tank_iron_wall:4, Iron Tank Wall
+railcraft:tank_iron_wall:5, Iron Tank Wall
+railcraft:tank_iron_wall:6, Iron Tank Wall
+railcraft:tank_iron_wall:7, Iron Tank Wall
+railcraft:tank_iron_wall:8, Iron Tank Wall
+railcraft:tank_iron_wall:9, Iron Tank Wall
+railcraft:tank_iron_wall:10, Iron Tank Wall
+railcraft:tank_iron_wall:11, Iron Tank Wall
+railcraft:tank_iron_wall:12, Iron Tank Wall
+railcraft:tank_iron_wall:13, Iron Tank Wall
+railcraft:tank_iron_wall:14, Iron Tank Wall
+railcraft:tank_iron_wall:15, Iron Tank Wall
+railcraft:tank_steel_gauge:0, Steel Tank Gauge
+railcraft:tank_steel_gauge:1, Steel Tank Gauge
+railcraft:tank_steel_gauge:2, Steel Tank Gauge
+railcraft:tank_steel_gauge:3, Steel Tank Gauge
+railcraft:tank_steel_gauge:4, Steel Tank Gauge
+railcraft:tank_steel_gauge:5, Steel Tank Gauge
+railcraft:tank_steel_gauge:6, Steel Tank Gauge
+railcraft:tank_steel_gauge:7, Steel Tank Gauge
+railcraft:tank_steel_gauge:8, Steel Tank Gauge
+railcraft:tank_steel_gauge:9, Steel Tank Gauge
+railcraft:tank_steel_gauge:10, Steel Tank Gauge
+railcraft:tank_steel_gauge:11, Steel Tank Gauge
+railcraft:tank_steel_gauge:12, Steel Tank Gauge
+railcraft:tank_steel_gauge:13, Steel Tank Gauge
+railcraft:tank_steel_gauge:14, Steel Tank Gauge
+railcraft:tank_steel_gauge:15, Steel Tank Gauge
+railcraft:tank_steel_valve:0, Steel Tank Valve
+railcraft:tank_steel_valve:1, Steel Tank Valve
+railcraft:tank_steel_valve:2, Steel Tank Valve
+railcraft:tank_steel_valve:3, Steel Tank Valve
+railcraft:tank_steel_valve:4, Steel Tank Valve
+railcraft:tank_steel_valve:5, Steel Tank Valve
+railcraft:tank_steel_valve:6, Steel Tank Valve
+railcraft:tank_steel_valve:7, Steel Tank Valve
+railcraft:tank_steel_valve:8, Steel Tank Valve
+railcraft:tank_steel_valve:9, Steel Tank Valve
+railcraft:tank_steel_valve:10, Steel Tank Valve
+railcraft:tank_steel_valve:11, Steel Tank Valve
+railcraft:tank_steel_valve:12, Steel Tank Valve
+railcraft:tank_steel_valve:13, Steel Tank Valve
+railcraft:tank_steel_valve:14, Steel Tank Valve
+railcraft:tank_steel_valve:15, Steel Tank Valve
+railcraft:tank_steel_wall:0, Steel Tank Wall
+railcraft:tank_steel_wall:1, Steel Tank Wall
+railcraft:tank_steel_wall:2, Steel Tank Wall
+railcraft:tank_steel_wall:3, Steel Tank Wall
+railcraft:tank_steel_wall:4, Steel Tank Wall
+railcraft:tank_steel_wall:5, Steel Tank Wall
+railcraft:tank_steel_wall:6, Steel Tank Wall
+railcraft:tank_steel_wall:7, Steel Tank Wall
+railcraft:tank_steel_wall:8, Steel Tank Wall
+railcraft:tank_steel_wall:9, Steel Tank Wall
+railcraft:tank_steel_wall:10, Steel Tank Wall
+railcraft:tank_steel_wall:11, Steel Tank Wall
+railcraft:tank_steel_wall:12, Steel Tank Wall
+railcraft:tank_steel_wall:13, Steel Tank Wall
+railcraft:tank_steel_wall:14, Steel Tank Wall
+railcraft:tank_steel_wall:15, Steel Tank Wall
+railcraft:tank_water:0, Water Tank Siding
+railcraft:chest_metals:0, Metals Chest
+railcraft:cart_chest_metals:0, Metals Chest Cart
+railcraft:cart_ic2_batbox:0, Batbox Cart
+railcraft:cart_ic2_mfe:0, MFE Cart
+railcraft:cart_ic2_cesu:0, CESU Cart
+railcraft:firestone_cracked, Cracked Firestone
+railcraft:firestone_cut, Cut Firestone
+railcraft:firestone_raw, Raw Firestone
+railcraft:firestone_refined, Refined Firestone
+railcraft:cart_redstone_flux:0, Redstone Flux Cart
+railcraft:flux_transformer:0, Flux Transformer
+railcraft:metal:0, Block of Copper
+railcraft:metal:1, Block of Tin
+railcraft:metal:2, Block of Lead
+railcraft:metal:4, Block of Silver
+railcraft:metal:3, Block of Steel
+railcraft:metal:5, Block of Bronze
+railcraft:metal:6, Block of Nickel
+railcraft:metal:7, Block of Invar
+railcraft:metal:8, Block of Zinc
+railcraft:metal:9, Block of Brass
+railcraft:fluid_bottle_creosote, Creosote Bottle
+railcraft:fluid_bottle_steam, Steam Bottle
+railcraft:nugget:0, Steel Nugget
+railcraft:nugget:1, Copper Nugget
+railcraft:nugget:2, Tin Nugget
+railcraft:nugget:3, Lead Nugget
+railcraft:nugget:4, Silver Nugget
+railcraft:nugget:5, Bronze Nugget
+railcraft:nugget:6, Nickel Nugget
+railcraft:nugget:7, Invar Nugget
+railcraft:nugget:8, Zinc Nugget
+railcraft:nugget:9, Brass Nugget
+railcraft:ingot:0, Steel Ingot
+railcraft:ingot:1, Copper Ingot
+railcraft:ingot:2, Tin Ingot
+railcraft:ingot:3, Lead Ingot
+railcraft:ingot:4, Silver Ingot
+railcraft:ingot:5, Bronze Ingot
+railcraft:ingot:6, Nickel Ingot
+railcraft:ingot:7, Invar Ingot
+railcraft:ingot:8, Zinc Ingot
+railcraft:ingot:9, Brass Ingot
+railcraft:gear:0, Brass Gear
+railcraft:gear:1, Iron Gear
+railcraft:gear:2, Steel Gear
+railcraft:gear:3, Gear Bushing
+railcraft:gear:4, Bronze Gear
+railcraft:gear:5, Invar Gear
+railcraft:plate:0, Iron Plate
+railcraft:plate:1, Steel Plate
+railcraft:plate:2, Tin Plate
+railcraft:plate:3, Copper Plate
+railcraft:plate:4, Lead Plate
+railcraft:plate:5, Silver Plate
+railcraft:plate:6, Bronze Plate
+railcraft:plate:7, Gold Plate
+railcraft:plate:8, Nickel Plate
+railcraft:plate:9, Invar Plate
+railcraft:plate:10, Zinc Plate
+railcraft:plate:11, Brass Plate
+railcraft:dust:0, Obsidian Dust
+railcraft:dust:1, Sulfur
+railcraft:dust:2, Saltpeter
+railcraft:dust:3, Charcoal Dust
+railcraft:dust:4, Ground Blast Furnace Slag
+railcraft:dust:5, Coal Dust
+railcraft:dust:6, Ender Powder
+railcraft:dust:7, Void Powder
+railcraft:tool_crowbar_seasons, Crowbar of Seasons
+railcraft:cart_pumpkin:0, Pumpkin Cart
+railcraft:cart_gift:0, Gift Cart
+railcraft:signal:0, Block Signal
+railcraft:signal:1, Distant Signal
+railcraft:signal:2, Token Signal
+railcraft:signal_dual:0, Dual-Head Block Signal
+railcraft:signal_dual:1, Dual-Head Distant Signal
+railcraft:signal_dual:2, Dual-Head Token Signal
+railcraft:signal_box:2, Signal Controller Box
+railcraft:signal_box:4, Signal Receiver Box
+railcraft:signal_box:0, Analog Signal Controller Box
+railcraft:signal_box:1, Signal Capacitor Box
+railcraft:signal_box:3, Signal Interlock Box
+railcraft:signal_box:6, Signal Sequencer Box
+railcraft:signal_box:5, Signal Block Relay Box
+railcraft:tool_signal_surveyor:0, Signal Surveyor
+railcraft:tool_signal_tuner:0, Signal Tuner
+railcraft:signal_lamp, Signal Lamp
+railcraft:tool_signal_label, Signal Label
+railcraft:circuit:0, Controller Circuit
+railcraft:circuit:1, Receiver Circuit
+railcraft:circuit:2, Signal Circuit
+railcraft:circuit:3, Radio Circuit
+railcraft:admin_steam_producer:0, Admin Steam Producer
+railcraft:boiler_firebox_fluid:0, Fluid Fueled Boiler Firebox
+railcraft:boiler_firebox_solid:0, Solid Fueled Boiler Firebox
+railcraft:boiler_tank_pressure_high:0, High Pressure Boiler Tank
+railcraft:boiler_tank_pressure_low:0, Low Pressure Boiler Tank
+railcraft:brick_abyssal:0, Abyssal Brick
+railcraft:brick_abyssal:1, Fitted Abyssal Stone
+railcraft:brick_abyssal:2, Abyssal Block
+railcraft:brick_abyssal:3, Ornate Abyssal Stone
+railcraft:brick_abyssal:4, Etched Abyssal Stone
+railcraft:brick_abyssal:5, Abyssal Cobblestone
+railcraft:brick_bleachedbone:0, Bleached Bone Brick
+railcraft:brick_bleachedbone:1, Fitted Bleached Bone Stone
+railcraft:brick_bleachedbone:2, Bleached Bone Block
+railcraft:brick_bleachedbone:3, Ornate Bleached Bone Stone
+railcraft:brick_bleachedbone:4, Etched Bleached Bone Stone
+railcraft:brick_bleachedbone:5, Bleached Bone Cobblestone
+railcraft:brick_bloodstained:0, Blood Stained Brick
+railcraft:brick_bloodstained:1, Fitted Blood Stained Stone
+railcraft:brick_bloodstained:2, Blood Stained Block
+railcraft:brick_bloodstained:3, Ornate Blood Stained Stone
+railcraft:brick_bloodstained:4, Etched Blood Stained Stone
+railcraft:brick_bloodstained:5, Blood Stained Cobblestone
+railcraft:brick_frostbound:0, Frost Bound Brick
+railcraft:brick_frostbound:1, Fitted Frost Bound Stone
+railcraft:brick_frostbound:2, Frost Bound Block
+railcraft:brick_frostbound:3, Ornate Frost Bound Stone
+railcraft:brick_frostbound:4, Etched Frost Bound Stone
+railcraft:brick_frostbound:5, Frost Bound Cobblestone
+railcraft:brick_infernal:0, Infernal Brick
+railcraft:brick_infernal:1, Fitted Infernal Stone
+railcraft:brick_infernal:2, Infernal Block
+railcraft:brick_infernal:3, Ornate Infernal Stone
+railcraft:brick_infernal:4, Etched Infernal Stone
+railcraft:brick_infernal:5, Infernal Cobblestone
+railcraft:brick_quarried:0, Quarried Brick
+railcraft:brick_quarried:1, Fitted Quarried Stone
+railcraft:brick_quarried:2, Quarried Block
+railcraft:brick_quarried:3, Ornate Quarried Stone
+railcraft:brick_quarried:4, Etched Quarried Stone
+railcraft:brick_quarried:5, Quarried Cobblestone
+railcraft:brick_sandy:0, Sandy Brick
+railcraft:brick_sandy:1, Fitted Sandy Stone
+railcraft:brick_sandy:2, Sandy Block
+railcraft:brick_sandy:3, Ornate Sandy Stone
+railcraft:brick_sandy:4, Etched Sandy Stone
+railcraft:brick_sandy:5, Sandy Cobblestone
+railcraft:brick_red_sandy:0, Red Sandy Brick
+railcraft:brick_red_sandy:1, Fitted Red Sandy Stone
+railcraft:brick_red_sandy:2, Red Sandy Block
+railcraft:brick_red_sandy:3, Ornate Red Sandy Stone
+railcraft:brick_red_sandy:4, Etched Red Sandy Stone
+railcraft:brick_red_sandy:5, Red Sandy Cobblestone
+railcraft:brick_nether:0, Nether Brick
+railcraft:brick_nether:1, Fitted Nether Stone
+railcraft:brick_nether:2, Nether Block
+railcraft:brick_nether:3, Ornate Nether Stone
+railcraft:brick_nether:4, Etched Nether Stone
+railcraft:brick_nether:5, Nether Cobblestone
+railcraft:brick_red_nether:0, Red Nether Brick
+railcraft:brick_red_nether:1, Fitted Red Nether Stone
+railcraft:brick_red_nether:2, Red Nether Block
+railcraft:brick_red_nether:3, Ornate Red Nether Stone
+railcraft:brick_red_nether:4, Etched Red Nether Stone
+railcraft:brick_red_nether:5, Red Nether Cobblestone
+railcraft:brick_andesite:0, Andesite Brick
+railcraft:brick_andesite:1, Fitted Andesite
+railcraft:brick_andesite:6, Polished Andesite
+railcraft:brick_andesite:3, Ornate Andesite
+railcraft:brick_andesite:4, Etched Andesite
+railcraft:brick_andesite:5, Andesite Cobblestone
+railcraft:brick_diorite:0, Diorite Brick
+railcraft:brick_diorite:1, Fitted Diorite
+railcraft:brick_diorite:4, Polished Diorite
+railcraft:brick_diorite:3, Ornate Diorite
+railcraft:brick_diorite:4, Etched Diorite
+railcraft:brick_diorite:5, Diorite Cobblestone
+railcraft:brick_granite:0, Granite Brick
+railcraft:brick_granite:1, Fitted Granite
+railcraft:brick_granite:2, Polished Granite
+railcraft:brick_granite:3, Ornate Granite
+railcraft:brick_granite:4, Etched Granite
+railcraft:brick_granite:5, Granite Cobblestone
+railcraft:brick_pearlized:0, Pearlized Brick
+railcraft:brick_pearlized:1, Fitted Pearlized Stone
+railcraft:brick_pearlized:2, Pearlized Block
+railcraft:brick_pearlized:3, Ornate Pearlized Stone
+railcraft:brick_pearlized:4, Etched Pearlized Stone
+railcraft:brick_pearlized:5, Pearlized Cobblestone
+railcraft:tool_stone_carver, Stone Carver
+railcraft:concrete, Bag of Cement
+railcraft:glass:0, Strengthened Glass
+railcraft:glass:1, Orange Strengthened Glass
+railcraft:glass:2, Magenta Strengthened Glass
+railcraft:glass:3, Light Blue Strengthened Glass
+railcraft:glass:4, Yellow Strengthened Glass
+railcraft:glass:5, Lime Strengthened Glass
+railcraft:glass:6, Pink Strengthened Glass
+railcraft:glass:7, Gray Strengthened Glass
+railcraft:glass:8, Light Gray Strengthened Glass
+railcraft:glass:9, Cyan Strengthened Glass
+railcraft:glass:10, Purple Strengthened Glass
+railcraft:glass:11, Blue Strengthened Glass
+railcraft:glass:12, Brown Strengthened Glass
+railcraft:glass:13, Green Strengthened Glass
+railcraft:glass:14, Red Strengthened Glass
+railcraft:glass:15, Black Strengthened Glass
+railcraft:generic:5, Creosote Wood Block
+railcraft:generic:6, Block of Coal Coke
+railcraft:generic:7, Crushed Obsidian
+railcraft:generic:8, Abyssal Stone
+railcraft:generic:9, Quarried Stone
+railcraft:reinforced_concrete:0, White Reinforced Concrete
+railcraft:reinforced_concrete:1, Orange Reinforced Concrete
+railcraft:reinforced_concrete:2, Magenta Reinforced Concrete
+railcraft:reinforced_concrete:3, Light Blue Reinforced Concrete
+railcraft:reinforced_concrete:4, Yellow Reinforced Concrete
+railcraft:reinforced_concrete:5, Lime Reinforced Concrete
+railcraft:reinforced_concrete:6, Pink Reinforced Concrete
+railcraft:reinforced_concrete:7, Gray Reinforced Concrete
+railcraft:reinforced_concrete:8, Reinforced Concrete
+railcraft:reinforced_concrete:9, Cyan Reinforced Concrete
+railcraft:reinforced_concrete:10, Purple Reinforced Concrete
+railcraft:reinforced_concrete:11, Blue Reinforced Concrete
+railcraft:reinforced_concrete:12, Brown Reinforced Concrete
+railcraft:reinforced_concrete:13, Green Reinforced Concrete
+railcraft:reinforced_concrete:14, Red Reinforced Concrete
+railcraft:reinforced_concrete:15, Black Reinforced Concrete
+railcraft:post_metal:0, White Metal Post
+railcraft:post_metal:1, Orange Metal Post
+railcraft:post_metal:2, Magenta Metal Post
+railcraft:post_metal:3, Light Blue Metal Post
+railcraft:post_metal:4, Yellow Metal Post
+railcraft:post_metal:5, Lime Metal Post
+railcraft:post_metal:6, Pink Metal Post
+railcraft:post_metal:7, Gray Metal Post
+railcraft:post_metal:8, Light Gray Metal Post
+railcraft:post_metal:9, Cyan Metal Post
+railcraft:post_metal:10, Purple Metal Post
+railcraft:post_metal:11, Blue Metal Post
+railcraft:post_metal:12, Brown Metal Post
+railcraft:post_metal:13, Green Metal Post
+railcraft:post_metal:14, Red Metal Post
+railcraft:post_metal:15, Black Metal Post
+railcraft:post_metal_platform:0, White Metal Platform
+railcraft:post_metal_platform:1, Orange Metal Platform
+railcraft:post_metal_platform:2, Magenta Metal Platform
+railcraft:post_metal_platform:3, Light Blue Metal Platform
+railcraft:post_metal_platform:4, Yellow Metal Platform
+railcraft:post_metal_platform:5, Lime Metal Platform
+railcraft:post_metal_platform:6, Pink Metal Platform
+railcraft:post_metal_platform:7, Gray Metal Platform
+railcraft:post_metal_platform:8, Light Gray Metal Platform
+railcraft:post_metal_platform:9, Cyan Metal Platform
+railcraft:post_metal_platform:10, Purple Metal Platform
+railcraft:post_metal_platform:11, Blue Metal Platform
+railcraft:post_metal_platform:12, Brown Metal Platform
+railcraft:post_metal_platform:13, Green Metal Platform
+railcraft:post_metal_platform:14, Red Metal Platform
+railcraft:post_metal_platform:15, Black Metal Platform
+railcraft:track_kit:1, Activator Track Kit
+railcraft:track_kit:2, Booster Track Kit
+railcraft:track_kit:3, Buffer Stop Track Kit
+railcraft:track_kit:4, Control Track Kit
+railcraft:track_kit:5, Detector Track Kit
+railcraft:track_kit:6, Disembarking Track Kit
+railcraft:track_kit:7, Dumping Track Kit
+railcraft:track_kit:8, Embarking Track Kit
+railcraft:track_kit:9, Gated Track Kit
+railcraft:track_kit:10, Locking Track Kit
+railcraft:track_kit:11, One-Way Track Kit
+railcraft:track_kit:15, Messenger Track Kit
+railcraft:track_kit:16, Delayed Locking Track Kit
+railcraft:track_kit:17, Priming Track Kit
+railcraft:track_kit:18, Launcher Track Kit
+railcraft:track_kit:19, Whistle Track Kit
+railcraft:track_kit:20, Locomotive Track Kit
+railcraft:track_kit:21, Throttle Track Kit
+railcraft:track_kit:22, Routing Track Kit
+railcraft:track_kit:23, Transition Track Kit
+railcraft:track_kit:24, Coupler Track Kit
+railcraft:tool_spike_maul_iron, Iron Spike Maul
+railcraft:tool_spike_maul_steel, Steel Spike Maul
+railcraft:railbed:0, Wooden Railbed
+railcraft:railbed:1, Stone Railbed
+railcraft:track_parts, Track Parts
+railcraft:actuator:0, Switch Actuator Lever
+railcraft:actuator:1, Switch Actuator Motor
+railcraft:actuator:2, Routing Switch Actuator Motor
+railcraft:cart_tnt_wood:0, Wooden TNT Cart
+railcraft:track_elevator, Elevator Track
+railcraft:logbook, Logbook
+railcraft:tool_whistle_tuner, Whistle Tuner
+railcraft:routing_table, Routing Table
+railcraft:routing_ticket, Railway Ticket
+railcraft:routing_ticket_gold, Golden Railway Ticket
+railcraft:track_flex_abandoned, Abandoned Track
+railcraft:track_flex_electric, Electric Track
+railcraft:track_flex_high_speed, High Speed Track
+railcraft:track_flex_hs_electric, High Speed Electric Track
+railcraft:track_flex_reinforced, Reinforced Track
+railcraft:track_flex_strap_iron, Strap Iron Track
+railcraft:cart_cargo:0, Cargo Cart
+railcraft:cart_tank:0, Tank Cart
+railcraft:chest_void:0, Void Chest
+railcraft:cart_chest_void:0, Void Chest Cart
+railcraft:ore:0, Sulfur Ore
+railcraft:ore:1, Saltpeter Ore
+railcraft:ore:2, Dark Diamond Ore
+railcraft:ore:3, Dark Emerald Ore
+railcraft:ore:4, Dark Lapis Lazuli Ore
+railcraft:ore_metal:0, Copper Ore
+railcraft:ore_metal:1, Tin Ore
+railcraft:ore_metal:2, Lead Ore
+railcraft:ore_metal:3, Silver Ore
+railcraft:ore_metal:4, Nickel Ore
+railcraft:ore_metal:5, Zinc Ore
+railcraft:ore_metal_poor:0, Poor Iron Ore
+railcraft:ore_metal_poor:1, Poor Gold Ore
+railcraft:ore_metal_poor:2, Poor Copper Ore
+railcraft:ore_metal_poor:3, Poor Tin Ore
+railcraft:ore_metal_poor:4, Poor Lead Ore
+railcraft:ore_metal_poor:5, Poor Silver Ore
+railcraft:ore_metal_poor:6, Poor Nickel Ore
+railcraft:ore_metal_poor:7, Poor Zinc Ore
+railcraft:ore_magic:0, Firestone Ore
+railcraft:worldlogic, Saltpeter Ore Spawner
 extracells:part.base:0, ME Fluid Export Bus
 extracells:part.base:1, ME Fluid Import Bus
 extracells:part.base:2, ME Fluid Storage Bus
@@ -7279,6 +7816,203 @@ thermaldynamics:cover:0, Nether Terrarium Cover
 thermaldynamics:cover:0, Ender Terrarium Cover
 thermaldynamics:cover:0, Block of Chamelium Cover
 thermaldynamics:cover:0, End Stone Cover
+thermaldynamics:cover:0, Nickel-Iron Battery Cover
+thermaldynamics:cover:0, Nickel-Zinc Battery Cover
+thermaldynamics:cover:0, Zinc-Carbon Battery Cover
+thermaldynamics:cover:0, Zinc-Silver Battery Cover
+thermaldynamics:cover:0, Charge Trap Cover
+thermaldynamics:cover:0, Wire Support Frame Cover
+thermaldynamics:cover:0, Charge Shunting Wire Cover
+thermaldynamics:cover:0, Worldspike Point Cover
+thermaldynamics:cover:0, Steel Anvil Cover
+thermaldynamics:cover:0, Steel Anvil Cover
+thermaldynamics:cover:0, Steel Anvil Cover
+thermaldynamics:cover:0, Block of Copper Cover
+thermaldynamics:cover:0, Block of Tin Cover
+thermaldynamics:cover:0, Block of Lead Cover
+thermaldynamics:cover:0, Block of Silver Cover
+thermaldynamics:cover:0, Block of Steel Cover
+thermaldynamics:cover:0, Block of Bronze Cover
+thermaldynamics:cover:0, Block of Nickel Cover
+thermaldynamics:cover:0, Block of Invar Cover
+thermaldynamics:cover:0, Block of Zinc Cover
+thermaldynamics:cover:0, Block of Brass Cover
+thermaldynamics:cover:0, Abyssal Brick Cover
+thermaldynamics:cover:0, Fitted Abyssal Stone Cover
+thermaldynamics:cover:0, Abyssal Block Cover
+thermaldynamics:cover:0, Ornate Abyssal Stone Cover
+thermaldynamics:cover:0, Etched Abyssal Stone Cover
+thermaldynamics:cover:0, Abyssal Cobblestone Cover
+thermaldynamics:cover:0, Bleached Bone Brick Cover
+thermaldynamics:cover:0, Fitted Bleached Bone Stone Cover
+thermaldynamics:cover:0, Bleached Bone Block Cover
+thermaldynamics:cover:0, Ornate Bleached Bone Stone Cover
+thermaldynamics:cover:0, Etched Bleached Bone Stone Cover
+thermaldynamics:cover:0, Bleached Bone Cobblestone Cover
+thermaldynamics:cover:0, Blood Stained Brick Cover
+thermaldynamics:cover:0, Fitted Blood Stained Stone Cover
+thermaldynamics:cover:0, Blood Stained Block Cover
+thermaldynamics:cover:0, Ornate Blood Stained Stone Cover
+thermaldynamics:cover:0, Etched Blood Stained Stone Cover
+thermaldynamics:cover:0, Blood Stained Cobblestone Cover
+thermaldynamics:cover:0, Frost Bound Brick Cover
+thermaldynamics:cover:0, Fitted Frost Bound Stone Cover
+thermaldynamics:cover:0, Frost Bound Block Cover
+thermaldynamics:cover:0, Ornate Frost Bound Stone Cover
+thermaldynamics:cover:0, Etched Frost Bound Stone Cover
+thermaldynamics:cover:0, Frost Bound Cobblestone Cover
+thermaldynamics:cover:0, Infernal Brick Cover
+thermaldynamics:cover:0, Fitted Infernal Stone Cover
+thermaldynamics:cover:0, Infernal Block Cover
+thermaldynamics:cover:0, Ornate Infernal Stone Cover
+thermaldynamics:cover:0, Etched Infernal Stone Cover
+thermaldynamics:cover:0, Infernal Cobblestone Cover
+thermaldynamics:cover:0, Quarried Brick Cover
+thermaldynamics:cover:0, Fitted Quarried Stone Cover
+thermaldynamics:cover:0, Quarried Block Cover
+thermaldynamics:cover:0, Ornate Quarried Stone Cover
+thermaldynamics:cover:0, Etched Quarried Stone Cover
+thermaldynamics:cover:0, Quarried Cobblestone Cover
+thermaldynamics:cover:0, Sandy Brick Cover
+thermaldynamics:cover:0, Fitted Sandy Stone Cover
+thermaldynamics:cover:0, Sandy Block Cover
+thermaldynamics:cover:0, Ornate Sandy Stone Cover
+thermaldynamics:cover:0, Etched Sandy Stone Cover
+thermaldynamics:cover:0, Sandy Cobblestone Cover
+thermaldynamics:cover:0, Red Sandy Brick Cover
+thermaldynamics:cover:0, Fitted Red Sandy Stone Cover
+thermaldynamics:cover:0, Red Sandy Block Cover
+thermaldynamics:cover:0, Ornate Red Sandy Stone Cover
+thermaldynamics:cover:0, Etched Red Sandy Stone Cover
+thermaldynamics:cover:0, Red Sandy Cobblestone Cover
+thermaldynamics:cover:0, Fitted Nether Stone Cover
+thermaldynamics:cover:0, Nether Block Cover
+thermaldynamics:cover:0, Ornate Nether Stone Cover
+thermaldynamics:cover:0, Etched Nether Stone Cover
+thermaldynamics:cover:0, Nether Cobblestone Cover
+thermaldynamics:cover:0, Fitted Red Nether Stone Cover
+thermaldynamics:cover:0, Red Nether Block Cover
+thermaldynamics:cover:0, Ornate Red Nether Stone Cover
+thermaldynamics:cover:0, Etched Red Nether Stone Cover
+thermaldynamics:cover:0, Red Nether Cobblestone Cover
+thermaldynamics:cover:0, Andesite Brick Cover
+thermaldynamics:cover:0, Fitted Andesite Cover
+thermaldynamics:cover:0, Ornate Andesite Cover
+thermaldynamics:cover:0, Etched Andesite Cover
+thermaldynamics:cover:0, Andesite Cobblestone Cover
+thermaldynamics:cover:0, Diorite Brick Cover
+thermaldynamics:cover:0, Fitted Diorite Cover
+thermaldynamics:cover:0, Ornate Diorite Cover
+thermaldynamics:cover:0, Etched Diorite Cover
+thermaldynamics:cover:0, Diorite Cobblestone Cover
+thermaldynamics:cover:0, Granite Brick Cover
+thermaldynamics:cover:0, Fitted Granite Cover
+thermaldynamics:cover:0, Ornate Granite Cover
+thermaldynamics:cover:0, Etched Granite Cover
+thermaldynamics:cover:0, Granite Cobblestone Cover
+thermaldynamics:cover:0, Pearlized Brick Cover
+thermaldynamics:cover:0, Fitted Pearlized Stone Cover
+thermaldynamics:cover:0, Pearlized Block Cover
+thermaldynamics:cover:0, Ornate Pearlized Stone Cover
+thermaldynamics:cover:0, Etched Pearlized Stone Cover
+thermaldynamics:cover:0, Pearlized Cobblestone Cover
+thermaldynamics:cover:0, Strengthened Glass Cover
+thermaldynamics:cover:0, Orange Strengthened Glass Cover
+thermaldynamics:cover:0, Magenta Strengthened Glass Cover
+thermaldynamics:cover:0, Light Blue Strengthened Glass Cover
+thermaldynamics:cover:0, Yellow Strengthened Glass Cover
+thermaldynamics:cover:0, Lime Strengthened Glass Cover
+thermaldynamics:cover:0, Pink Strengthened Glass Cover
+thermaldynamics:cover:0, Gray Strengthened Glass Cover
+thermaldynamics:cover:0, Light Gray Strengthened Glass Cover
+thermaldynamics:cover:0, Cyan Strengthened Glass Cover
+thermaldynamics:cover:0, Purple Strengthened Glass Cover
+thermaldynamics:cover:0, Blue Strengthened Glass Cover
+thermaldynamics:cover:0, Brown Strengthened Glass Cover
+thermaldynamics:cover:0, Green Strengthened Glass Cover
+thermaldynamics:cover:0, Red Strengthened Glass Cover
+thermaldynamics:cover:0, Black Strengthened Glass Cover
+thermaldynamics:cover:0, Creosote Wood Block Cover
+thermaldynamics:cover:0, Block of Coal Coke Cover
+thermaldynamics:cover:0, Crushed Obsidian Cover
+thermaldynamics:cover:0, Abyssal Stone Cover
+thermaldynamics:cover:0, Quarried Stone Cover
+thermaldynamics:cover:0, White Reinforced Concrete Cover
+thermaldynamics:cover:0, Orange Reinforced Concrete Cover
+thermaldynamics:cover:0, Magenta Reinforced Concrete Cover
+thermaldynamics:cover:0, Light Blue Reinforced Concrete Cover
+thermaldynamics:cover:0, Yellow Reinforced Concrete Cover
+thermaldynamics:cover:0, Lime Reinforced Concrete Cover
+thermaldynamics:cover:0, Pink Reinforced Concrete Cover
+thermaldynamics:cover:0, Gray Reinforced Concrete Cover
+thermaldynamics:cover:0, Reinforced Concrete Cover
+thermaldynamics:cover:0, Cyan Reinforced Concrete Cover
+thermaldynamics:cover:0, Purple Reinforced Concrete Cover
+thermaldynamics:cover:0, Blue Reinforced Concrete Cover
+thermaldynamics:cover:0, Brown Reinforced Concrete Cover
+thermaldynamics:cover:0, Green Reinforced Concrete Cover
+thermaldynamics:cover:0, Red Reinforced Concrete Cover
+thermaldynamics:cover:0, Black Reinforced Concrete Cover
+thermaldynamics:cover:0, White Metal Post Cover
+thermaldynamics:cover:0, Orange Metal Post Cover
+thermaldynamics:cover:0, Magenta Metal Post Cover
+thermaldynamics:cover:0, Light Blue Metal Post Cover
+thermaldynamics:cover:0, Yellow Metal Post Cover
+thermaldynamics:cover:0, Lime Metal Post Cover
+thermaldynamics:cover:0, Pink Metal Post Cover
+thermaldynamics:cover:0, Gray Metal Post Cover
+thermaldynamics:cover:0, Light Gray Metal Post Cover
+thermaldynamics:cover:0, Cyan Metal Post Cover
+thermaldynamics:cover:0, Purple Metal Post Cover
+thermaldynamics:cover:0, Blue Metal Post Cover
+thermaldynamics:cover:0, Brown Metal Post Cover
+thermaldynamics:cover:0, Green Metal Post Cover
+thermaldynamics:cover:0, Red Metal Post Cover
+thermaldynamics:cover:0, Black Metal Post Cover
+thermaldynamics:cover:0, White Metal Platform Cover
+thermaldynamics:cover:0, Orange Metal Platform Cover
+thermaldynamics:cover:0, Magenta Metal Platform Cover
+thermaldynamics:cover:0, Light Blue Metal Platform Cover
+thermaldynamics:cover:0, Yellow Metal Platform Cover
+thermaldynamics:cover:0, Lime Metal Platform Cover
+thermaldynamics:cover:0, Pink Metal Platform Cover
+thermaldynamics:cover:0, Gray Metal Platform Cover
+thermaldynamics:cover:0, Light Gray Metal Platform Cover
+thermaldynamics:cover:0, Cyan Metal Platform Cover
+thermaldynamics:cover:0, Purple Metal Platform Cover
+thermaldynamics:cover:0, Blue Metal Platform Cover
+thermaldynamics:cover:0, Brown Metal Platform Cover
+thermaldynamics:cover:0, Green Metal Platform Cover
+thermaldynamics:cover:0, Red Metal Platform Cover
+thermaldynamics:cover:0, Black Metal Platform Cover
+thermaldynamics:cover:0, Elevator Track Cover
+thermaldynamics:cover:0, Abandoned Track Cover
+thermaldynamics:cover:0, Electric Track Cover
+thermaldynamics:cover:0, High Speed Track Cover
+thermaldynamics:cover:0, High Speed Electric Track Cover
+thermaldynamics:cover:0, Reinforced Track Cover
+thermaldynamics:cover:0, Strap Iron Track Cover
+thermaldynamics:cover:0, Sulfur Ore Cover
+thermaldynamics:cover:0, Saltpeter Ore Cover
+thermaldynamics:cover:0, Dark Diamond Ore Cover
+thermaldynamics:cover:0, Dark Emerald Ore Cover
+thermaldynamics:cover:0, Dark Lapis Lazuli Ore Cover
+thermaldynamics:cover:0, Copper Ore Cover
+thermaldynamics:cover:0, Tin Ore Cover
+thermaldynamics:cover:0, Lead Ore Cover
+thermaldynamics:cover:0, Silver Ore Cover
+thermaldynamics:cover:0, Nickel Ore Cover
+thermaldynamics:cover:0, Zinc Ore Cover
+thermaldynamics:cover:0, Poor Iron Ore Cover
+thermaldynamics:cover:0, Poor Gold Ore Cover
+thermaldynamics:cover:0, Poor Copper Ore Cover
+thermaldynamics:cover:0, Poor Tin Ore Cover
+thermaldynamics:cover:0, Poor Lead Ore Cover
+thermaldynamics:cover:0, Poor Silver Ore Cover
+thermaldynamics:cover:0, Poor Nickel Ore Cover
+thermaldynamics:cover:0, Poor Zinc Ore Cover
+thermaldynamics:cover:0, Firestone Ore Cover
+thermaldynamics:cover:0, Saltpeter Ore Spawner Cover
 thermaldynamics:cover:0, Ender Lilly Cover
 thermaldynamics:cover:0, Magical Planks Cover
 thermaldynamics:cover:0, Magical Wood Cover
@@ -10228,6 +10962,257 @@ chisel:wool_orange:0, Orange Wool
 chisel:wool_orange:1, Orange Wool
 chisel:wool_white:0, Wool
 chisel:wool_white:1, Wool
+divinerpg:teleportation_crystal, Teleportation Crystal
+divinerpg:teleportation_star, Teleportation Star
+divinerpg:corrupted_shards, Corrupted Shards
+divinerpg:divine_shards, Divine Shards
+divinerpg:ender_shards, Ender Shards
+divinerpg:ice_shards, Ice Shards
+divinerpg:jungle_shards, Jungle Shards
+divinerpg:molten_shards, Molten Shards
+divinerpg:terran_shards, Terran Shards
+divinerpg:corrupted_stone, Corrupted Stone
+divinerpg:divine_stone, Divine Stone
+divinerpg:ender_stone, Ender Stone
+divinerpg:ice_stone, Ice Stone
+divinerpg:jungle_stone, Jungle Stone
+divinerpg:molten_stone, Molten Stone
+divinerpg:shadow_stone, Shadow Stone
+divinerpg:terran_stone, Terran Stone
+divinerpg:arlemite_ingot, Arlemite Ingot
+divinerpg:hellstone_ingot, Hellstone Ingot
+divinerpg:netherite_ingot, Netherite Ingot
+divinerpg:realmite_ingot, Realmite Ingot
+divinerpg:rupee_ingot, Rupee Ingot
+divinerpg:shadow_bar, Shadow Bar
+divinerpg:arlemite_nugget, Arlemite Nugget
+divinerpg:realmite_nugget, Realmite Nugget
+divinerpg:rupee_nugget, Rupee Nugget
+divinerpg:netherite_nugget, Netherite Nugget
+divinerpg:call_of_the_watcher, Call of the Watcher
+divinerpg:horde_horn, Horde Horn
+divinerpg:infernal_flame, Infernal Flame
+divinerpg:mysterious_clock, Mysterious Clock
+divinerpg:watching_eye, Watching Eye
+divinerpg:blue_diamond_chunk, Blue Diamond Chunk
+divinerpg:gray_diamond_chunk, Gray Diamond Chunk
+divinerpg:red_diamond_chunk, Red Diamond Chunk
+divinerpg:yellow_diamond_chunk, Yellow Diamond Chunk
+divinerpg:green_diamond_chunk, Green Diamond Chunk
+divinerpg:brown_grizzle_egg, Brown Grizzle Spawn Egg
+divinerpg:ehu_egg, Ehu Spawn Egg
+divinerpg:husk_egg, Husk Spawn Egg
+divinerpg:smelter_egg, Smelter Spawn Egg
+divinerpg:snapper_egg, Snapper Spawn Egg
+divinerpg:stone_golem_egg, Stone Golem Spawn Egg
+divinerpg:white_grizzle_egg, White Grizzle Spawn Egg
+divinerpg:aqua_ball, Aqua Ball
+divinerpg:aquatic_blaze_rod, Aquatic Blaze Rod
+divinerpg:aquatic_ingot, Aquatic Ingot
+divinerpg:aquatic_pellets, Aquatic Pellets
+divinerpg:bedrock_chunk, Bedrock Chunk
+divinerpg:bloodgem, Bloodgem
+divinerpg:bluefire_stone, Bluefire Stone
+divinerpg:corrupted_bullet, Corrupted Bullet
+divinerpg:crab_claw, Crab Claw
+divinerpg:cyclops_eye, Cyclops Eye
+divinerpg:cyclops_eye_shards, Cyclops Eye Shards
+divinerpg:fury_fire, Fury Fire
+divinerpg:healing_stone, Healing Stone
+divinerpg:kraken_scale, Kraken Scale
+divinerpg:kraken_skin, Kraken Skin
+divinerpg:legendary_ender_eye, Legendary Ender Eye
+divinerpg:liopleurodon_skull, Liopleurodon Skull
+divinerpg:liopleurodon_teeth, Liopleurodon Teeth
+divinerpg:netherite_chunk, Netherite Chunk
+divinerpg:pure_aquatic_pellets, Pure Aquatic Pellets
+divinerpg:purple_blaze, Purple Blaze
+divinerpg:shadow_coins, Shadow Coins
+divinerpg:shark_fin, Shark Fin
+divinerpg:whale_fin, Whale Fin
+divinerpg:snowflake, Snowflake
+divinerpg:snow_globe, Snow Globe
+divinerpg:advanced_mushroom_stew, Advanced Mushroom Stew
+divinerpg:bacon, Bacon
+divinerpg:boiled_egg, Boiled Egg
+divinerpg:cheese, Cheese
+divinerpg:chicken_dinner, Chicken Dinner
+divinerpg:chocolate_log, Chocolate Log
+divinerpg:donut, Donut
+divinerpg:egg_nog, Egg Nog
+divinerpg:raw_empowered_meat, Raw Empowered Meat
+divinerpg:empowered_meat, Empowered Meat
+divinerpg:enriched_magic_meat, Enriched Magic Meat
+divinerpg:forbidden_fruit, Forbidden Fruit
+divinerpg:fruit_cake, Fruit Cake
+divinerpg:hot_pumpkin_pie, Hot Pumpkin Pie
+divinerpg:magic_meat, Magic Meat
+divinerpg:moonbulb, Moonbulb
+divinerpg:peppermints, Peppermints
+divinerpg:pink_glowbone, Pink Glowbone
+divinerpg:purple_glowbone, Purple Glowbone
+divinerpg:sky_flower, Sky Flower
+divinerpg:snow_cones, Snow Cones
+divinerpg:tomato, Tomato
+divinerpg:white_mushroom, White Mushroom
+divinerpg:winterberry, Winterberry
+divinerpg:eden_soul, Eden Soul
+divinerpg:wildwood_soul, Wildwood Soul
+divinerpg:apalachia_soul, Apalachia Soul
+divinerpg:skythern_soul, Skythern Soul
+divinerpg:mortum_soul, Mortum Soul
+divinerpg:eden_heart, Eden Heart
+divinerpg:wildwood_heart, Wildwood Heart
+divinerpg:apalachia_heart, Apalachia Heart
+divinerpg:skythern_heart, Skythern Heart
+divinerpg:mortum_heart, Mortum Heart
+divinerpg:eden_fragments, Eden Fragments
+divinerpg:wildwood_fragments, Wildwood Fragments
+divinerpg:apalachia_fragments, Apalachia Fragments
+divinerpg:skythern_fragments, Skythern Fragments
+divinerpg:mortum_fragments, Mortum Fragments
+divinerpg:eden_gem, Eden Gem
+divinerpg:wildwood_gem, Wildwood Gem
+divinerpg:apalachia_gem, Apalachia Gem
+divinerpg:skythern_gem, Skythern Gem
+divinerpg:mortum_gem, Mortum Gem
+divinerpg:eden_chunk, Eden Chunk
+divinerpg:wildwood_chunk, Wildwood Chunk
+divinerpg:apalachia_chunk, Apalachia Chunk
+divinerpg:skythern_chunk, Skythern Chunk
+divinerpg:mortum_chunk, Mortum Chunk
+divinerpg:eden_dust, Eden Dust
+divinerpg:wildwood_dust, Wildwood Dust
+divinerpg:apalachia_dust, Apalachia Dust
+divinerpg:skythern_dust, Skythern Dust
+divinerpg:mortum_dust, Mortum Dust
+divinerpg:karot_crystal, Karot Crystal
+divinerpg:reyvor_crystal, Reyvor Crystal
+divinerpg:densos_crystal, Densos Crystal
+divinerpg:soul_fiend_crystal, Soul Fiend Crystal
+divinerpg:twilight_demon_crystal, Twilight Demon Crystal
+divinerpg:vamacheron_crystal, Vamacheron Crystal
+divinerpg:twilight_clock, Twilight Clock
+divinerpg:eden_arrow, Eden Arrow
+divinerpg:fury_arrow, Fury Arrow
+divinerpg:wildwood_arrow, Wildwood Arrow
+divinerpg:base_spawn_crystal, Base Spawn Crystal
+divinerpg:eden_sparkles, Eden Sparkles
+divinerpg:arcanium_attractor, Arcanium Attractor
+divinerpg:arcanium_reflector, Arcanium Reflector
+divinerpg:divine_accumulator, Divine Accumulator
+divinerpg:ghostbane, Ghostbane
+divinerpg:orb_of_light, Orb of Light
+divinerpg:staff_of_enrichment, Staff of Enrichment
+divinerpg:frozen_charge, Frozen Charge
+divinerpg:wizards_book, Wizards Book
+divinerpg:fyracryx_egg, Fyracryx Spawn Egg
+divinerpg:paratiku_egg, Paratiku Spawn Egg
+divinerpg:seimer_egg, Seimer Spawn Egg
+divinerpg:golem_of_rejuvenation_egg, Golem Of Rejuvenation Spawn Egg
+divinerpg:aquamarine, Aquamarine
+divinerpg:firestock, Firestock
+divinerpg:lamona, Lamona
+divinerpg:marsine, Marsine
+divinerpg:pinfly, Pinfly
+divinerpg:veilo, Veilo
+divinerpg:hitchak, Hitchak
+divinerpg:ancient_key, Ancient Key
+divinerpg:degraded_key, Degraded Key
+divinerpg:soul_key, Soul Key
+divinerpg:sludge_key, Sludge Key
+divinerpg:ancient_brick_door, Ancient Brick Door
+divinerpg:degraded_brick_door, Degraded Brick Door
+divinerpg:soul_sludge_door, Soul Sludge Door
+divinerpg:soul_stone_door, Soul Stone Door
+divinerpg:steel_door, Steel Door
+divinerpg:weak_arcana_potion, Weak Arcana Potion
+divinerpg:strong_arcana_potion, Strong Arcana Potion
+divinerpg:arcanium, Arcanium
+divinerpg:collector, Collector
+divinerpg:collector_fragments, Collector Fragments
+divinerpg:dungeon_tokens, Dungeon Tokens
+divinerpg:aquamarine_seeds, Aquamarine Seeds
+divinerpg:eucalyptus_root_seeds, Eucalyptus Root Seeds
+divinerpg:firestock_seeds, Firestock Seeds
+divinerpg:hitchak_seeds, Hitchak Seeds
+divinerpg:lamona_seeds, Lamona Seeds
+divinerpg:marsine_seeds, Marsine Seeds
+divinerpg:moonbulb_seeds, Moonbulb Seeds
+divinerpg:pinfly_seeds, Pinfly Seeds
+divinerpg:pink_glowbone_seeds, Pink Glowbone Seeds
+divinerpg:purple_glowbone_seeds, Purple Glowbone Seeds
+divinerpg:sky_plant_seeds, Sky Plant Seeds
+divinerpg:tomato_seeds, Tomato Seeds
+divinerpg:veilo_seeds, Veilo Seeds
+divinerpg:white_mushroom_seeds, White Mushroom Seeds
+divinerpg:dirty_pearls, Dirty Pearls
+divinerpg:clean_pearls, Clean Pearls
+divinerpg:polished_pearls, Polished Pearls
+divinerpg:shiny_pearls, Shiny Pearls
+divinerpg:teaker_lump, Teaker Lump
+divinerpg:amthirmis_lump, Amthirmis Lump
+divinerpg:darven_lump, Darven Lump
+divinerpg:cermile_lump, Cermile Lump
+divinerpg:pardimal_lump, Pardimal Lump
+divinerpg:quadrotic_lump, Quadrotic Lump
+divinerpg:karos_lump, Karos Lump
+divinerpg:heliosis_lump, Heliosis Lump
+divinerpg:arksiane_lump, Arksiane Lump
+divinerpg:backsword_template, Backsword Template
+divinerpg:bow_template, Bow Template
+divinerpg:cannon_template, Cannon Template
+divinerpg:claw_template, Claw Template
+divinerpg:disk_template, Disk Template
+divinerpg:hammer_template, Hammer Template
+divinerpg:staff_template, Staff Template
+divinerpg:degraded_template, Degraded Template
+divinerpg:finished_template, Finished Template
+divinerpg:glistening_template, Glistening Template
+divinerpg:demonized_template, Demonized Template
+divinerpg:tormented_template, Tormented Template
+divinerpg:dream_carrot, Dream Carrot
+divinerpg:dream_melon, Dream Melon
+divinerpg:dream_pie, Dream Pie
+divinerpg:dream_cake, Dream Cake
+divinerpg:dream_sweets, Dream Sweets
+divinerpg:dream_sours, Dream Sours
+divinerpg:honeysuckle, Honeysuckle
+divinerpg:honeychunk, Honeychunk
+divinerpg:dream_flint, Dream Flint
+divinerpg:moon_clock, Moon Clock
+divinerpg:teaker_arrow, Teaker Arrow
+divinerpg:darven_arrow, Darven Arrow
+divinerpg:pardimal_arrow, Pardimal Arrow
+divinerpg:karos_arrow, Karos Arrow
+divinerpg:ever_arrow, Ever Arrow
+divinerpg:nightmare_bed, Nightmare Bed
+divinerpg:barred_door, Barred Door
+divinerpg:acid, Acid
+divinerpg:band_of_heiva_hunting, Band of Heiva Hunting
+divinerpg:rock_chunks, Rock Chunks
+divinerpg:eden_slab:0, Eden Slab
+divinerpg:wildwood_slab:0, Wildwood Slab
+divinerpg:apalachia_slab:0, Apalachia Slab
+divinerpg:skythern_slab:0, Skythern Slab
+divinerpg:mortum_slab:0, Mortum Slab
+divinerpg:divine_slab:0, Divine Slab
+divinerpg:frozen_slab:0, Frozen Slab
+divinerpg:eucalyptus_slab:0, Eucalyptus Slab
+divinerpg:ancient_brick_slab:0, Ancient Brick Slab
+divinerpg:degraded_brick_slab:0, Degraded Brick Slab
+divinerpg:ancient_brick_slab_breakable:0, Ancient Brick Slab (Breakable)
+divinerpg:degraded_brick_slab_breakable:0, Degraded Brick Slab (Breakable)
+divinerpg:arlemite_shield, Arlemite Deflector
+divinerpg:realmite_shield, Realmite Shield
+divinerpg:rupee_shield, Rupee Reflector
+divinerpg:halite_shield, Halite Greatshield
+divinerpg:eden_shield, Eden Aegis
+divinerpg:wildwood_shield, Wildwood Guard
+divinerpg:apalachia_shield, Apalachia Shield
+divinerpg:skythern_shield, Scutum of the Skythern
+divinerpg:mortum_shield, Mortalos
+divinerpg:miners_amulet, Miner's Amulet
 divinerpg:arlemite_ore, Arlemite Ore
 divinerpg:realmite_ore, Realmite Ore
 divinerpg:rupee_ore, Rupee Ore
@@ -10633,257 +11618,6 @@ divinerpg:mortum_portal, Mortum Portal
 divinerpg:vethea_portal, Vethea Portal
 divinerpg:ancient_brick_wall, Ancient Brick Wall
 divinerpg:degraded_brick_wall, Degraded Brick Wall
-divinerpg:teleportation_crystal, Teleportation Crystal
-divinerpg:teleportation_star, Teleportation Star
-divinerpg:corrupted_shards, Corrupted Shards
-divinerpg:divine_shards, Divine Shards
-divinerpg:ender_shards, Ender Shards
-divinerpg:ice_shards, Ice Shards
-divinerpg:jungle_shards, Jungle Shards
-divinerpg:molten_shards, Molten Shards
-divinerpg:terran_shards, Terran Shards
-divinerpg:corrupted_stone, Corrupted Stone
-divinerpg:divine_stone, Divine Stone
-divinerpg:ender_stone, Ender Stone
-divinerpg:ice_stone, Ice Stone
-divinerpg:jungle_stone, Jungle Stone
-divinerpg:molten_stone, Molten Stone
-divinerpg:shadow_stone, Shadow Stone
-divinerpg:terran_stone, Terran Stone
-divinerpg:arlemite_ingot, Arlemite Ingot
-divinerpg:hellstone_ingot, Hellstone Ingot
-divinerpg:netherite_ingot, Netherite Ingot
-divinerpg:realmite_ingot, Realmite Ingot
-divinerpg:rupee_ingot, Rupee Ingot
-divinerpg:shadow_bar, Shadow Bar
-divinerpg:arlemite_nugget, Arlemite Nugget
-divinerpg:realmite_nugget, Realmite Nugget
-divinerpg:rupee_nugget, Rupee Nugget
-divinerpg:netherite_nugget, Netherite Nugget
-divinerpg:call_of_the_watcher, Call of the Watcher
-divinerpg:horde_horn, Horde Horn
-divinerpg:infernal_flame, Infernal Flame
-divinerpg:mysterious_clock, Mysterious Clock
-divinerpg:watching_eye, Watching Eye
-divinerpg:blue_diamond_chunk, Blue Diamond Chunk
-divinerpg:gray_diamond_chunk, Gray Diamond Chunk
-divinerpg:red_diamond_chunk, Red Diamond Chunk
-divinerpg:yellow_diamond_chunk, Yellow Diamond Chunk
-divinerpg:green_diamond_chunk, Green Diamond Chunk
-divinerpg:brown_grizzle_egg, Brown Grizzle Spawn Egg
-divinerpg:ehu_egg, Ehu Spawn Egg
-divinerpg:husk_egg, Husk Spawn Egg
-divinerpg:smelter_egg, Smelter Spawn Egg
-divinerpg:snapper_egg, Snapper Spawn Egg
-divinerpg:stone_golem_egg, Stone Golem Spawn Egg
-divinerpg:white_grizzle_egg, White Grizzle Spawn Egg
-divinerpg:aqua_ball, Aqua Ball
-divinerpg:aquatic_blaze_rod, Aquatic Blaze Rod
-divinerpg:aquatic_ingot, Aquatic Ingot
-divinerpg:aquatic_pellets, Aquatic Pellets
-divinerpg:bedrock_chunk, Bedrock Chunk
-divinerpg:bloodgem, Bloodgem
-divinerpg:bluefire_stone, Bluefire Stone
-divinerpg:corrupted_bullet, Corrupted Bullet
-divinerpg:crab_claw, Crab Claw
-divinerpg:cyclops_eye, Cyclops Eye
-divinerpg:cyclops_eye_shards, Cyclops Eye Shards
-divinerpg:fury_fire, Fury Fire
-divinerpg:healing_stone, Healing Stone
-divinerpg:kraken_scale, Kraken Scale
-divinerpg:kraken_skin, Kraken Skin
-divinerpg:legendary_ender_eye, Legendary Ender Eye
-divinerpg:liopleurodon_skull, Liopleurodon Skull
-divinerpg:liopleurodon_teeth, Liopleurodon Teeth
-divinerpg:netherite_chunk, Netherite Chunk
-divinerpg:pure_aquatic_pellets, Pure Aquatic Pellets
-divinerpg:purple_blaze, Purple Blaze
-divinerpg:shadow_coins, Shadow Coins
-divinerpg:shark_fin, Shark Fin
-divinerpg:whale_fin, Whale Fin
-divinerpg:snowflake, Snowflake
-divinerpg:snow_globe, Snow Globe
-divinerpg:advanced_mushroom_stew, Advanced Mushroom Stew
-divinerpg:bacon, Bacon
-divinerpg:boiled_egg, Boiled Egg
-divinerpg:cheese, Cheese
-divinerpg:chicken_dinner, Chicken Dinner
-divinerpg:chocolate_log, Chocolate Log
-divinerpg:donut, Donut
-divinerpg:egg_nog, Egg Nog
-divinerpg:raw_empowered_meat, Raw Empowered Meat
-divinerpg:empowered_meat, Empowered Meat
-divinerpg:enriched_magic_meat, Enriched Magic Meat
-divinerpg:forbidden_fruit, Forbidden Fruit
-divinerpg:fruit_cake, Fruit Cake
-divinerpg:hot_pumpkin_pie, Hot Pumpkin Pie
-divinerpg:magic_meat, Magic Meat
-divinerpg:moonbulb, Moonbulb
-divinerpg:peppermints, Peppermints
-divinerpg:pink_glowbone, Pink Glowbone
-divinerpg:purple_glowbone, Purple Glowbone
-divinerpg:sky_flower, Sky Flower
-divinerpg:snow_cones, Snow Cones
-divinerpg:tomato, Tomato
-divinerpg:white_mushroom, White Mushroom
-divinerpg:winterberry, Winterberry
-divinerpg:eden_soul, Eden Soul
-divinerpg:wildwood_soul, Wildwood Soul
-divinerpg:apalachia_soul, Apalachia Soul
-divinerpg:skythern_soul, Skythern Soul
-divinerpg:mortum_soul, Mortum Soul
-divinerpg:eden_heart, Eden Heart
-divinerpg:wildwood_heart, Wildwood Heart
-divinerpg:apalachia_heart, Apalachia Heart
-divinerpg:skythern_heart, Skythern Heart
-divinerpg:mortum_heart, Mortum Heart
-divinerpg:eden_fragments, Eden Fragments
-divinerpg:wildwood_fragments, Wildwood Fragments
-divinerpg:apalachia_fragments, Apalachia Fragments
-divinerpg:skythern_fragments, Skythern Fragments
-divinerpg:mortum_fragments, Mortum Fragments
-divinerpg:eden_gem, Eden Gem
-divinerpg:wildwood_gem, Wildwood Gem
-divinerpg:apalachia_gem, Apalachia Gem
-divinerpg:skythern_gem, Skythern Gem
-divinerpg:mortum_gem, Mortum Gem
-divinerpg:eden_chunk, Eden Chunk
-divinerpg:wildwood_chunk, Wildwood Chunk
-divinerpg:apalachia_chunk, Apalachia Chunk
-divinerpg:skythern_chunk, Skythern Chunk
-divinerpg:mortum_chunk, Mortum Chunk
-divinerpg:eden_dust, Eden Dust
-divinerpg:wildwood_dust, Wildwood Dust
-divinerpg:apalachia_dust, Apalachia Dust
-divinerpg:skythern_dust, Skythern Dust
-divinerpg:mortum_dust, Mortum Dust
-divinerpg:karot_crystal, Karot Crystal
-divinerpg:reyvor_crystal, Reyvor Crystal
-divinerpg:densos_crystal, Densos Crystal
-divinerpg:soul_fiend_crystal, Soul Fiend Crystal
-divinerpg:twilight_demon_crystal, Twilight Demon Crystal
-divinerpg:vamacheron_crystal, Vamacheron Crystal
-divinerpg:twilight_clock, Twilight Clock
-divinerpg:eden_arrow, Eden Arrow
-divinerpg:fury_arrow, Fury Arrow
-divinerpg:wildwood_arrow, Wildwood Arrow
-divinerpg:base_spawn_crystal, Base Spawn Crystal
-divinerpg:eden_sparkles, Eden Sparkles
-divinerpg:arcanium_attractor, Arcanium Attractor
-divinerpg:arcanium_reflector, Arcanium Reflector
-divinerpg:divine_accumulator, Divine Accumulator
-divinerpg:ghostbane, Ghostbane
-divinerpg:orb_of_light, Orb of Light
-divinerpg:staff_of_enrichment, Staff of Enrichment
-divinerpg:frozen_charge, Frozen Charge
-divinerpg:wizards_book, Wizards Book
-divinerpg:fyracryx_egg, Fyracryx Spawn Egg
-divinerpg:paratiku_egg, Paratiku Spawn Egg
-divinerpg:seimer_egg, Seimer Spawn Egg
-divinerpg:golem_of_rejuvenation_egg, Golem Of Rejuvenation Spawn Egg
-divinerpg:aquamarine, Aquamarine
-divinerpg:firestock, Firestock
-divinerpg:lamona, Lamona
-divinerpg:marsine, Marsine
-divinerpg:pinfly, Pinfly
-divinerpg:veilo, Veilo
-divinerpg:hitchak, Hitchak
-divinerpg:ancient_key, Ancient Key
-divinerpg:degraded_key, Degraded Key
-divinerpg:soul_key, Soul Key
-divinerpg:sludge_key, Sludge Key
-divinerpg:ancient_brick_door, Ancient Brick Door
-divinerpg:degraded_brick_door, Degraded Brick Door
-divinerpg:soul_sludge_door, Soul Sludge Door
-divinerpg:soul_stone_door, Soul Stone Door
-divinerpg:steel_door, Steel Door
-divinerpg:weak_arcana_potion, Weak Arcana Potion
-divinerpg:strong_arcana_potion, Strong Arcana Potion
-divinerpg:arcanium, Arcanium
-divinerpg:collector, Collector
-divinerpg:collector_fragments, Collector Fragments
-divinerpg:dungeon_tokens, Dungeon Tokens
-divinerpg:aquamarine_seeds, Aquamarine Seeds
-divinerpg:eucalyptus_root_seeds, Eucalyptus Root Seeds
-divinerpg:firestock_seeds, Firestock Seeds
-divinerpg:hitchak_seeds, Hitchak Seeds
-divinerpg:lamona_seeds, Lamona Seeds
-divinerpg:marsine_seeds, Marsine Seeds
-divinerpg:moonbulb_seeds, Moonbulb Seeds
-divinerpg:pinfly_seeds, Pinfly Seeds
-divinerpg:pink_glowbone_seeds, Pink Glowbone Seeds
-divinerpg:purple_glowbone_seeds, Purple Glowbone Seeds
-divinerpg:sky_plant_seeds, Sky Plant Seeds
-divinerpg:tomato_seeds, Tomato Seeds
-divinerpg:veilo_seeds, Veilo Seeds
-divinerpg:white_mushroom_seeds, White Mushroom Seeds
-divinerpg:dirty_pearls, Dirty Pearls
-divinerpg:clean_pearls, Clean Pearls
-divinerpg:polished_pearls, Polished Pearls
-divinerpg:shiny_pearls, Shiny Pearls
-divinerpg:teaker_lump, Teaker Lump
-divinerpg:amthirmis_lump, Amthirmis Lump
-divinerpg:darven_lump, Darven Lump
-divinerpg:cermile_lump, Cermile Lump
-divinerpg:pardimal_lump, Pardimal Lump
-divinerpg:quadrotic_lump, Quadrotic Lump
-divinerpg:karos_lump, Karos Lump
-divinerpg:heliosis_lump, Heliosis Lump
-divinerpg:arksiane_lump, Arksiane Lump
-divinerpg:backsword_template, Backsword Template
-divinerpg:bow_template, Bow Template
-divinerpg:cannon_template, Cannon Template
-divinerpg:claw_template, Claw Template
-divinerpg:disk_template, Disk Template
-divinerpg:hammer_template, Hammer Template
-divinerpg:staff_template, Staff Template
-divinerpg:degraded_template, Degraded Template
-divinerpg:finished_template, Finished Template
-divinerpg:glistening_template, Glistening Template
-divinerpg:demonized_template, Demonized Template
-divinerpg:tormented_template, Tormented Template
-divinerpg:dream_carrot, Dream Carrot
-divinerpg:dream_melon, Dream Melon
-divinerpg:dream_pie, Dream Pie
-divinerpg:dream_cake, Dream Cake
-divinerpg:dream_sweets, Dream Sweets
-divinerpg:dream_sours, Dream Sours
-divinerpg:honeysuckle, Honeysuckle
-divinerpg:honeychunk, Honeychunk
-divinerpg:dream_flint, Dream Flint
-divinerpg:moon_clock, Moon Clock
-divinerpg:teaker_arrow, Teaker Arrow
-divinerpg:darven_arrow, Darven Arrow
-divinerpg:pardimal_arrow, Pardimal Arrow
-divinerpg:karos_arrow, Karos Arrow
-divinerpg:ever_arrow, Ever Arrow
-divinerpg:nightmare_bed, Nightmare Bed
-divinerpg:barred_door, Barred Door
-divinerpg:acid, Acid
-divinerpg:band_of_heiva_hunting, Band of Heiva Hunting
-divinerpg:rock_chunks, Rock Chunks
-divinerpg:eden_slab:0, Eden Slab
-divinerpg:wildwood_slab:0, Wildwood Slab
-divinerpg:apalachia_slab:0, Apalachia Slab
-divinerpg:skythern_slab:0, Skythern Slab
-divinerpg:mortum_slab:0, Mortum Slab
-divinerpg:divine_slab:0, Divine Slab
-divinerpg:frozen_slab:0, Frozen Slab
-divinerpg:eucalyptus_slab:0, Eucalyptus Slab
-divinerpg:ancient_brick_slab:0, Ancient Brick Slab
-divinerpg:degraded_brick_slab:0, Degraded Brick Slab
-divinerpg:ancient_brick_slab_breakable:0, Ancient Brick Slab (Breakable)
-divinerpg:degraded_brick_slab_breakable:0, Degraded Brick Slab (Breakable)
-divinerpg:arlemite_shield, Arlemite Deflector
-divinerpg:realmite_shield, Realmite Shield
-divinerpg:rupee_shield, Rupee Reflector
-divinerpg:halite_shield, Halite Greatshield
-divinerpg:eden_shield, Eden Aegis
-divinerpg:wildwood_shield, Wildwood Guard
-divinerpg:apalachia_shield, Apalachia Shield
-divinerpg:skythern_shield, Scutum of the Skythern
-divinerpg:mortum_shield, Mortalos
-divinerpg:miners_amulet, Miner's Amulet
 forge:bucketfilled, %s Bucket
 appliedenergistics2:quartz_ore, Certus Quartz Ore
 appliedenergistics2:charged_quartz_ore, Charged Certus Quartz Ore
@@ -11325,6 +12059,148 @@ appliedenergistics2:facade:0, Cable Facade - Mud Bricks
 appliedenergistics2:facade:0, Cable Facade - Sacred Oak Wood Planks
 appliedenergistics2:facade:0, Cable Facade - Block of Chamelium
 appliedenergistics2:facade:0, Cable Facade - End Stone
+appliedenergistics2:facade:0, Cable Facade - Nickel-Iron Battery
+appliedenergistics2:facade:0, Cable Facade - Nickel-Zinc Battery
+appliedenergistics2:facade:0, Cable Facade - Zinc-Carbon Battery
+appliedenergistics2:facade:0, Cable Facade - Zinc-Silver Battery
+appliedenergistics2:facade:0, Cable Facade - Charge Trap
+appliedenergistics2:facade:0, Cable Facade - Worldspike Point
+appliedenergistics2:facade:0, Cable Facade - Block of Copper
+appliedenergistics2:facade:0, Cable Facade - Block of Tin
+appliedenergistics2:facade:0, Cable Facade - Block of Lead
+appliedenergistics2:facade:0, Cable Facade - Block of Silver
+appliedenergistics2:facade:0, Cable Facade - Block of Steel
+appliedenergistics2:facade:0, Cable Facade - Block of Bronze
+appliedenergistics2:facade:0, Cable Facade - Block of Nickel
+appliedenergistics2:facade:0, Cable Facade - Block of Invar
+appliedenergistics2:facade:0, Cable Facade - Block of Zinc
+appliedenergistics2:facade:0, Cable Facade - Block of Brass
+appliedenergistics2:facade:0, Cable Facade - Abyssal Brick
+appliedenergistics2:facade:0, Cable Facade - Fitted Abyssal Stone
+appliedenergistics2:facade:0, Cable Facade - Abyssal Block
+appliedenergistics2:facade:0, Cable Facade - Ornate Abyssal Stone
+appliedenergistics2:facade:0, Cable Facade - Etched Abyssal Stone
+appliedenergistics2:facade:0, Cable Facade - Abyssal Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Bleached Bone Brick
+appliedenergistics2:facade:0, Cable Facade - Fitted Bleached Bone Stone
+appliedenergistics2:facade:0, Cable Facade - Bleached Bone Block
+appliedenergistics2:facade:0, Cable Facade - Ornate Bleached Bone Stone
+appliedenergistics2:facade:0, Cable Facade - Etched Bleached Bone Stone
+appliedenergistics2:facade:0, Cable Facade - Bleached Bone Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Blood Stained Brick
+appliedenergistics2:facade:0, Cable Facade - Fitted Blood Stained Stone
+appliedenergistics2:facade:0, Cable Facade - Blood Stained Block
+appliedenergistics2:facade:0, Cable Facade - Ornate Blood Stained Stone
+appliedenergistics2:facade:0, Cable Facade - Etched Blood Stained Stone
+appliedenergistics2:facade:0, Cable Facade - Blood Stained Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Frost Bound Brick
+appliedenergistics2:facade:0, Cable Facade - Fitted Frost Bound Stone
+appliedenergistics2:facade:0, Cable Facade - Frost Bound Block
+appliedenergistics2:facade:0, Cable Facade - Ornate Frost Bound Stone
+appliedenergistics2:facade:0, Cable Facade - Etched Frost Bound Stone
+appliedenergistics2:facade:0, Cable Facade - Frost Bound Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Infernal Brick
+appliedenergistics2:facade:0, Cable Facade - Fitted Infernal Stone
+appliedenergistics2:facade:0, Cable Facade - Infernal Block
+appliedenergistics2:facade:0, Cable Facade - Ornate Infernal Stone
+appliedenergistics2:facade:0, Cable Facade - Etched Infernal Stone
+appliedenergistics2:facade:0, Cable Facade - Infernal Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Quarried Brick
+appliedenergistics2:facade:0, Cable Facade - Fitted Quarried Stone
+appliedenergistics2:facade:0, Cable Facade - Quarried Block
+appliedenergistics2:facade:0, Cable Facade - Ornate Quarried Stone
+appliedenergistics2:facade:0, Cable Facade - Etched Quarried Stone
+appliedenergistics2:facade:0, Cable Facade - Quarried Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Sandy Brick
+appliedenergistics2:facade:0, Cable Facade - Fitted Sandy Stone
+appliedenergistics2:facade:0, Cable Facade - Sandy Block
+appliedenergistics2:facade:0, Cable Facade - Ornate Sandy Stone
+appliedenergistics2:facade:0, Cable Facade - Etched Sandy Stone
+appliedenergistics2:facade:0, Cable Facade - Sandy Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Red Sandy Brick
+appliedenergistics2:facade:0, Cable Facade - Fitted Red Sandy Stone
+appliedenergistics2:facade:0, Cable Facade - Red Sandy Block
+appliedenergistics2:facade:0, Cable Facade - Ornate Red Sandy Stone
+appliedenergistics2:facade:0, Cable Facade - Etched Red Sandy Stone
+appliedenergistics2:facade:0, Cable Facade - Red Sandy Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Nether Brick
+appliedenergistics2:facade:0, Cable Facade - Fitted Nether Stone
+appliedenergistics2:facade:0, Cable Facade - Nether Block
+appliedenergistics2:facade:0, Cable Facade - Ornate Nether Stone
+appliedenergistics2:facade:0, Cable Facade - Etched Nether Stone
+appliedenergistics2:facade:0, Cable Facade - Nether Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Red Nether Brick
+appliedenergistics2:facade:0, Cable Facade - Fitted Red Nether Stone
+appliedenergistics2:facade:0, Cable Facade - Red Nether Block
+appliedenergistics2:facade:0, Cable Facade - Ornate Red Nether Stone
+appliedenergistics2:facade:0, Cable Facade - Etched Red Nether Stone
+appliedenergistics2:facade:0, Cable Facade - Red Nether Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Andesite Brick
+appliedenergistics2:facade:0, Cable Facade - Fitted Andesite
+appliedenergistics2:facade:0, Cable Facade - Polished Andesite
+appliedenergistics2:facade:0, Cable Facade - Ornate Andesite
+appliedenergistics2:facade:0, Cable Facade - Etched Andesite
+appliedenergistics2:facade:0, Cable Facade - Andesite Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Diorite Brick
+appliedenergistics2:facade:0, Cable Facade - Fitted Diorite
+appliedenergistics2:facade:0, Cable Facade - Polished Diorite
+appliedenergistics2:facade:0, Cable Facade - Ornate Diorite
+appliedenergistics2:facade:0, Cable Facade - Etched Diorite
+appliedenergistics2:facade:0, Cable Facade - Diorite Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Granite Brick
+appliedenergistics2:facade:0, Cable Facade - Fitted Granite
+appliedenergistics2:facade:0, Cable Facade - Polished Granite
+appliedenergistics2:facade:0, Cable Facade - Ornate Granite
+appliedenergistics2:facade:0, Cable Facade - Etched Granite
+appliedenergistics2:facade:0, Cable Facade - Granite Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Pearlized Brick
+appliedenergistics2:facade:0, Cable Facade - Fitted Pearlized Stone
+appliedenergistics2:facade:0, Cable Facade - Pearlized Block
+appliedenergistics2:facade:0, Cable Facade - Ornate Pearlized Stone
+appliedenergistics2:facade:0, Cable Facade - Etched Pearlized Stone
+appliedenergistics2:facade:0, Cable Facade - Pearlized Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Creosote Wood Block
+appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
+appliedenergistics2:facade:0, Cable Facade - Crushed Obsidian
+appliedenergistics2:facade:0, Cable Facade - Abyssal Stone
+appliedenergistics2:facade:0, Cable Facade - Quarried Stone
+appliedenergistics2:facade:0, Cable Facade - White Reinforced Concrete
+appliedenergistics2:facade:0, Cable Facade - Orange Reinforced Concrete
+appliedenergistics2:facade:0, Cable Facade - Magenta Reinforced Concrete
+appliedenergistics2:facade:0, Cable Facade - Light Blue Reinforced Concrete
+appliedenergistics2:facade:0, Cable Facade - Yellow Reinforced Concrete
+appliedenergistics2:facade:0, Cable Facade - Lime Reinforced Concrete
+appliedenergistics2:facade:0, Cable Facade - Pink Reinforced Concrete
+appliedenergistics2:facade:0, Cable Facade - Gray Reinforced Concrete
+appliedenergistics2:facade:0, Cable Facade - Reinforced Concrete
+appliedenergistics2:facade:0, Cable Facade - Cyan Reinforced Concrete
+appliedenergistics2:facade:0, Cable Facade - Purple Reinforced Concrete
+appliedenergistics2:facade:0, Cable Facade - Blue Reinforced Concrete
+appliedenergistics2:facade:0, Cable Facade - Brown Reinforced Concrete
+appliedenergistics2:facade:0, Cable Facade - Green Reinforced Concrete
+appliedenergistics2:facade:0, Cable Facade - Red Reinforced Concrete
+appliedenergistics2:facade:0, Cable Facade - Black Reinforced Concrete
+appliedenergistics2:facade:0, Cable Facade - Sulfur Ore
+appliedenergistics2:facade:0, Cable Facade - Saltpeter Ore
+appliedenergistics2:facade:0, Cable Facade - Dark Diamond Ore
+appliedenergistics2:facade:0, Cable Facade - Dark Emerald Ore
+appliedenergistics2:facade:0, Cable Facade - Dark Lapis Lazuli Ore
+appliedenergistics2:facade:0, Cable Facade - Copper Ore
+appliedenergistics2:facade:0, Cable Facade - Tin Ore
+appliedenergistics2:facade:0, Cable Facade - Lead Ore
+appliedenergistics2:facade:0, Cable Facade - Silver Ore
+appliedenergistics2:facade:0, Cable Facade - Nickel Ore
+appliedenergistics2:facade:0, Cable Facade - Zinc Ore
+appliedenergistics2:facade:0, Cable Facade - Poor Iron Ore
+appliedenergistics2:facade:0, Cable Facade - Poor Gold Ore
+appliedenergistics2:facade:0, Cable Facade - Poor Copper Ore
+appliedenergistics2:facade:0, Cable Facade - Poor Tin Ore
+appliedenergistics2:facade:0, Cable Facade - Poor Lead Ore
+appliedenergistics2:facade:0, Cable Facade - Poor Silver Ore
+appliedenergistics2:facade:0, Cable Facade - Poor Nickel Ore
+appliedenergistics2:facade:0, Cable Facade - Poor Zinc Ore
+appliedenergistics2:facade:0, Cable Facade - Firestone Ore
+appliedenergistics2:facade:0, Cable Facade - Saltpeter Ore Spawner
 appliedenergistics2:facade:0, Cable Facade - Magical Planks
 appliedenergistics2:facade:0, Cable Facade - Magical Wood
 appliedenergistics2:facade:0, Cable Facade - Diagonal Wood
@@ -18993,45 +19869,45 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Hammer Head Pattern
 tconstruct:pattern:0, Broad Axe Head Pattern
-tconstruct:pattern:0, Polishing Kit Pattern
 tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Pipe Piece Pattern
-tconstruct:pattern:0, Armor Plates Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Chestplate Core Pattern
-tconstruct:pattern:0, Fletching Pattern
-tconstruct:pattern:0, Binding Pattern
-tconstruct:pattern:0, Bowstring Pattern
-tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Kama Head Pattern
 tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Leggings Core Pattern
-tconstruct:pattern:0, Armor Trim Pattern
-tconstruct:pattern:0, Helmet Core Pattern
-tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Battery Cell Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Boots Core Pattern
-tconstruct:pattern:0, Arrow Head Pattern
-tconstruct:pattern:0, Chisel Head Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
-tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Polishing Kit Pattern
 tconstruct:pattern:0, Shard Pattern
-tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Arrow Head Pattern
+tconstruct:pattern:0, Helmet Core Pattern
 tconstruct:pattern:0, Arrow Shaft Pattern
-tconstruct:pattern:0, Axe Head Pattern
+tconstruct:pattern:0, Kama Head Pattern
+tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Tool Rod Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Battery Cell Pattern
 tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Sign Plate Pattern
+tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Pipe Piece Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Pan Pattern
+tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Chisel Head Pattern
+tconstruct:pattern:0, Boots Core Pattern
+tconstruct:pattern:0, Large Plate Pattern
+tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Leggings Core Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Armor Trim Pattern
 tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Knife Blade Pattern
+tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Chestplate Core Pattern
 tconstruct:pattern:0, Wide Guard Pattern
+tconstruct:pattern:0, Sign Plate Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
+tconstruct:pattern:0, Armor Plates Pattern
 tconstruct:pattern:0, Laser Medium Pattern
+tconstruct:pattern:0, Axe Head Pattern
+tconstruct:pattern:0, Bowstring Pattern
 tconstruct:shard:0, Electrical Shard
 tconstruct:shard:0, Energetic Shard
 tconstruct:shard:0, Vibrant Shard
@@ -19159,12 +20035,12 @@ tconstruct:shard:0, Livingwood Shard
 tconstruct:shard:0, Manasteel Shard
 tconstruct:shard:0, Elementium Shard
 tconstruct:shard:0, Terrasteel Shard
-tconstruct:shard:0, Emerald Shard
 tconstruct:shard:0, Wyvern Shard
 tconstruct:shard:0, Awakened Shard
 tconstruct:shard:0, Chaotic Shard
 tconstruct:shard:0, Dark Matter Shard
 tconstruct:shard:0, Red Matter Shard
+tconstruct:shard:0, Emerald Shard
 tconstruct:shard:0, Slime Shard
 tconstruct:sharpening_kit:0, Electrical Sharpening Kit
 tconstruct:sharpening_kit:0, Energetic Sharpening Kit
@@ -19293,12 +20169,12 @@ tconstruct:sharpening_kit:0, Livingwood Sharpening Kit
 tconstruct:sharpening_kit:0, Manasteel Sharpening Kit
 tconstruct:sharpening_kit:0, Elementium Sharpening Kit
 tconstruct:sharpening_kit:0, Terrasteel Sharpening Kit
-tconstruct:sharpening_kit:0, Emerald Sharpening Kit
 tconstruct:sharpening_kit:0, Wyvern Sharpening Kit
 tconstruct:sharpening_kit:0, Awakened Sharpening Kit
 tconstruct:sharpening_kit:0, Chaotic Sharpening Kit
 tconstruct:sharpening_kit:0, Dark Matter Sharpening Kit
 tconstruct:sharpening_kit:0, Red Matter Sharpening Kit
+tconstruct:sharpening_kit:0, Emerald Sharpening Kit
 tconstruct:sharpening_kit:0, Slime Sharpening Kit
 tconstruct:pick_head:0, Electrical Pickaxe Head
 tconstruct:pick_head:0, Energetic Pickaxe Head
@@ -19427,12 +20303,12 @@ tconstruct:pick_head:0, Livingwood Pickaxe Head
 tconstruct:pick_head:0, Manasteel Pickaxe Head
 tconstruct:pick_head:0, Elementium Pickaxe Head
 tconstruct:pick_head:0, Terrasteel Pickaxe Head
-tconstruct:pick_head:0, Emerald Pickaxe Head
 tconstruct:pick_head:0, Wyvern Pickaxe Head
 tconstruct:pick_head:0, Awakened Pickaxe Head
 tconstruct:pick_head:0, Chaotic Pickaxe Head
 tconstruct:pick_head:0, Dark Matter Pickaxe Head
 tconstruct:pick_head:0, Red Matter Pickaxe Head
+tconstruct:pick_head:0, Emerald Pickaxe Head
 tconstruct:pick_head:0, Slime Pickaxe Head
 tconstruct:shovel_head:0, Electrical Shovel Head
 tconstruct:shovel_head:0, Energetic Shovel Head
@@ -19561,12 +20437,12 @@ tconstruct:shovel_head:0, Livingwood Shovel Head
 tconstruct:shovel_head:0, Manasteel Shovel Head
 tconstruct:shovel_head:0, Elementium Shovel Head
 tconstruct:shovel_head:0, Terrasteel Shovel Head
-tconstruct:shovel_head:0, Emerald Shovel Head
 tconstruct:shovel_head:0, Wyvern Shovel Head
 tconstruct:shovel_head:0, Awakened Shovel Head
 tconstruct:shovel_head:0, Chaotic Shovel Head
 tconstruct:shovel_head:0, Dark Matter Shovel Head
 tconstruct:shovel_head:0, Red Matter Shovel Head
+tconstruct:shovel_head:0, Emerald Shovel Head
 tconstruct:shovel_head:0, Slime Shovel Head
 tconstruct:axe_head:0, Electrical Axe Head
 tconstruct:axe_head:0, Energetic Axe Head
@@ -19695,12 +20571,12 @@ tconstruct:axe_head:0, Livingwood Axe Head
 tconstruct:axe_head:0, Manasteel Axe Head
 tconstruct:axe_head:0, Elementium Axe Head
 tconstruct:axe_head:0, Terrasteel Axe Head
-tconstruct:axe_head:0, Emerald Axe Head
 tconstruct:axe_head:0, Wyvern Axe Head
 tconstruct:axe_head:0, Awakened Axe Head
 tconstruct:axe_head:0, Chaotic Axe Head
 tconstruct:axe_head:0, Dark Matter Axe Head
 tconstruct:axe_head:0, Red Matter Axe Head
+tconstruct:axe_head:0, Emerald Axe Head
 tconstruct:axe_head:0, Slime Axe Head
 tconstruct:broad_axe_head:0, Electrical Broad Axe Head
 tconstruct:broad_axe_head:0, Energetic Broad Axe Head
@@ -19829,12 +20705,12 @@ tconstruct:broad_axe_head:0, Livingwood Broad Axe Head
 tconstruct:broad_axe_head:0, Manasteel Broad Axe Head
 tconstruct:broad_axe_head:0, Elementium Broad Axe Head
 tconstruct:broad_axe_head:0, Terrasteel Broad Axe Head
-tconstruct:broad_axe_head:0, Emerald Broad Axe Head
 tconstruct:broad_axe_head:0, Wyvern Broad Axe Head
 tconstruct:broad_axe_head:0, Awakened Broad Axe Head
 tconstruct:broad_axe_head:0, Chaotic Broad Axe Head
 tconstruct:broad_axe_head:0, Dark Matter Broad Axe Head
 tconstruct:broad_axe_head:0, Red Matter Broad Axe Head
+tconstruct:broad_axe_head:0, Emerald Broad Axe Head
 tconstruct:broad_axe_head:0, Slime Broad Axe Head
 tconstruct:sword_blade:0, Electrical Sword Blade
 tconstruct:sword_blade:0, Energetic Sword Blade
@@ -19963,12 +20839,12 @@ tconstruct:sword_blade:0, Livingwood Sword Blade
 tconstruct:sword_blade:0, Manasteel Sword Blade
 tconstruct:sword_blade:0, Elementium Sword Blade
 tconstruct:sword_blade:0, Terrasteel Sword Blade
-tconstruct:sword_blade:0, Emerald Sword Blade
 tconstruct:sword_blade:0, Wyvern Sword Blade
 tconstruct:sword_blade:0, Awakened Sword Blade
 tconstruct:sword_blade:0, Chaotic Sword Blade
 tconstruct:sword_blade:0, Dark Matter Sword Blade
 tconstruct:sword_blade:0, Red Matter Sword Blade
+tconstruct:sword_blade:0, Emerald Sword Blade
 tconstruct:sword_blade:0, Slime Sword Blade
 tconstruct:large_sword_blade:0, Electrical Large Sword Blade
 tconstruct:large_sword_blade:0, Energetic Large Sword Blade
@@ -20097,12 +20973,12 @@ tconstruct:large_sword_blade:0, Livingwood Large Sword Blade
 tconstruct:large_sword_blade:0, Manasteel Large Sword Blade
 tconstruct:large_sword_blade:0, Elementium Large Sword Blade
 tconstruct:large_sword_blade:0, Terrasteel Large Sword Blade
-tconstruct:large_sword_blade:0, Emerald Large Sword Blade
 tconstruct:large_sword_blade:0, Wyvern Large Sword Blade
 tconstruct:large_sword_blade:0, Awakened Large Sword Blade
 tconstruct:large_sword_blade:0, Chaotic Large Sword Blade
 tconstruct:large_sword_blade:0, Dark Matter Large Sword Blade
 tconstruct:large_sword_blade:0, Red Matter Large Sword Blade
+tconstruct:large_sword_blade:0, Emerald Large Sword Blade
 tconstruct:large_sword_blade:0, Slime Large Sword Blade
 tconstruct:hammer_head:0, Electrical Hammer Head
 tconstruct:hammer_head:0, Energetic Hammer Head
@@ -20231,12 +21107,12 @@ tconstruct:hammer_head:0, Livingwood Hammer Head
 tconstruct:hammer_head:0, Manasteel Hammer Head
 tconstruct:hammer_head:0, Elementium Hammer Head
 tconstruct:hammer_head:0, Terrasteel Hammer Head
-tconstruct:hammer_head:0, Emerald Hammer Head
 tconstruct:hammer_head:0, Wyvern Hammer Head
 tconstruct:hammer_head:0, Awakened Hammer Head
 tconstruct:hammer_head:0, Chaotic Hammer Head
 tconstruct:hammer_head:0, Dark Matter Hammer Head
 tconstruct:hammer_head:0, Red Matter Hammer Head
+tconstruct:hammer_head:0, Emerald Hammer Head
 tconstruct:hammer_head:0, Slime Hammer Head
 tconstruct:excavator_head:0, Electrical Excavator Head
 tconstruct:excavator_head:0, Energetic Excavator Head
@@ -20365,12 +21241,12 @@ tconstruct:excavator_head:0, Livingwood Excavator Head
 tconstruct:excavator_head:0, Manasteel Excavator Head
 tconstruct:excavator_head:0, Elementium Excavator Head
 tconstruct:excavator_head:0, Terrasteel Excavator Head
-tconstruct:excavator_head:0, Emerald Excavator Head
 tconstruct:excavator_head:0, Wyvern Excavator Head
 tconstruct:excavator_head:0, Awakened Excavator Head
 tconstruct:excavator_head:0, Chaotic Excavator Head
 tconstruct:excavator_head:0, Dark Matter Excavator Head
 tconstruct:excavator_head:0, Red Matter Excavator Head
+tconstruct:excavator_head:0, Emerald Excavator Head
 tconstruct:excavator_head:0, Slime Excavator Head
 tconstruct:kama_head:0, Electrical Kama Head
 tconstruct:kama_head:0, Energetic Kama Head
@@ -20499,12 +21375,12 @@ tconstruct:kama_head:0, Livingwood Kama Head
 tconstruct:kama_head:0, Manasteel Kama Head
 tconstruct:kama_head:0, Elementium Kama Head
 tconstruct:kama_head:0, Terrasteel Kama Head
-tconstruct:kama_head:0, Emerald Kama Head
 tconstruct:kama_head:0, Wyvern Kama Head
 tconstruct:kama_head:0, Awakened Kama Head
 tconstruct:kama_head:0, Chaotic Kama Head
 tconstruct:kama_head:0, Dark Matter Kama Head
 tconstruct:kama_head:0, Red Matter Kama Head
+tconstruct:kama_head:0, Emerald Kama Head
 tconstruct:kama_head:0, Slime Kama Head
 tconstruct:scythe_head:0, Electrical Scythe Head
 tconstruct:scythe_head:0, Energetic Scythe Head
@@ -20633,12 +21509,12 @@ tconstruct:scythe_head:0, Livingwood Scythe Head
 tconstruct:scythe_head:0, Manasteel Scythe Head
 tconstruct:scythe_head:0, Elementium Scythe Head
 tconstruct:scythe_head:0, Terrasteel Scythe Head
-tconstruct:scythe_head:0, Emerald Scythe Head
 tconstruct:scythe_head:0, Wyvern Scythe Head
 tconstruct:scythe_head:0, Awakened Scythe Head
 tconstruct:scythe_head:0, Chaotic Scythe Head
 tconstruct:scythe_head:0, Dark Matter Scythe Head
 tconstruct:scythe_head:0, Red Matter Scythe Head
+tconstruct:scythe_head:0, Emerald Scythe Head
 tconstruct:scythe_head:0, Slime Scythe Head
 tconstruct:pan_head:0, Electrical Pan
 tconstruct:pan_head:0, Energetic Pan
@@ -20767,12 +21643,12 @@ tconstruct:pan_head:0, Livingwood Pan
 tconstruct:pan_head:0, Manasteel Pan
 tconstruct:pan_head:0, Elementium Pan
 tconstruct:pan_head:0, Terrasteel Pan
-tconstruct:pan_head:0, Emerald Pan
 tconstruct:pan_head:0, Wyvern Pan
 tconstruct:pan_head:0, Awakened Pan
 tconstruct:pan_head:0, Chaotic Pan
 tconstruct:pan_head:0, Dark Matter Pan
 tconstruct:pan_head:0, Red Matter Pan
+tconstruct:pan_head:0, Emerald Pan
 tconstruct:pan_head:0, Slime Pan
 tconstruct:sign_head:0, Electrical Sign Plate
 tconstruct:sign_head:0, Energetic Sign Plate
@@ -20901,12 +21777,12 @@ tconstruct:sign_head:0, Livingwood Sign Plate
 tconstruct:sign_head:0, Manasteel Sign Plate
 tconstruct:sign_head:0, Elementium Sign Plate
 tconstruct:sign_head:0, Terrasteel Sign Plate
-tconstruct:sign_head:0, Emerald Sign Plate
 tconstruct:sign_head:0, Wyvern Sign Plate
 tconstruct:sign_head:0, Awakened Sign Plate
 tconstruct:sign_head:0, Chaotic Sign Plate
 tconstruct:sign_head:0, Dark Matter Sign Plate
 tconstruct:sign_head:0, Red Matter Sign Plate
+tconstruct:sign_head:0, Emerald Sign Plate
 tconstruct:sign_head:0, Slime Sign Plate
 tconstruct:tool_rod:0, Electrical Tool Rod
 tconstruct:tool_rod:0, Energetic Tool Rod
@@ -21034,12 +21910,12 @@ tconstruct:tool_rod:0, Livingwood Tool Rod
 tconstruct:tool_rod:0, Manasteel Tool Rod
 tconstruct:tool_rod:0, Elementium Tool Rod
 tconstruct:tool_rod:0, Terrasteel Tool Rod
-tconstruct:tool_rod:0, Emerald Tool Rod
 tconstruct:tool_rod:0, Wyvern Tool Rod
 tconstruct:tool_rod:0, Awakened Tool Rod
 tconstruct:tool_rod:0, Chaotic Tool Rod
 tconstruct:tool_rod:0, Dark Matter Tool Rod
 tconstruct:tool_rod:0, Red Matter Tool Rod
+tconstruct:tool_rod:0, Emerald Tool Rod
 tconstruct:tool_rod:0, Slime Tool Rod
 tconstruct:tough_tool_rod:0, Electrical Tough Tool Rod
 tconstruct:tough_tool_rod:0, Energetic Tough Tool Rod
@@ -21167,12 +22043,12 @@ tconstruct:tough_tool_rod:0, Livingwood Tough Tool Rod
 tconstruct:tough_tool_rod:0, Manasteel Tough Tool Rod
 tconstruct:tough_tool_rod:0, Elementium Tough Tool Rod
 tconstruct:tough_tool_rod:0, Terrasteel Tough Tool Rod
-tconstruct:tough_tool_rod:0, Emerald Tough Tool Rod
 tconstruct:tough_tool_rod:0, Wyvern Tough Tool Rod
 tconstruct:tough_tool_rod:0, Awakened Tough Tool Rod
 tconstruct:tough_tool_rod:0, Chaotic Tough Tool Rod
 tconstruct:tough_tool_rod:0, Dark Matter Tough Tool Rod
 tconstruct:tough_tool_rod:0, Red Matter Tough Tool Rod
+tconstruct:tough_tool_rod:0, Emerald Tough Tool Rod
 tconstruct:tough_tool_rod:0, Slime Tough Tool Rod
 tconstruct:binding:0, Electrical Binding
 tconstruct:binding:0, Energetic Binding
@@ -21300,12 +22176,12 @@ tconstruct:binding:0, Livingwood Binding
 tconstruct:binding:0, Manasteel Binding
 tconstruct:binding:0, Elementium Binding
 tconstruct:binding:0, Terrasteel Binding
-tconstruct:binding:0, Emerald Binding
 tconstruct:binding:0, Wyvern Binding
 tconstruct:binding:0, Awakened Binding
 tconstruct:binding:0, Chaotic Binding
 tconstruct:binding:0, Dark Matter Binding
 tconstruct:binding:0, Red Matter Binding
+tconstruct:binding:0, Emerald Binding
 tconstruct:binding:0, Slime Binding
 tconstruct:tough_binding:0, Electrical Tough Binding
 tconstruct:tough_binding:0, Energetic Tough Binding
@@ -21433,12 +22309,12 @@ tconstruct:tough_binding:0, Livingwood Tough Binding
 tconstruct:tough_binding:0, Manasteel Tough Binding
 tconstruct:tough_binding:0, Elementium Tough Binding
 tconstruct:tough_binding:0, Terrasteel Tough Binding
-tconstruct:tough_binding:0, Emerald Tough Binding
 tconstruct:tough_binding:0, Wyvern Tough Binding
 tconstruct:tough_binding:0, Awakened Tough Binding
 tconstruct:tough_binding:0, Chaotic Tough Binding
 tconstruct:tough_binding:0, Dark Matter Tough Binding
 tconstruct:tough_binding:0, Red Matter Tough Binding
+tconstruct:tough_binding:0, Emerald Tough Binding
 tconstruct:tough_binding:0, Slime Tough Binding
 tconstruct:wide_guard:0, Electrical Wide Guard
 tconstruct:wide_guard:0, Energetic Wide Guard
@@ -21566,12 +22442,12 @@ tconstruct:wide_guard:0, Livingwood Wide Guard
 tconstruct:wide_guard:0, Manasteel Wide Guard
 tconstruct:wide_guard:0, Elementium Wide Guard
 tconstruct:wide_guard:0, Terrasteel Wide Guard
-tconstruct:wide_guard:0, Emerald Wide Guard
 tconstruct:wide_guard:0, Wyvern Wide Guard
 tconstruct:wide_guard:0, Awakened Wide Guard
 tconstruct:wide_guard:0, Chaotic Wide Guard
 tconstruct:wide_guard:0, Dark Matter Wide Guard
 tconstruct:wide_guard:0, Red Matter Wide Guard
+tconstruct:wide_guard:0, Emerald Wide Guard
 tconstruct:wide_guard:0, Slime Wide Guard
 tconstruct:hand_guard:0, Electrical Hand Guard
 tconstruct:hand_guard:0, Energetic Hand Guard
@@ -21699,12 +22575,12 @@ tconstruct:hand_guard:0, Livingwood Hand Guard
 tconstruct:hand_guard:0, Manasteel Hand Guard
 tconstruct:hand_guard:0, Elementium Hand Guard
 tconstruct:hand_guard:0, Terrasteel Hand Guard
-tconstruct:hand_guard:0, Emerald Hand Guard
 tconstruct:hand_guard:0, Wyvern Hand Guard
 tconstruct:hand_guard:0, Awakened Hand Guard
 tconstruct:hand_guard:0, Chaotic Hand Guard
 tconstruct:hand_guard:0, Dark Matter Hand Guard
 tconstruct:hand_guard:0, Red Matter Hand Guard
+tconstruct:hand_guard:0, Emerald Hand Guard
 tconstruct:hand_guard:0, Slime Hand Guard
 tconstruct:cross_guard:0, Electrical Cross Guard
 tconstruct:cross_guard:0, Energetic Cross Guard
@@ -21832,12 +22708,12 @@ tconstruct:cross_guard:0, Livingwood Cross Guard
 tconstruct:cross_guard:0, Manasteel Cross Guard
 tconstruct:cross_guard:0, Elementium Cross Guard
 tconstruct:cross_guard:0, Terrasteel Cross Guard
-tconstruct:cross_guard:0, Emerald Cross Guard
 tconstruct:cross_guard:0, Wyvern Cross Guard
 tconstruct:cross_guard:0, Awakened Cross Guard
 tconstruct:cross_guard:0, Chaotic Cross Guard
 tconstruct:cross_guard:0, Dark Matter Cross Guard
 tconstruct:cross_guard:0, Red Matter Cross Guard
+tconstruct:cross_guard:0, Emerald Cross Guard
 tconstruct:cross_guard:0, Slime Cross Guard
 tconstruct:large_plate:0, Electrical Large Plate
 tconstruct:large_plate:0, Energetic Large Plate
@@ -21966,12 +22842,12 @@ tconstruct:large_plate:0, Livingwood Large Plate
 tconstruct:large_plate:0, Manasteel Large Plate
 tconstruct:large_plate:0, Elementium Large Plate
 tconstruct:large_plate:0, Terrasteel Large Plate
-tconstruct:large_plate:0, Emerald Large Plate
 tconstruct:large_plate:0, Wyvern Large Plate
 tconstruct:large_plate:0, Awakened Large Plate
 tconstruct:large_plate:0, Chaotic Large Plate
 tconstruct:large_plate:0, Dark Matter Large Plate
 tconstruct:large_plate:0, Red Matter Large Plate
+tconstruct:large_plate:0, Emerald Large Plate
 tconstruct:large_plate:0, Slime Large Plate
 tconstruct:knife_blade:0, Electrical Knife Blade
 tconstruct:knife_blade:0, Energetic Knife Blade
@@ -22099,12 +22975,12 @@ tconstruct:knife_blade:0, Livingwood Knife Blade
 tconstruct:knife_blade:0, Manasteel Knife Blade
 tconstruct:knife_blade:0, Elementium Knife Blade
 tconstruct:knife_blade:0, Terrasteel Knife Blade
-tconstruct:knife_blade:0, Emerald Knife Blade
 tconstruct:knife_blade:0, Wyvern Knife Blade
 tconstruct:knife_blade:0, Awakened Knife Blade
 tconstruct:knife_blade:0, Chaotic Knife Blade
 tconstruct:knife_blade:0, Dark Matter Knife Blade
 tconstruct:knife_blade:0, Red Matter Knife Blade
+tconstruct:knife_blade:0, Emerald Knife Blade
 tconstruct:knife_blade:0, Slime Knife Blade
 tconstruct:bow_limb:0, Electrical Bowlimb
 tconstruct:bow_limb:0, Energetic Bowlimb
@@ -22229,12 +23105,12 @@ tconstruct:bow_limb:0, Livingwood Bowlimb
 tconstruct:bow_limb:0, Manasteel Bowlimb
 tconstruct:bow_limb:0, Elementium Bowlimb
 tconstruct:bow_limb:0, Terrasteel Bowlimb
-tconstruct:bow_limb:0, Emerald Bowlimb
 tconstruct:bow_limb:0, Wyvern Bowlimb
 tconstruct:bow_limb:0, Awakened Bowlimb
 tconstruct:bow_limb:0, Chaotic Bowlimb
 tconstruct:bow_limb:0, Dark Matter Bowlimb
 tconstruct:bow_limb:0, Red Matter Bowlimb
+tconstruct:bow_limb:0, Emerald Bowlimb
 tconstruct:bow_limb:0, Slime Bowlimb
 tconstruct:bow_string:0, Souled Bowstring
 tconstruct:bow_string:0, String Bowstring
@@ -22369,12 +23245,12 @@ tconstruct:arrow_head:0, Livingwood Arrow Head
 tconstruct:arrow_head:0, Manasteel Arrow Head
 tconstruct:arrow_head:0, Elementium Arrow Head
 tconstruct:arrow_head:0, Terrasteel Arrow Head
-tconstruct:arrow_head:0, Emerald Arrow Head
 tconstruct:arrow_head:0, Wyvern Arrow Head
 tconstruct:arrow_head:0, Awakened Arrow Head
 tconstruct:arrow_head:0, Chaotic Arrow Head
 tconstruct:arrow_head:0, Dark Matter Arrow Head
 tconstruct:arrow_head:0, Red Matter Arrow Head
+tconstruct:arrow_head:0, Emerald Arrow Head
 tconstruct:arrow_head:0, Slime Arrow Head
 tconstruct:arrow_shaft:0, Naga Scale Arrow Shaft
 tconstruct:arrow_shaft:0, Steeleaf Arrow Shaft
@@ -22780,90 +23656,90 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Hammer Head Cast
 tconstruct:cast:0, Broad Axe Head Cast
-tconstruct:cast:0, Polishing Kit Cast
 tconstruct:cast:0, Sword Blade Cast
-tconstruct:cast:0, Pipe Piece Cast
-tconstruct:cast:0, Armor Plates Cast
-tconstruct:cast:0, Shovel Head Cast
-tconstruct:cast:0, Chestplate Core Cast
-tconstruct:cast:0, Fletching Cast
-tconstruct:cast:0, Binding Cast
-tconstruct:cast:0, Bowstring Cast
-tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Kama Head Cast
 tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Leggings Core Cast
-tconstruct:cast:0, Armor Trim Cast
-tconstruct:cast:0, Helmet Core Cast
-tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Battery Cell Cast
-tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Boots Core Cast
-tconstruct:cast:0, Arrow Head Cast
-tconstruct:cast:0, Chisel Head Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Tough Tool Rod Cast
-tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Polishing Kit Cast
 tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Arrow Head Cast
+tconstruct:cast:0, Helmet Core Cast
 tconstruct:cast:0, Arrow Shaft Cast
-tconstruct:cast:0, Axe Head Cast
+tconstruct:cast:0, Kama Head Cast
+tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Battery Cell Cast
 tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Pipe Piece Cast
+tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Pan Cast
+tconstruct:cast:0, Bowlimb Cast
+tconstruct:cast:0, Chisel Head Cast
+tconstruct:cast:0, Boots Core Cast
+tconstruct:cast:0, Large Plate Cast
+tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Fletching Cast
+tconstruct:cast:0, Leggings Core Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Armor Trim Cast
 tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Chestplate Core Cast
 tconstruct:cast:0, Wide Guard Cast
+tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Large Sword Blade Cast
+tconstruct:cast:0, Armor Plates Cast
 tconstruct:cast:0, Laser Medium Cast
+tconstruct:cast:0, Axe Head Cast
+tconstruct:cast:0, Bowstring Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
 tconstruct:clay_cast:0, Broad Axe Head Clay Cast
-tconstruct:clay_cast:0, Polishing Kit Clay Cast
 tconstruct:clay_cast:0, Sword Blade Clay Cast
-tconstruct:clay_cast:0, Pipe Piece Clay Cast
-tconstruct:clay_cast:0, Armor Plates Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
-tconstruct:clay_cast:0, Chestplate Core Clay Cast
-tconstruct:clay_cast:0, Fletching Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
-tconstruct:clay_cast:0, Bowstring Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
 tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Leggings Core Clay Cast
-tconstruct:clay_cast:0, Armor Trim Clay Cast
-tconstruct:clay_cast:0, Helmet Core Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Battery Cell Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Boots Core Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
-tconstruct:clay_cast:0, Chisel Head Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Polishing Kit Clay Cast
 tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Arrow Head Clay Cast
+tconstruct:clay_cast:0, Helmet Core Clay Cast
 tconstruct:clay_cast:0, Arrow Shaft Clay Cast
-tconstruct:clay_cast:0, Axe Head Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
+tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Battery Cell Clay Cast
 tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Pipe Piece Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
+tconstruct:clay_cast:0, Bowlimb Clay Cast
+tconstruct:clay_cast:0, Chisel Head Clay Cast
+tconstruct:clay_cast:0, Boots Core Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Fletching Clay Cast
+tconstruct:clay_cast:0, Leggings Core Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Armor Trim Clay Cast
 tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Chestplate Core Clay Cast
 tconstruct:clay_cast:0, Wide Guard Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
+tconstruct:clay_cast:0, Armor Plates Clay Cast
 tconstruct:clay_cast:0, Laser Medium Clay Cast
+tconstruct:clay_cast:0, Axe Head Clay Cast
+tconstruct:clay_cast:0, Bowstring Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -23298,6 +24174,45 @@ animus:component:2, Consumption Reagent
 animus:component:3, Leech Reagent
 animus:component:4, Storm Reagent
 animus:component:5, Acquisition Reagent
+aoa3:amethyst_pickaxe, Amethyst Pickaxe
+aoa3:emberstone_pickaxe, Emberstone Pickaxe
+aoa3:energistic_pickaxe, Energistic Pickaxe
+aoa3:gemcracker, Gemcracker
+aoa3:goofy_pickaxe, Goofy Pickaxe
+aoa3:jade_pickaxe, Jade Pickaxe
+aoa3:limonite_pickaxe, Limonite Pickaxe
+aoa3:occult_pickaxe, Occult Pickaxe
+aoa3:ornamyte_pickaxe, Ornamyte Pickaxe
+aoa3:pickmax, Pickmax
+aoa3:rosite_pickaxe, Rosite Pickaxe
+aoa3:sapphire_pickaxe, Sapphire Pickaxe
+aoa3:skeletal_pickaxe, Skeletal Pickaxe
+aoa3:soulstone_pickaxe, Soulstone Pickaxe
+aoa3:amethyst_shovel, Amethyst Shovel
+aoa3:emberstone_shovel, Emberstone Shovel
+aoa3:energistic_shovel, Energistic Shovel
+aoa3:goofy_shovel, Goofy Shovel
+aoa3:jade_shovel, Jade Shovel
+aoa3:limonite_shovel, Limonite Shovel
+aoa3:occult_shovel, Occult Shovel
+aoa3:ornamyte_shovel, Ornamyte Shovel
+aoa3:rosite_shovel, Rosite Shovel
+aoa3:sapphire_shovel, Sapphire Shovel
+aoa3:skeletal_shovel, Skeletal Shovel
+aoa3:soulstone_shovel, Soulstone Shovel
+aoa3:amethyst_axe, Amethyst Axe
+aoa3:emberstone_axe, Emberstone Axe
+aoa3:energistic_axe, Energistic Axe
+aoa3:goofy_axe, Goofy Axe
+aoa3:jade_axe, Jade Axe
+aoa3:limonite_axe, Limonite Axe
+aoa3:occult_axe, Occult Axe
+aoa3:ornamyte_axe, Ornamyte Axe
+aoa3:rosite_axe, Rosite Axe
+aoa3:sapphire_axe, Sapphire Axe
+aoa3:skeletal_axe, Skeletal Axe
+aoa3:soulstone_axe, Soulstone Axe
+aoa3:chainsaw, Chainsaw
 aoa3:amethyst_sword, Amethyst Sword
 aoa3:baron_sword, Baron Sword
 aoa3:bloodfury, Bloodfury
@@ -25417,6 +26332,9 @@ aoa3:tipped_holly_arrow:0, Tipped Holly Arrow
 aoa3:tipped_holly_arrow:0, Tipped Holly Arrow
 aoa3:tipped_holly_arrow:0, Tipped Holly Arrow
 aoa3:tipped_holly_arrow:0, Tipped Holly Arrow
+aoa3:tipped_holly_arrow:0, Tipped Holly Arrow
+aoa3:tipped_holly_arrow:0, Tipped Holly Arrow
+aoa3:tipped_holly_arrow:0, Tipped Holly Arrow
 aoa3:metal_slug, Metal Slug
 aoa3:pop_shot, Pop Shot
 aoa3:spreadshot, Spreadshot
@@ -25899,45 +26817,6 @@ aoa3:thorny_plant_seeds, Thorny Plant Seeds
 aoa3:trilliad_seeds, Trilliad Seeds
 aoa3:outlaw_disc, Music Disc
 aoa3:caverns_disc, Music Disc
-aoa3:amethyst_pickaxe, Amethyst Pickaxe
-aoa3:emberstone_pickaxe, Emberstone Pickaxe
-aoa3:energistic_pickaxe, Energistic Pickaxe
-aoa3:gemcracker, Gemcracker
-aoa3:goofy_pickaxe, Goofy Pickaxe
-aoa3:jade_pickaxe, Jade Pickaxe
-aoa3:limonite_pickaxe, Limonite Pickaxe
-aoa3:occult_pickaxe, Occult Pickaxe
-aoa3:ornamyte_pickaxe, Ornamyte Pickaxe
-aoa3:pickmax, Pickmax
-aoa3:rosite_pickaxe, Rosite Pickaxe
-aoa3:sapphire_pickaxe, Sapphire Pickaxe
-aoa3:skeletal_pickaxe, Skeletal Pickaxe
-aoa3:soulstone_pickaxe, Soulstone Pickaxe
-aoa3:amethyst_shovel, Amethyst Shovel
-aoa3:emberstone_shovel, Emberstone Shovel
-aoa3:energistic_shovel, Energistic Shovel
-aoa3:goofy_shovel, Goofy Shovel
-aoa3:jade_shovel, Jade Shovel
-aoa3:limonite_shovel, Limonite Shovel
-aoa3:occult_shovel, Occult Shovel
-aoa3:ornamyte_shovel, Ornamyte Shovel
-aoa3:rosite_shovel, Rosite Shovel
-aoa3:sapphire_shovel, Sapphire Shovel
-aoa3:skeletal_shovel, Skeletal Shovel
-aoa3:soulstone_shovel, Soulstone Shovel
-aoa3:amethyst_axe, Amethyst Axe
-aoa3:emberstone_axe, Emberstone Axe
-aoa3:energistic_axe, Energistic Axe
-aoa3:goofy_axe, Goofy Axe
-aoa3:jade_axe, Jade Axe
-aoa3:limonite_axe, Limonite Axe
-aoa3:occult_axe, Occult Axe
-aoa3:ornamyte_axe, Ornamyte Axe
-aoa3:rosite_axe, Rosite Axe
-aoa3:sapphire_axe, Sapphire Axe
-aoa3:skeletal_axe, Skeletal Axe
-aoa3:soulstone_axe, Soulstone Axe
-aoa3:chainsaw, Chainsaw
 akashictome:tome, item.tome.name
 psi:material:0, Psidust
 psi:material:1, Psimetal Ingot
@@ -27573,48 +28452,6 @@ deepmoblearning:pristine_matter_twilight_forest, Pristine Twilight Forest Matter
 deepmoblearning:pristine_matter_twilight_swamp, Pristine Twilight Swamp Matter
 deepmoblearning:pristine_matter_twilight_darkwood, Pristine Twilight Darkwood Matter
 deepmoblearning:pristine_matter_twilight_glacier, Pristine Twilight Glacier Matter
-divinerpg:arlemite_shovel, Arlemite Shovel
-divinerpg:arlemite_pickaxe, Arlemite Pickaxe
-divinerpg:arlemite_axe, Arlemite Axe
-divinerpg:arlemite_hoe, Arlemite Hoe
-divinerpg:arlemite_shickaxe, Arlemite Shickaxe
-divinerpg:bedrock_shovel, Bedrock Shovel
-divinerpg:bedrock_pickaxe, Bedrock Pickaxe
-divinerpg:bedrock_axe, Bedrock Axe
-divinerpg:corrupted_shovel, Corrupted Shovel
-divinerpg:corrupted_pickaxe, Corrupted Pickaxe
-divinerpg:corrupted_axe, Corrupted Axe
-divinerpg:divine_shovel, Divine Shovel
-divinerpg:divine_pickaxe, Divine Pickaxe
-divinerpg:divine_axe, Divine Axe
-divinerpg:divine_shickaxe, Divine Shickaxe
-divinerpg:realmite_shovel, Realmite Shovel
-divinerpg:realmite_pickaxe, Realmite Pickaxe
-divinerpg:realmite_axe, Realmite Axe
-divinerpg:realmite_hoe, Realmite Hoe
-divinerpg:rupee_shovel, Rupee Shovel
-divinerpg:rupee_pickaxe, Rupee Pickaxe
-divinerpg:rupee_axe, Rupee Axe
-divinerpg:rupee_hoe, Rupee Hoe
-divinerpg:rupee_shickaxe, Rupee Shickaxe
-divinerpg:eden_shovel, Eden Shovel
-divinerpg:eden_pickaxe, Eden Pickaxe
-divinerpg:eden_axe, Eden Axe
-divinerpg:wildwood_shovel, Wildwood Shovel
-divinerpg:wildwood_pickaxe, Wildwood Pickaxe
-divinerpg:wildwood_axe, Wildwood Axe
-divinerpg:apalachia_shovel, Apalachia Shovel
-divinerpg:apalachia_pickaxe, Apalachia Pickaxe
-divinerpg:apalachia_axe, Apalachia Axe
-divinerpg:skythern_shovel, Skythern Shovel
-divinerpg:skythern_pickaxe, Skythern Pickaxe
-divinerpg:skythern_axe, Skythern Axe
-divinerpg:mortum_shovel, Mortum Shovel
-divinerpg:mortum_pickaxe, Mortum Pickaxe
-divinerpg:mortum_axe, Mortum Axe
-divinerpg:dream_shovel, Dream Shovel
-divinerpg:dream_pickaxe, Dream Pickaxe
-divinerpg:dream_axe, Dream Axe
 divinerpg:aquatic_dagger, Aquatic Dagger
 divinerpg:aquatic_maul, Aquatic Maul
 divinerpg:aquatic_trident, Aquatic Trident
@@ -27819,6 +28656,48 @@ divinerpg:karos_staff, Karos Staff
 divinerpg:heliosis_staff, Heliosis Staff
 divinerpg:arksiane_staff, Arksiane Staff
 divinerpg:evernight, Evernight
+divinerpg:arlemite_shovel, Arlemite Shovel
+divinerpg:arlemite_pickaxe, Arlemite Pickaxe
+divinerpg:arlemite_axe, Arlemite Axe
+divinerpg:arlemite_hoe, Arlemite Hoe
+divinerpg:arlemite_shickaxe, Arlemite Shickaxe
+divinerpg:bedrock_shovel, Bedrock Shovel
+divinerpg:bedrock_pickaxe, Bedrock Pickaxe
+divinerpg:bedrock_axe, Bedrock Axe
+divinerpg:corrupted_shovel, Corrupted Shovel
+divinerpg:corrupted_pickaxe, Corrupted Pickaxe
+divinerpg:corrupted_axe, Corrupted Axe
+divinerpg:divine_shovel, Divine Shovel
+divinerpg:divine_pickaxe, Divine Pickaxe
+divinerpg:divine_axe, Divine Axe
+divinerpg:divine_shickaxe, Divine Shickaxe
+divinerpg:realmite_shovel, Realmite Shovel
+divinerpg:realmite_pickaxe, Realmite Pickaxe
+divinerpg:realmite_axe, Realmite Axe
+divinerpg:realmite_hoe, Realmite Hoe
+divinerpg:rupee_shovel, Rupee Shovel
+divinerpg:rupee_pickaxe, Rupee Pickaxe
+divinerpg:rupee_axe, Rupee Axe
+divinerpg:rupee_hoe, Rupee Hoe
+divinerpg:rupee_shickaxe, Rupee Shickaxe
+divinerpg:eden_shovel, Eden Shovel
+divinerpg:eden_pickaxe, Eden Pickaxe
+divinerpg:eden_axe, Eden Axe
+divinerpg:wildwood_shovel, Wildwood Shovel
+divinerpg:wildwood_pickaxe, Wildwood Pickaxe
+divinerpg:wildwood_axe, Wildwood Axe
+divinerpg:apalachia_shovel, Apalachia Shovel
+divinerpg:apalachia_pickaxe, Apalachia Pickaxe
+divinerpg:apalachia_axe, Apalachia Axe
+divinerpg:skythern_shovel, Skythern Shovel
+divinerpg:skythern_pickaxe, Skythern Pickaxe
+divinerpg:skythern_axe, Skythern Axe
+divinerpg:mortum_shovel, Mortum Shovel
+divinerpg:mortum_pickaxe, Mortum Pickaxe
+divinerpg:mortum_axe, Mortum Axe
+divinerpg:dream_shovel, Dream Shovel
+divinerpg:dream_pickaxe, Dream Pickaxe
+divinerpg:dream_axe, Dream Axe
 divinerpg:angelic_helmet, Angelic Helmet
 divinerpg:angelic_chestplate, Angelic Chestplate
 divinerpg:angelic_leggings, Angelic Leggings
@@ -29197,6 +30076,12 @@ immersiveengineering:steel_armor_feet, Steel Boots
 immersiveengineering:steel_armor_legs, Steel Leggings
 immersiveengineering:steel_armor_chest, Steel Chestplate
 immersiveengineering:steel_armor_head, Steel Helmet
+engineersdoors:fencegate_aluminium, Aluminum Fence Gate
+engineersdoors:fencegate_steel, Steel Fence Gate
+engineersdoors:fencegate_treated, Treated Wood Fence Gate
+engineersdoors:trapdoor_concrete, Concrete Trapdoor
+engineersdoors:trapdoor_steel, Steel Trapdoor
+engineersdoors:trapdoor_treated, Treated Wood Trapdoor
 engineersdoors:door_concrete, Concrete Door
 engineersdoors:door_concrete_ornate, Concrete Door
 engineersdoors:door_concrete_reinforced, Concrete Door
@@ -29206,12 +30091,6 @@ engineersdoors:door_steel_reinforced, Steel Door
 engineersdoors:door_treated, Treated Wood Door
 engineersdoors:door_treated_ornate, Treated Wood Door
 engineersdoors:door_treated_reinforced, Treated Wood Door
-engineersdoors:trapdoor_concrete, Concrete Trapdoor
-engineersdoors:trapdoor_steel, Steel Trapdoor
-engineersdoors:trapdoor_treated, Treated Wood Trapdoor
-engineersdoors:fencegate_aluminium, Aluminum Fence Gate
-engineersdoors:fencegate_steel, Steel Fence Gate
-engineersdoors:fencegate_treated, Treated Wood Fence Gate
 erebus:erebus_food:0, Beetle Larva
 erebus:erebus_food:1, Cooked Beetle Larva
 erebus:erebus_food:2, Grasshopper Leg
@@ -30789,26 +31668,6 @@ fluxnetworks:fluxcontroller, Flux Controller
 fluxnetworks:fluxstorage, Basic Flux Storage
 fluxnetworks:herculeanfluxstorage, Herculean Flux Storage
 fluxnetworks:gargantuanfluxstorage, Gargantuan Flux Storage
-grimoireofgaia:block_pearl, Pearl Block
-grimoireofgaia:bust_gorgon, The Gorgon
-grimoireofgaia:bust_sphinx, The Sphinx
-grimoireofgaia:bust_valkyrie, The Valkyrie
-grimoireofgaia:bust_vampire, The Vampire
-grimoireofgaia:doll_creeper_girl, Creeper Girl Doll
-grimoireofgaia:doll_ender_girl, Ender Girl Doll
-grimoireofgaia:doll_slime_girl, Slime Girl Doll
-grimoireofgaia:doll_maid, Maid Doll
-grimoireofgaia:doll_dullahan, Dullahan Doll
-grimoireofgaia:doll_mermaid, Mermaid Doll
-grimoireofgaia:doll_nine_tails, Nine Tails Doll
-grimoireofgaia:doll_dryad, Dryad Doll
-grimoireofgaia:deco_garden_gnome, Garden Gnome
-grimoireofgaia:deco_mandragora_pot, Mandragora Pot
-grimoireofgaia:deco_bust_minotaur, Minotaur Bust
-grimoireofgaia:deco_nest_harpy, Harpy Nest
-grimoireofgaia:spawn_guard, Protection Talisman
-grimoireofgaia:web_temp, Decaying Cobweb
-grimoireofgaia:fire_camp, Campfire
 grimoireofgaia:shard:0, Iron Nugget
 grimoireofgaia:shard:1, Gold Nugget
 grimoireofgaia:shard:2, Diamond Fragment
@@ -30928,6 +31787,26 @@ grimoireofgaia:weapon_prop_dagger_metal, Metal Dagger
 grimoireofgaia:weapon_prop_broom, Broom
 grimoireofgaia:weapon_prop_hammer_minotaur, Minotaur Hammer
 grimoireofgaia:pickup_heart, Heart
+grimoireofgaia:block_pearl, Pearl Block
+grimoireofgaia:bust_gorgon, The Gorgon
+grimoireofgaia:bust_sphinx, The Sphinx
+grimoireofgaia:bust_valkyrie, The Valkyrie
+grimoireofgaia:bust_vampire, The Vampire
+grimoireofgaia:doll_creeper_girl, Creeper Girl Doll
+grimoireofgaia:doll_ender_girl, Ender Girl Doll
+grimoireofgaia:doll_slime_girl, Slime Girl Doll
+grimoireofgaia:doll_maid, Maid Doll
+grimoireofgaia:doll_dullahan, Dullahan Doll
+grimoireofgaia:doll_mermaid, Mermaid Doll
+grimoireofgaia:doll_nine_tails, Nine Tails Doll
+grimoireofgaia:doll_dryad, Dryad Doll
+grimoireofgaia:deco_garden_gnome, Garden Gnome
+grimoireofgaia:deco_mandragora_pot, Mandragora Pot
+grimoireofgaia:deco_bust_minotaur, Minotaur Bust
+grimoireofgaia:deco_nest_harpy, Harpy Nest
+grimoireofgaia:spawn_guard, Protection Talisman
+grimoireofgaia:web_temp, Decaying Cobweb
+grimoireofgaia:fire_camp, Campfire
 gbook:guidebook:0, Demo / Feature test book
 gbook:guidebook:0, Guidebook Manual
 gbook:guidebook:0, Rockhounding Chemistry Quest Book
@@ -31614,19 +32493,6 @@ mekanismgenerators:reactor:2, Reactor Port
 mekanismgenerators:reactor:3, Reactor Logic Adapter
 mekanismgenerators:reactorglass:0, Reactor Glass
 mekanismgenerators:reactorglass:1, Laser Focus Matrix
-mob_grinding_utils:fan_upgrade:0, Mob Fan Upgrade
-mob_grinding_utils:fan_upgrade:1, Mob Fan Upgrade
-mob_grinding_utils:fan_upgrade:2, Mob Fan Upgrade
-mob_grinding_utils:absorption_upgrade:0, Absorption Radius Upgrade
-mob_grinding_utils:saw_upgrade:0, Mob Masher Upgrade
-mob_grinding_utils:saw_upgrade:1, Mob Masher Upgrade
-mob_grinding_utils:saw_upgrade:2, Mob Masher Upgrade
-mob_grinding_utils:saw_upgrade:3, Mob Masher Upgrade
-mob_grinding_utils:saw_upgrade:4, Mob Masher Upgrade
-mob_grinding_utils:saw_upgrade:5, Mob Masher Upgrade
-mob_grinding_utils:mob_swab, Mob Swab
-mob_grinding_utils:gm_chicken_feed, GM Chicken Feed
-mob_grinding_utils:null_sword, Imaginary Not Here Sword
 mob_grinding_utils:fan, Mob Fan
 mob_grinding_utils:saw, Mob Masher
 mob_grinding_utils:absorption_hopper, Absorption Hopper
@@ -31640,6 +32506,19 @@ mob_grinding_utils:dark_oak_stone, Dark Oak Stone
 mob_grinding_utils:entity_conveyor, Entity Conveyor
 mob_grinding_utils:ender_inhibitor_on, Ender Inhibitor Active
 mob_grinding_utils:ender_inhibitor_off, Ender Inhibitor Inactive
+mob_grinding_utils:fan_upgrade:0, Mob Fan Upgrade
+mob_grinding_utils:fan_upgrade:1, Mob Fan Upgrade
+mob_grinding_utils:fan_upgrade:2, Mob Fan Upgrade
+mob_grinding_utils:absorption_upgrade:0, Absorption Radius Upgrade
+mob_grinding_utils:saw_upgrade:0, Mob Masher Upgrade
+mob_grinding_utils:saw_upgrade:1, Mob Masher Upgrade
+mob_grinding_utils:saw_upgrade:2, Mob Masher Upgrade
+mob_grinding_utils:saw_upgrade:3, Mob Masher Upgrade
+mob_grinding_utils:saw_upgrade:4, Mob Masher Upgrade
+mob_grinding_utils:saw_upgrade:5, Mob Masher Upgrade
+mob_grinding_utils:mob_swab, Mob Swab
+mob_grinding_utils:gm_chicken_feed, GM Chicken Feed
+mob_grinding_utils:null_sword, Imaginary Not Here Sword
 notenoughwands:wandcore, Wand Core
 notenoughwands:advanced_wandcore, Advanced Wand Core
 notenoughwands:teleportation_wand, Teleportation Wand
@@ -31784,12 +32663,12 @@ plustic:pipe_piece:0, Livingwood Pipe Piece
 plustic:pipe_piece:0, Manasteel Pipe Piece
 plustic:pipe_piece:0, Elementium Pipe Piece
 plustic:pipe_piece:0, Terrasteel Pipe Piece
-plustic:pipe_piece:0, Emerald Pipe Piece
 plustic:pipe_piece:0, Wyvern Pipe Piece
 plustic:pipe_piece:0, Awakened Pipe Piece
 plustic:pipe_piece:0, Chaotic Pipe Piece
 plustic:pipe_piece:0, Dark Matter Pipe Piece
 plustic:pipe_piece:0, Red Matter Pipe Piece
+plustic:pipe_piece:0, Emerald Pipe Piece
 plustic:pipe_piece:0, Slime Pipe Piece
 plustic:laser_medium:0, Stone Laser Medium
 plustic:laser_medium:0, Prismarine Laser Medium
@@ -32153,220 +33032,6 @@ rockhounding_core:heat_inductor, Induction Heating Interface
 rockhounding_core:gas_turbine, Gas Turbine
 rockhounding_core:fuel_blend, Fuel Blend
 rockhounding_core:mod_wrench, Mod Wrench
-rockhounding_chemistry:uninspected_mineral, Uninspected Mineral
-rockhounding_chemistry:mineral_ores:0, Antimonate Gangue
-rockhounding_chemistry:mineral_ores:1, Arsenate Gangue
-rockhounding_chemistry:mineral_ores:2, Borate Gangue
-rockhounding_chemistry:mineral_ores:3, Carbonate Gangue
-rockhounding_chemistry:mineral_ores:4, Chromate Gangue
-rockhounding_chemistry:mineral_ores:5, Halide Gangue
-rockhounding_chemistry:mineral_ores:6, Native Gangue
-rockhounding_chemistry:mineral_ores:7, Oxide Gangue
-rockhounding_chemistry:mineral_ores:8, Phosphate Gangue
-rockhounding_chemistry:mineral_ores:9, Silicate Gangue
-rockhounding_chemistry:mineral_ores:10, Sulfate Gangue
-rockhounding_chemistry:mineral_ores:11, Sulfide Gangue
-rockhounding_chemistry:mineral_ores:12, Vanadate Gangue
-rockhounding_chemistry:misc_blocks_a:0, Machine Scaffold
-rockhounding_chemistry:misc_blocks_a:2, Raw Salt Block
-rockhounding_chemistry:misc_blocks_a:3, Separator
-rockhounding_chemistry:misc_blocks_a:4, Charger
-rockhounding_chemistry:misc_blocks_a:5, GAN Tower
-rockhounding_chemistry:misc_blocks_a:6, GAN Tower Top
-rockhounding_chemistry:misc_blocks_a:7, GAN Injector
-rockhounding_chemistry:misc_blocks_a:8, Reforming Reactor Tower
-rockhounding_chemistry:misc_blocks_a:9, Reforming Reactor Top
-rockhounding_chemistry:misc_blocks_a:10, Crystal Pulling Crucible Top
-rockhounding_chemistry:misc_blocks_a:11, Charcoal Block
-rockhounding_chemistry:misc_blocks_a:12, Poor Raw Salt Block
-rockhounding_chemistry:misc_blocks_a:13, Reinforced Glass
-rockhounding_chemistry:misc_blocks_a:14, Gas Router
-rockhounding_chemistry:machines_a:0, Sizer Controller
-rockhounding_chemistry:machines_a:1, Crushing Tank
-rockhounding_chemistry:machines_a:2, Power Station
-rockhounding_chemistry:machines_a:3, Gangue Collector
-rockhounding_chemistry:machines_a:4, Fluid Tank
-rockhounding_chemistry:machines_a:6, Lab Oven Reactor
-rockhounding_chemistry:machines_a:7, Fluid Input System
-rockhounding_chemistry:machines_a:8, Fluid Output System
-rockhounding_chemistry:machines_a:9, Lab Blender Controller
-rockhounding_chemistry:machines_a:11, Profiling Bench
-rockhounding_chemistry:machines_a:12, Evaporation Tank
-rockhounding_chemistry:machines_a:13, Seasoning Rack
-rockhounding_chemistry:machines_a:14, Server
-rockhounding_chemistry:machines_a:15, Expansion Chamber
-rockhounding_chemistry:machines_b:0, Slurry Pond
-rockhounding_chemistry:machines_b:1, Gas Pressurizer
-rockhounding_chemistry:machines_b:2, Gasifier Cistern
-rockhounding_chemistry:machines_b:4, Gasifier Burner
-rockhounding_chemistry:machines_b:5, Gas Purifier
-rockhounding_chemistry:machines_b:6, Cyclone Separator
-rockhounding_chemistry:machines_b:8, Particulate Collector
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:10, Air Compressor
-rockhounding_chemistry:machines_b:11, Heat Exchanger
-rockhounding_chemistry:machines_b:13, Turboexpander
-rockhounding_chemistry:machines_b:15, Cyclone Separator Top
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_c:0, GAN Controller
-rockhounding_chemistry:machines_c:1, Gas Condenser
-rockhounding_chemistry:machines_c:2, Gas Bulbs
-rockhounding_chemistry:machines_c:3, Leaching Controller
-rockhounding_chemistry:machines_c:4, Sealed Vat
-rockhounding_chemistry:machines_c:5, Specimen Collector
-rockhounding_chemistry:machines_c:6, Retention Controller
-rockhounding_chemistry:machines_c:7, Extraction Controller
-rockhounding_chemistry:machines_c:8, Extraction Reactor
-rockhounding_chemistry:machines_c:9, Elements Cabinet
-rockhounding_chemistry:machines_c:11, Glassware Holder
-rockhounding_chemistry:machines_c:12, Lab Balance
-rockhounding_chemistry:machines_c:13, Reforming Controller
-rockhounding_chemistry:machines_c:15, Reaction Stabilizer
-rockhounding_chemistry:machines_d:0, Metal Alloyer
-rockhounding_chemistry:machines_d:2, Material Cabinet
-rockhounding_chemistry:machines_d:4, Vapor Deposition Chamber
-rockhounding_chemistry:machines_d:6, Gas Holder
-rockhounding_chemistry:machines_d:8, Crystal Pulling Crucible
-rockhounding_chemistry:machines_d:10, Orbiter
-rockhounding_chemistry:machines_d:11, Transposer
-rockhounding_chemistry:machines_d:12, Fluidpedia
-rockhounding_chemistry:machines_d:13, Chemical Dumper
-rockhounding_chemistry:machines_d:14, Flotation Tank
-rockhounding_chemistry:machines_d:15, Containment Tank
-rockhounding_chemistry:machines_d:6, Gas Holder
-rockhounding_chemistry:machines_d:6, Gas Holder
-rockhounding_chemistry:machines_d:6, Gas Holder
-rockhounding_chemistry:machines_d:6, Gas Holder
-rockhounding_chemistry:machines_d:6, Gas Holder
-rockhounding_chemistry:machines_d:6, Gas Holder
-rockhounding_chemistry:machines_d:6, Gas Holder
-rockhounding_chemistry:machines_d:6, Gas Holder
-rockhounding_chemistry:machines_d:6, Gas Holder
-rockhounding_chemistry:machines_d:6, Gas Holder
-rockhounding_chemistry:machines_d:6, Gas Holder
-rockhounding_chemistry:machines_d:6, Gas Holder
-rockhounding_chemistry:machines_d:6, Gas Holder
-rockhounding_chemistry:machines_d:6, Gas Holder
-rockhounding_chemistry:machines_d:6, Gas Holder
-rockhounding_chemistry:machines_d:6, Gas Holder
-rockhounding_chemistry:machines_d:6, Gas Holder
-rockhounding_chemistry:machines_d:6, Gas Holder
-rockhounding_chemistry:machines_d:6, Gas Holder
-rockhounding_chemistry:machines_d:6, Gas Holder
-rockhounding_chemistry:machines_e:0, Laser Emitter
-rockhounding_chemistry:machines_e:1, Exhaust Valve
-rockhounding_chemistry:machines_e:2, Water Pump
-rockhounding_chemistry:machines_e:3, Catalyst Regenerator
-rockhounding_chemistry:machines_e:4, Disposer
-rockhounding_chemistry:machines_e:5, Heavy Drum
-rockhounding_chemistry:machines_e:6, Buffer Tank
-rockhounding_chemistry:machines_e:7, Electrochemical CSTR
-rockhounding_chemistry:machines_e:9, CSTR Container
-rockhounding_chemistry:machines_e:11, Precipitation Chamber
-rockhounding_chemistry:machines_e:12, Precipitation Reactor
-rockhounding_chemistry:machines_f:0, Fixed Bed Reactor Chamber
-rockhounding_chemistry:machines_f:2, Tubular System
-rockhounding_chemistry:machines_f:4, Fixed Bed Reactor Controller
-rockhounding_chemistry:alloy_blocks_tech:0, CuBe Block
-rockhounding_chemistry:alloy_blocks_tech:1, ScAl Block
-rockhounding_chemistry:alloy_blocks_tech:2, BAM Block
-rockhounding_chemistry:alloy_blocks_tech:3, Stellite Block
-rockhounding_chemistry:alloy_blocks_tech:4, Cupronickel Block
-rockhounding_chemistry:alloy_blocks_tech:5, Nimonic Block
-rockhounding_chemistry:alloy_blocks_tech:6, Hastelloy Block
-rockhounding_chemistry:alloy_blocks_tech:7, Nichrome Block
-rockhounding_chemistry:alloy_blocks_tech:8, CuNiFe Block
-rockhounding_chemistry:alloy_blocks_tech:9, Silicon Nitride Block
-rockhounding_chemistry:alloy_blocks_tech:10, Carborundum Block
-rockhounding_chemistry:alloy_blocks_tech:11, Tinite Block
-rockhounding_chemistry:alloy_blocks_tech:12, Hydronalium Block
-rockhounding_chemistry:alloy_blocks_tech:13, Vanasteel Block
-rockhounding_chemistry:alloy_blocks_tech:14, Widia Block
-rockhounding_chemistry:alloy_blocks_tech:15, Tantaloy Block
-rockhounding_chemistry:alloy_bricks_tech:0, CuBe Brick
-rockhounding_chemistry:alloy_bricks_tech:1, ScAl Brick
-rockhounding_chemistry:alloy_bricks_tech:2, BAM Brick
-rockhounding_chemistry:alloy_bricks_tech:3, Stellite Brick
-rockhounding_chemistry:alloy_bricks_tech:4, Cupronickel Brick
-rockhounding_chemistry:alloy_bricks_tech:5, Nimonic Brick
-rockhounding_chemistry:alloy_bricks_tech:6, Hastelloy Brick
-rockhounding_chemistry:alloy_bricks_tech:7, Nichrome Brick
-rockhounding_chemistry:alloy_bricks_tech:8, CuNiFe Brick
-rockhounding_chemistry:alloy_bricks_tech:9, Silicon Nitride Brick
-rockhounding_chemistry:alloy_bricks_tech:10, Carborundum Brick
-rockhounding_chemistry:alloy_bricks_tech:11, Tinite Brick
-rockhounding_chemistry:alloy_bricks_tech:12, Hydronalium Brick
-rockhounding_chemistry:alloy_bricks_tech:13, Vanasteel Brick
-rockhounding_chemistry:alloy_bricks_tech:14, Widia Brick
-rockhounding_chemistry:alloy_bricks_tech:15, Tantaloy Brick
-rockhounding_chemistry:alloy_blocks_deco:0, Mischmetal Block
-rockhounding_chemistry:alloy_blocks_deco:1, Rose Gold Block
-rockhounding_chemistry:alloy_blocks_deco:2, Green Gold Block
-rockhounding_chemistry:alloy_blocks_deco:3, White Gold Block
-rockhounding_chemistry:alloy_blocks_deco:4, Shibuichi Block
-rockhounding_chemistry:alloy_blocks_deco:5, Tombak Block
-rockhounding_chemistry:alloy_blocks_deco:6, Pewter Block
-rockhounding_chemistry:alloy_blocks_deco:7, Corten Steel Block
-rockhounding_chemistry:alloy_blocks_deco:8, Shakudo Block
-rockhounding_chemistry:alloy_blocks_deco:9, Purple Gold Block
-rockhounding_chemistry:alloy_blocks_deco:10, NIB Block
-rockhounding_chemistry:alloy_blocks_deco:11, CoSm Block
-rockhounding_chemistry:alloy_bricks_deco:0, Mischmetal Brick
-rockhounding_chemistry:alloy_bricks_deco:1, Rose Gold Brick
-rockhounding_chemistry:alloy_bricks_deco:2, Green Gold Brick
-rockhounding_chemistry:alloy_bricks_deco:3, White Gold Brick
-rockhounding_chemistry:alloy_bricks_deco:4, Shibuichi Brick
-rockhounding_chemistry:alloy_bricks_deco:5, Tombak Brick
-rockhounding_chemistry:alloy_bricks_deco:6, Pewter Brick
-rockhounding_chemistry:alloy_bricks_deco:7, Corten Steel Brick
-rockhounding_chemistry:alloy_bricks_deco:8, Shakudo Brick
-rockhounding_chemistry:alloy_bricks_deco:9, Purple Gold Brick
-rockhounding_chemistry:alloy_bricks_deco:10, NIB Brick
-rockhounding_chemistry:alloy_bricks_deco:11, CoSm Brick
-rockhounding_chemistry:alloy_blocks_gems:0, Neodymium YAG Block
-rockhounding_chemistry:alloy_blocks_gems:1, Erbium YAG Block
-rockhounding_chemistry:alloy_blocks_gems:2, Ytterbium YAG Block
-rockhounding_chemistry:alloy_bricks_gems:0, Neodymium YAG Brick
-rockhounding_chemistry:alloy_bricks_gems:1, Erbium YAG Brick
-rockhounding_chemistry:alloy_bricks_gems:2, Ytterbium YAG Brick
-rockhounding_chemistry:alloy_blocks_tech_b:0, NiAl Block
-rockhounding_chemistry:alloy_blocks_tech_b:1, Inconel Block
-rockhounding_chemistry:alloy_blocks_tech_b:2, Zircaloy Block
-rockhounding_chemistry:alloy_bricks_tech_b:0, NiAl Brick
-rockhounding_chemistry:alloy_bricks_tech_b:1, Inconel Brick
-rockhounding_chemistry:alloy_bricks_tech_b:2, Zircaloy Brick
-rockhounding_chemistry:pipeline_duct, Fluid Pipeline Duct
-rockhounding_chemistry:pipeline_pump, Fluid Pipeline Pump
-rockhounding_chemistry:pipeline_valve, Fluid Pipeline Valve
-rockhounding_chemistry:gasline_duct, Gas Pipeline Duct
-rockhounding_chemistry:gasline_pump, Gas Pipeline Pump
-rockhounding_chemistry:pipeline_halt, Fluid Pipeline Barred Duct
-rockhounding_chemistry:gasline_halt, Gas Pipeline Barred Duct
-rockhounding_chemistry:didymium_glass:0, Didymium Glass (Borderless)
-rockhounding_chemistry:didymium_glass:1, Didymium Glass (Bordered)
-rockhounding_chemistry:didymium_glass:2, Didymium Glass (Bricks)
-rockhounding_chemistry:waterlock:0, Dry Waterlock
-rockhounding_chemistry:waterlock:1, Wet Waterlock
-rockhounding_chemistry:toxic_cloud, Toxic Cloud
 rockhounding_chemistry:tile_nullifier, Tile Nullifier
 rockhounding_chemistry:crushing_gear, Crushing Gear
 rockhounding_chemistry:slurry_agitator, Slurry Agitator
@@ -32896,59 +33561,273 @@ rockhounding_chemistry:probe_items:1, Copper probe
 rockhounding_chemistry:probe_items:2, NIB Probe
 rockhounding_chemistry:probe_items:3, CoSm Probe
 rockhounding_chemistry:mob_items:0, Toxic Slimeball
-rockhounding_chemistry:fluid.molten_scal, Molten ScAl
-rockhounding_chemistry:fluid.salt_brine, Saturated Brine
-rockhounding_chemistry:fluid.molten_pewter, Molten Pewter
-rockhounding_chemistry:fluid.coal_slurry, Coal Slurry
-rockhounding_chemistry:fluid.sodium_cyanide, Sodium Cyanide
-rockhounding_chemistry:fluid.molten_bam, Molten BAM
-rockhounding_chemistry:fluid.propylene, Propylene
-rockhounding_chemistry:fluid.liquid_ammonia, Liquid Ammonia
-rockhounding_chemistry:fluid.neon, Neon
-rockhounding_chemistry:fluid.cooled_air, Cooled Air
-rockhounding_chemistry:fluid.molten_nichrome, Molten Nichrome
-rockhounding_chemistry:fluid.molten_inconel, Molten Inconel
-rockhounding_chemistry:fluid.organic_slurry, Organic Slurry
-rockhounding_chemistry:fluid.water_vapour, Water Vapour
-rockhounding_chemistry:fluid.toxic_sludge, Toxic Sludge
-rockhounding_chemistry:fluid.virgin_water, Virgin Water
-rockhounding_chemistry:fluid.molten_titanium, Molten Titanium
-rockhounding_chemistry:fluid.molten_cube, Molten CuBe
+rockhounding_chemistry:uninspected_mineral, Uninspected Mineral
+rockhounding_chemistry:mineral_ores:0, Antimonate Gangue
+rockhounding_chemistry:mineral_ores:1, Arsenate Gangue
+rockhounding_chemistry:mineral_ores:2, Borate Gangue
+rockhounding_chemistry:mineral_ores:3, Carbonate Gangue
+rockhounding_chemistry:mineral_ores:4, Chromate Gangue
+rockhounding_chemistry:mineral_ores:5, Halide Gangue
+rockhounding_chemistry:mineral_ores:6, Native Gangue
+rockhounding_chemistry:mineral_ores:7, Oxide Gangue
+rockhounding_chemistry:mineral_ores:8, Phosphate Gangue
+rockhounding_chemistry:mineral_ores:9, Silicate Gangue
+rockhounding_chemistry:mineral_ores:10, Sulfate Gangue
+rockhounding_chemistry:mineral_ores:11, Sulfide Gangue
+rockhounding_chemistry:mineral_ores:12, Vanadate Gangue
+rockhounding_chemistry:misc_blocks_a:0, Machine Scaffold
+rockhounding_chemistry:misc_blocks_a:2, Raw Salt Block
+rockhounding_chemistry:misc_blocks_a:3, Separator
+rockhounding_chemistry:misc_blocks_a:4, Charger
+rockhounding_chemistry:misc_blocks_a:5, GAN Tower
+rockhounding_chemistry:misc_blocks_a:6, GAN Tower Top
+rockhounding_chemistry:misc_blocks_a:7, GAN Injector
+rockhounding_chemistry:misc_blocks_a:8, Reforming Reactor Tower
+rockhounding_chemistry:misc_blocks_a:9, Reforming Reactor Top
+rockhounding_chemistry:misc_blocks_a:10, Crystal Pulling Crucible Top
+rockhounding_chemistry:misc_blocks_a:11, Charcoal Block
+rockhounding_chemistry:misc_blocks_a:12, Poor Raw Salt Block
+rockhounding_chemistry:misc_blocks_a:13, Reinforced Glass
+rockhounding_chemistry:misc_blocks_a:14, Gas Router
+rockhounding_chemistry:machines_a:0, Sizer Controller
+rockhounding_chemistry:machines_a:1, Crushing Tank
+rockhounding_chemistry:machines_a:2, Power Station
+rockhounding_chemistry:machines_a:3, Gangue Collector
+rockhounding_chemistry:machines_a:4, Fluid Tank
+rockhounding_chemistry:machines_a:6, Lab Oven Reactor
+rockhounding_chemistry:machines_a:7, Fluid Input System
+rockhounding_chemistry:machines_a:8, Fluid Output System
+rockhounding_chemistry:machines_a:9, Lab Blender Controller
+rockhounding_chemistry:machines_a:11, Profiling Bench
+rockhounding_chemistry:machines_a:12, Evaporation Tank
+rockhounding_chemistry:machines_a:13, Seasoning Rack
+rockhounding_chemistry:machines_a:14, Server
+rockhounding_chemistry:machines_a:15, Expansion Chamber
+rockhounding_chemistry:machines_b:0, Slurry Pond
+rockhounding_chemistry:machines_b:1, Gas Pressurizer
+rockhounding_chemistry:machines_b:2, Gasifier Cistern
+rockhounding_chemistry:machines_b:4, Gasifier Burner
+rockhounding_chemistry:machines_b:5, Gas Purifier
+rockhounding_chemistry:machines_b:6, Cyclone Separator
+rockhounding_chemistry:machines_b:8, Particulate Collector
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:10, Air Compressor
+rockhounding_chemistry:machines_b:11, Heat Exchanger
+rockhounding_chemistry:machines_b:13, Turboexpander
+rockhounding_chemistry:machines_b:15, Cyclone Separator Top
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_c:0, GAN Controller
+rockhounding_chemistry:machines_c:1, Gas Condenser
+rockhounding_chemistry:machines_c:2, Gas Bulbs
+rockhounding_chemistry:machines_c:3, Leaching Controller
+rockhounding_chemistry:machines_c:4, Sealed Vat
+rockhounding_chemistry:machines_c:5, Specimen Collector
+rockhounding_chemistry:machines_c:6, Retention Controller
+rockhounding_chemistry:machines_c:7, Extraction Controller
+rockhounding_chemistry:machines_c:8, Extraction Reactor
+rockhounding_chemistry:machines_c:9, Elements Cabinet
+rockhounding_chemistry:machines_c:11, Glassware Holder
+rockhounding_chemistry:machines_c:12, Lab Balance
+rockhounding_chemistry:machines_c:13, Reforming Controller
+rockhounding_chemistry:machines_c:15, Reaction Stabilizer
+rockhounding_chemistry:machines_d:0, Metal Alloyer
+rockhounding_chemistry:machines_d:2, Material Cabinet
+rockhounding_chemistry:machines_d:4, Vapor Deposition Chamber
+rockhounding_chemistry:machines_d:6, Gas Holder
+rockhounding_chemistry:machines_d:8, Crystal Pulling Crucible
+rockhounding_chemistry:machines_d:10, Orbiter
+rockhounding_chemistry:machines_d:11, Transposer
+rockhounding_chemistry:machines_d:12, Fluidpedia
+rockhounding_chemistry:machines_d:13, Chemical Dumper
+rockhounding_chemistry:machines_d:14, Flotation Tank
+rockhounding_chemistry:machines_d:15, Containment Tank
+rockhounding_chemistry:machines_d:6, Gas Holder
+rockhounding_chemistry:machines_d:6, Gas Holder
+rockhounding_chemistry:machines_d:6, Gas Holder
+rockhounding_chemistry:machines_d:6, Gas Holder
+rockhounding_chemistry:machines_d:6, Gas Holder
+rockhounding_chemistry:machines_d:6, Gas Holder
+rockhounding_chemistry:machines_d:6, Gas Holder
+rockhounding_chemistry:machines_d:6, Gas Holder
+rockhounding_chemistry:machines_d:6, Gas Holder
+rockhounding_chemistry:machines_d:6, Gas Holder
+rockhounding_chemistry:machines_d:6, Gas Holder
+rockhounding_chemistry:machines_d:6, Gas Holder
+rockhounding_chemistry:machines_d:6, Gas Holder
+rockhounding_chemistry:machines_d:6, Gas Holder
+rockhounding_chemistry:machines_d:6, Gas Holder
+rockhounding_chemistry:machines_d:6, Gas Holder
+rockhounding_chemistry:machines_d:6, Gas Holder
+rockhounding_chemistry:machines_d:6, Gas Holder
+rockhounding_chemistry:machines_d:6, Gas Holder
+rockhounding_chemistry:machines_d:6, Gas Holder
+rockhounding_chemistry:machines_e:0, Laser Emitter
+rockhounding_chemistry:machines_e:1, Exhaust Valve
+rockhounding_chemistry:machines_e:2, Water Pump
+rockhounding_chemistry:machines_e:3, Catalyst Regenerator
+rockhounding_chemistry:machines_e:4, Disposer
+rockhounding_chemistry:machines_e:5, Heavy Drum
+rockhounding_chemistry:machines_e:6, Buffer Tank
+rockhounding_chemistry:machines_e:7, Electrochemical CSTR
+rockhounding_chemistry:machines_e:9, CSTR Container
+rockhounding_chemistry:machines_e:11, Precipitation Chamber
+rockhounding_chemistry:machines_e:12, Precipitation Reactor
+rockhounding_chemistry:machines_f:0, Fixed Bed Reactor Chamber
+rockhounding_chemistry:machines_f:2, Tubular System
+rockhounding_chemistry:machines_f:4, Fixed Bed Reactor Controller
+rockhounding_chemistry:alloy_blocks_tech:0, CuBe Block
+rockhounding_chemistry:alloy_blocks_tech:1, ScAl Block
+rockhounding_chemistry:alloy_blocks_tech:2, BAM Block
+rockhounding_chemistry:alloy_blocks_tech:3, Stellite Block
+rockhounding_chemistry:alloy_blocks_tech:4, Cupronickel Block
+rockhounding_chemistry:alloy_blocks_tech:5, Nimonic Block
+rockhounding_chemistry:alloy_blocks_tech:6, Hastelloy Block
+rockhounding_chemistry:alloy_blocks_tech:7, Nichrome Block
+rockhounding_chemistry:alloy_blocks_tech:8, CuNiFe Block
+rockhounding_chemistry:alloy_blocks_tech:9, Silicon Nitride Block
+rockhounding_chemistry:alloy_blocks_tech:10, Carborundum Block
+rockhounding_chemistry:alloy_blocks_tech:11, Tinite Block
+rockhounding_chemistry:alloy_blocks_tech:12, Hydronalium Block
+rockhounding_chemistry:alloy_blocks_tech:13, Vanasteel Block
+rockhounding_chemistry:alloy_blocks_tech:14, Widia Block
+rockhounding_chemistry:alloy_blocks_tech:15, Tantaloy Block
+rockhounding_chemistry:alloy_bricks_tech:0, CuBe Brick
+rockhounding_chemistry:alloy_bricks_tech:1, ScAl Brick
+rockhounding_chemistry:alloy_bricks_tech:2, BAM Brick
+rockhounding_chemistry:alloy_bricks_tech:3, Stellite Brick
+rockhounding_chemistry:alloy_bricks_tech:4, Cupronickel Brick
+rockhounding_chemistry:alloy_bricks_tech:5, Nimonic Brick
+rockhounding_chemistry:alloy_bricks_tech:6, Hastelloy Brick
+rockhounding_chemistry:alloy_bricks_tech:7, Nichrome Brick
+rockhounding_chemistry:alloy_bricks_tech:8, CuNiFe Brick
+rockhounding_chemistry:alloy_bricks_tech:9, Silicon Nitride Brick
+rockhounding_chemistry:alloy_bricks_tech:10, Carborundum Brick
+rockhounding_chemistry:alloy_bricks_tech:11, Tinite Brick
+rockhounding_chemistry:alloy_bricks_tech:12, Hydronalium Brick
+rockhounding_chemistry:alloy_bricks_tech:13, Vanasteel Brick
+rockhounding_chemistry:alloy_bricks_tech:14, Widia Brick
+rockhounding_chemistry:alloy_bricks_tech:15, Tantaloy Brick
+rockhounding_chemistry:alloy_blocks_deco:0, Mischmetal Block
+rockhounding_chemistry:alloy_blocks_deco:1, Rose Gold Block
+rockhounding_chemistry:alloy_blocks_deco:2, Green Gold Block
+rockhounding_chemistry:alloy_blocks_deco:3, White Gold Block
+rockhounding_chemistry:alloy_blocks_deco:4, Shibuichi Block
+rockhounding_chemistry:alloy_blocks_deco:5, Tombak Block
+rockhounding_chemistry:alloy_blocks_deco:6, Pewter Block
+rockhounding_chemistry:alloy_blocks_deco:7, Corten Steel Block
+rockhounding_chemistry:alloy_blocks_deco:8, Shakudo Block
+rockhounding_chemistry:alloy_blocks_deco:9, Purple Gold Block
+rockhounding_chemistry:alloy_blocks_deco:10, NIB Block
+rockhounding_chemistry:alloy_blocks_deco:11, CoSm Block
+rockhounding_chemistry:alloy_bricks_deco:0, Mischmetal Brick
+rockhounding_chemistry:alloy_bricks_deco:1, Rose Gold Brick
+rockhounding_chemistry:alloy_bricks_deco:2, Green Gold Brick
+rockhounding_chemistry:alloy_bricks_deco:3, White Gold Brick
+rockhounding_chemistry:alloy_bricks_deco:4, Shibuichi Brick
+rockhounding_chemistry:alloy_bricks_deco:5, Tombak Brick
+rockhounding_chemistry:alloy_bricks_deco:6, Pewter Brick
+rockhounding_chemistry:alloy_bricks_deco:7, Corten Steel Brick
+rockhounding_chemistry:alloy_bricks_deco:8, Shakudo Brick
+rockhounding_chemistry:alloy_bricks_deco:9, Purple Gold Brick
+rockhounding_chemistry:alloy_bricks_deco:10, NIB Brick
+rockhounding_chemistry:alloy_bricks_deco:11, CoSm Brick
+rockhounding_chemistry:alloy_blocks_gems:0, Neodymium YAG Block
+rockhounding_chemistry:alloy_blocks_gems:1, Erbium YAG Block
+rockhounding_chemistry:alloy_blocks_gems:2, Ytterbium YAG Block
+rockhounding_chemistry:alloy_bricks_gems:0, Neodymium YAG Brick
+rockhounding_chemistry:alloy_bricks_gems:1, Erbium YAG Brick
+rockhounding_chemistry:alloy_bricks_gems:2, Ytterbium YAG Brick
+rockhounding_chemistry:alloy_blocks_tech_b:0, NiAl Block
+rockhounding_chemistry:alloy_blocks_tech_b:1, Inconel Block
+rockhounding_chemistry:alloy_blocks_tech_b:2, Zircaloy Block
+rockhounding_chemistry:alloy_bricks_tech_b:0, NiAl Brick
+rockhounding_chemistry:alloy_bricks_tech_b:1, Inconel Brick
+rockhounding_chemistry:alloy_bricks_tech_b:2, Zircaloy Brick
+rockhounding_chemistry:pipeline_duct, Fluid Pipeline Duct
+rockhounding_chemistry:pipeline_pump, Fluid Pipeline Pump
+rockhounding_chemistry:pipeline_valve, Fluid Pipeline Valve
+rockhounding_chemistry:gasline_duct, Gas Pipeline Duct
+rockhounding_chemistry:gasline_pump, Gas Pipeline Pump
+rockhounding_chemistry:pipeline_halt, Fluid Pipeline Barred Duct
+rockhounding_chemistry:gasline_halt, Gas Pipeline Barred Duct
+rockhounding_chemistry:didymium_glass:0, Didymium Glass (Borderless)
+rockhounding_chemistry:didymium_glass:1, Didymium Glass (Bordered)
+rockhounding_chemistry:didymium_glass:2, Didymium Glass (Bricks)
+rockhounding_chemistry:waterlock:0, Dry Waterlock
+rockhounding_chemistry:waterlock:1, Wet Waterlock
+rockhounding_chemistry:toxic_cloud, Toxic Cloud
 rockhounding_chemistry:fluid.flue_gas, Flue Gas
-rockhounding_chemistry:fluid.chloromethane, Chloromethane
-rockhounding_chemistry:fluid.silicone, Silicone
-rockhounding_chemistry:fluid.molten_corten, Molten Corten Steel
-rockhounding_chemistry:fluid.sodium_hydroxide, Sodium Hydroxide
 rockhounding_chemistry:fluid.low_leachate, Low Grade Leachate
+rockhounding_chemistry:fluid.cooled_air, Cooled Air
+rockhounding_chemistry:fluid.silicone, Silicone
+rockhounding_chemistry:fluid.organic_slurry, Organic Slurry
 rockhounding_chemistry:fluid.thin_air, Thin Air (Dummy Filter)
-rockhounding_chemistry:fluid.molten_hydronalium, Molten Hydronalium
-rockhounding_chemistry:fluid.molten_stellite, Molten Stellite
-rockhounding_chemistry:fluid.molten_cunife, Molten CuNiFe
-rockhounding_chemistry:fluid.nitric_acid, Nitric Acid
-rockhounding_chemistry:fluid.high_leachate, High Grade Leachate
-rockhounding_chemistry:fluid.refined_air, Refined Air
-rockhounding_chemistry:fluid.molten_zircaloy, Molten Zircaloy
 rockhounding_chemistry:fluid.coal_tar, Coal Tar
-rockhounding_chemistry:fluid.raw_syngas, Raw Syngas
-rockhounding_chemistry:fluid.xenon, Xenon
-rockhounding_chemistry:fluid.molten_nimonic, Molten Nimonic
+rockhounding_chemistry:fluid.toxic_sludge, Toxic Sludge
 rockhounding_chemistry:fluid.liquid_oxygen, Liquid Oxygen
-rockhounding_chemistry:fluid.toxic_waste, Toxic Waste
-rockhounding_chemistry:fluid.syngas, Syngas
-rockhounding_chemistry:fluid.raw_flue_gas, Raw Flue Gas
-rockhounding_chemistry:fluid.molten_cupronickel, Molten Cupronickel
-rockhounding_chemistry:fluid.molten_vanasteel, Molten Vanasteel
-rockhounding_chemistry:fluid.hydrochloric_acid, Hydrochloric Acid
-rockhounding_chemistry:fluid.molten_nial, Molten NiAl
-rockhounding_chemistry:fluid.mother_liquor, Mother Liquor
-rockhounding_chemistry:fluid.molten_hastelloy, Molten Hastelloy
-rockhounding_chemistry:fluid.compressed_air, Compressed Air
-rockhounding_chemistry:fluid.leachate, Medium Grade Leachate
-rockhounding_chemistry:fluid.dense_brine, Dense Brine
-rockhounding_chemistry:fluid.molten_tantaloy, Molten Tantaloy
+rockhounding_chemistry:fluid.molten_nichrome, Molten Nichrome
+rockhounding_chemistry:fluid.refined_air, Refined Air
 rockhounding_chemistry:fluid.krypton, Krypton
-rockhounding_chemistry:fluid.molten_vanadium, Molten Vanadium
+rockhounding_chemistry:fluid.molten_nimonic, Molten Nimonic
+rockhounding_chemistry:fluid.molten_hydronalium, Molten Hydronalium
+rockhounding_chemistry:fluid.coal_slurry, Coal Slurry
+rockhounding_chemistry:fluid.molten_cube, Molten CuBe
 rockhounding_chemistry:fluid.acrylic_acid, Acrylic Acid
+rockhounding_chemistry:fluid.molten_cunife, Molten CuNiFe
+rockhounding_chemistry:fluid.virgin_water, Virgin Water
+rockhounding_chemistry:fluid.molten_cupronickel, Molten Cupronickel
+rockhounding_chemistry:fluid.syngas, Syngas
+rockhounding_chemistry:fluid.salt_brine, Saturated Brine
+rockhounding_chemistry:fluid.mother_liquor, Mother Liquor
+rockhounding_chemistry:fluid.neon, Neon
+rockhounding_chemistry:fluid.molten_zircaloy, Molten Zircaloy
+rockhounding_chemistry:fluid.molten_stellite, Molten Stellite
+rockhounding_chemistry:fluid.molten_nial, Molten NiAl
+rockhounding_chemistry:fluid.molten_vanadium, Molten Vanadium
+rockhounding_chemistry:fluid.molten_scal, Molten ScAl
+rockhounding_chemistry:fluid.molten_corten, Molten Corten Steel
+rockhounding_chemistry:fluid.hydrochloric_acid, Hydrochloric Acid
+rockhounding_chemistry:fluid.propylene, Propylene
+rockhounding_chemistry:fluid.chloromethane, Chloromethane
+rockhounding_chemistry:fluid.water_vapour, Water Vapour
+rockhounding_chemistry:fluid.raw_syngas, Raw Syngas
+rockhounding_chemistry:fluid.molten_tantaloy, Molten Tantaloy
+rockhounding_chemistry:fluid.high_leachate, High Grade Leachate
+rockhounding_chemistry:fluid.sodium_cyanide, Sodium Cyanide
+rockhounding_chemistry:fluid.molten_pewter, Molten Pewter
+rockhounding_chemistry:fluid.liquid_ammonia, Liquid Ammonia
+rockhounding_chemistry:fluid.xenon, Xenon
+rockhounding_chemistry:fluid.molten_bam, Molten BAM
+rockhounding_chemistry:fluid.leachate, Medium Grade Leachate
+rockhounding_chemistry:fluid.compressed_air, Compressed Air
+rockhounding_chemistry:fluid.nitric_acid, Nitric Acid
+rockhounding_chemistry:fluid.sodium_hydroxide, Sodium Hydroxide
+rockhounding_chemistry:fluid.molten_titanium, Molten Titanium
+rockhounding_chemistry:fluid.molten_hastelloy, Molten Hastelloy
+rockhounding_chemistry:fluid.molten_inconel, Molten Inconel
+rockhounding_chemistry:fluid.raw_flue_gas, Raw Flue Gas
+rockhounding_chemistry:fluid.molten_vanasteel, Molten Vanasteel
+rockhounding_chemistry:fluid.toxic_waste, Toxic Waste
+rockhounding_chemistry:fluid.dense_brine, Dense Brine
 roost:roost, Roost
 roost:breeder, Chicken Breeder
 roost:collector, Roost Collector
@@ -33771,6 +34650,7 @@ thaumicaugmentation:thaumium_robes_hood, Hood of the Adept
 thaumicaugmentation:thaumium_robes_chestplate, Robe of the Adept
 thaumicaugmentation:thaumium_robes_leggings, Leggings of the Adept
 thaumicaugmentation:celestial_observer_placer, Celestial Observer
+thaumicenergistics:infusion_provider, Essentia Infusion Provider
 thaumicenergistics:essentia_cell_1k, 1k ME Essentia Storage Cell
 thaumicenergistics:essentia_cell_4k, 4k ME Essentia Storage Cell
 thaumicenergistics:essentia_cell_16k, 16k ME Essentia Storage Cell
@@ -33789,7 +34669,6 @@ thaumicenergistics:essentia_component_16k, 16k ME Essentia Storage Component
 thaumicenergistics:essentia_component_64k, 64k ME Essentia Storage Component
 thaumicenergistics:upgrade_arcane, Arcane Charging Upgrade
 thaumicenergistics:dummy_aspect, item.thaumicenergistics.dummy_aspect.name
-thaumicenergistics:infusion_provider, Essentia Infusion Provider
 tcomplement:materials:0, Stone Bucket
 tcomplement:materials:1, Scorched Brick
 tcomplement:materials:6, iModifier
@@ -33990,12 +34869,12 @@ tcomplement:chisel_head:0, Livingwood Chisel Head
 tcomplement:chisel_head:0, Manasteel Chisel Head
 tcomplement:chisel_head:0, Elementium Chisel Head
 tcomplement:chisel_head:0, Terrasteel Chisel Head
-tcomplement:chisel_head:0, Emerald Chisel Head
 tcomplement:chisel_head:0, Wyvern Chisel Head
 tcomplement:chisel_head:0, Awakened Chisel Head
 tcomplement:chisel_head:0, Chaotic Chisel Head
 tcomplement:chisel_head:0, Dark Matter Chisel Head
 tcomplement:chisel_head:0, Red Matter Chisel Head
+tcomplement:chisel_head:0, Emerald Chisel Head
 tcomplement:chisel_head:0, Slime Chisel Head
 tcomplement:chisel, Chisel
 wct:wct, Wireless Crafting Terminal
