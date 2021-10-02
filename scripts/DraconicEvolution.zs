@@ -48,6 +48,12 @@ mods.avaritia.ExtremeCrafting.addShaped("Wyvern Energy Core", <draconicevolution
 [<ore:blockDraconium>, <ore:rodBlaze>, <ore:blockDraconium>, <bewitchment:focal_chalk>, <ore:blockDraconium>],
 [<ore:rodBlaze>, <ore:blockDraconium>, <ore:blockCosmicNeutronium>, <ore:blockDraconium>, <bewitchment:focal_chalk>]]);
 
+recipes.remove(<draconicevolution:draconium_capacitor:1>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:draconium_capacitor:1>, [
+[<ore:blockDraconiumAwakened>, <draconicevolution:awakened_core>, <ore:blockDraconiumAwakened>],
+[<draconicevolution:draconic_energy_core>, <draconicevolution:draconium_capacitor>, <draconicevolution:draconic_energy_core>],
+[<draconicevolution:awakened_core>, <ore:blockDraconiumAwakened>, <draconicevolution:awakened_core>]]);
+
 mods.extendedcrafting.CombinationCrafting.addRecipe(<draconicevolution:draconium_block:1>, 600000000, 600000, <draconicevolution:draconium_block:0>,
 [<ic2:energy_crystal>.withTag({charge: 1000000.0}), <minecraft:iron_block>, <minecraft:diamond_block>, <minecraft:gold_block>, <enderio:block_alloy:0>, <minecraft:lapis_block>, <mekanism:energytablet>.withTag({mekData: {energyStored: 1000000.0}}), <minecraft:emerald_block>]);
 
