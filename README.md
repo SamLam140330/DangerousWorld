@@ -24,4 +24,4 @@ Under such extreme conditions, can you manage to survive here?
 
 Minecraft: 1.12.2  
 Forge: 14.23.5.2847  
-Ram: It recommends using at least 6GB
+Ram: It recommends using at least 8GB

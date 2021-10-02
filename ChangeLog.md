@@ -1,5 +1,38 @@
 # Dangerous World Modpack Changelog
 
+## 1.1
+
+Forge Version: 1.12.2-14.23.5.2847  
+Total Mods: 249
+
+**Changes**
+
+- Now every time you change the dimension will have 30 seconds buffer before spawning the grue
+- Removed the grue spawn from Divinerpg Vethea dimenstion
+- Removed tpa command
+- Changed the recipe of ultimate crafting table
+- Changed the recipe of draconic reactor core
+- Changed the recipe of draconic flux capacitor
+- Changed the recipe of draconic energy core
+- Fixed the conflict of recipe between Bread Slice and Toast
+- Fixed the config bug of Bewitchment
+- Decreased the blood requirement for Fluxed Phyto-Gro from 30k to 15k
+- Decreased the amount of materials required for singularity from 25k to 22k
+- Decreased the chaos guardians health from 200k to 100k
+
+**Updated Mods**
+
+- Craft Presence
+- Rockhounding Mod: Chemistry
+
+**Added Mod**
+
+- Railcraft
+
+**Removed Mod**
+
+- Born in a Barn
+
 ## 1.0
 
 Forge Version: 1.12.2-14.23.5.2847  
