@@ -48,11 +48,17 @@ mods.avaritia.ExtremeCrafting.addShaped("Wyvern Energy Core", <draconicevolution
 [<ore:blockDraconium>, <ore:rodBlaze>, <ore:blockDraconium>, <bewitchment:focal_chalk>, <ore:blockDraconium>],
 [<ore:rodBlaze>, <ore:blockDraconium>, <ore:blockCosmicNeutronium>, <ore:blockDraconium>, <bewitchment:focal_chalk>]]);
 
+recipes.remove(<draconicevolution:draconium_capacitor:1>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:draconium_capacitor:1>, [
+[<ore:blockDraconiumAwakened>, <draconicevolution:awakened_core>, <ore:blockDraconiumAwakened>],
+[<draconicevolution:draconic_energy_core>, <draconicevolution:draconium_capacitor>, <draconicevolution:draconic_energy_core>],
+[<draconicevolution:awakened_core>, <ore:blockDraconiumAwakened>, <draconicevolution:awakened_core>]]);
+
 mods.extendedcrafting.CombinationCrafting.addRecipe(<draconicevolution:draconium_block:1>, 600000000, 600000, <draconicevolution:draconium_block:0>,
 [<ic2:energy_crystal>.withTag({charge: 1000000.0}), <minecraft:iron_block>, <minecraft:diamond_block>, <minecraft:gold_block>, <enderio:block_alloy:0>, <minecraft:lapis_block>, <mekanism:energytablet>.withTag({mekData: {energyStored: 1000000.0}}), <minecraft:emerald_block>]);
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<draconicevolution:draconic_energy_core>, 700000000, 500000, <draconicevolution:wyvern_energy_core>,
-[<ore:blockDraconiumAwakened>, <ore:blockDraconiumAwakened>, <ore:blockDraconiumAwakened>, <ore:blockDraconiumAwakened>, <draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <ore:blockRedstone>, <actuallyadditions:block_crystal_empowered>, <thermalfoundation:fertilizer:2>, <ore:blockArdite>, <ore:blockMithminite>, <immersiveengineering:metal_decoration0:3>]);
+[<ore:blockDraconiumAwakened>, <ore:blockDraconiumAwakened>, <ore:blockDraconiumAwakened>, <ore:blockDraconiumAwakened>, <draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <ore:blockRedstone>, <actuallyadditions:block_crystal_empowered>, <thermalfoundation:fertilizer:2>, <ore:blockArdite>, <ore:blockVoid>, <immersiveengineering:metal_decoration0:3>]);
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<draconicadditions:chaos_heart>, 600000000, 600000, <draconicevolution:dragon_heart>,
 [<draconicevolution:draconium_block:1>, <ore:ingotCosmicNeutronium>, <draconicevolution:awakened_core>, <draconicevolution:draconium_block:1>, <ore:ingotBlackIron>, <draconicevolution:awakened_core>, <draconicevolution:draconium_block:1>, <ore:ingotColdIron>, <draconicevolution:awakened_core>, <draconicevolution:draconium_block:1>, <ore:ingotSamarium>, <draconicevolution:awakened_core>]);
