@@ -160,7 +160,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:table_ultimat
 [<extracells:storage.component:10>, <ic2:quad_mox_fuel_rod>, <extendedcrafting:material:17>, <extendedcrafting:trimmed:3>, <extendedcrafting:material:17>, <ic2:quad_mox_fuel_rod>, <extracells:storage.component:10>],
 [<ore:blockDemonicMetal>, <xreliquary:potion_essence>, <extendedcrafting:table_elite>, <extendedcrafting:material:11>, <extendedcrafting:table_elite>, <xreliquary:potion_essence>, <ore:blockEvilMetal>],
 [<extracells:storage.component:10>, <mekanism:basicblock2:4>, <extendedcrafting:material:17>, <extendedcrafting:trimmed:3>, <extendedcrafting:material:17>, <mekanism:basicblock2:4>, <extracells:storage.component:10>],
-[<animus:fragmenthealing>, <iceandfire:shiny_scales>, <projectred-transportation:routing_chip:7>, <ore:blockOsgloglas>, <ore:projredIllumar>, <iceandfire:shiny_scales>, <botania:brewflask>.withTag({brewKey: "jumpBoost"})],
+[<extendedcrafting:material:48>, <iceandfire:shiny_scales>, <projectred-transportation:routing_chip:7>, <ore:blockOsgloglas>, <ore:projredIllumar>, <iceandfire:shiny_scales>, <botania:brewflask>.withTag({brewKey: "jumpBoost"})],
 [<aoa3:creeponia_bricks>, <astralsorcery:itemcoloredlens:2>, <ore:blockVibrantAlloy>, <extendedcrafting:singularity_custom:7>, <ore:blockVibrantAlloy>, <ore:ingotElecanium>, <aoa3:creeponia_bricks>]]);
 
 mods.extendedcrafting.TableCrafting.remove(<extendedcrafting:material:24>);
