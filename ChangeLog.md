@@ -1,5 +1,37 @@
 # Dangerous World Modpack Changelog
 
+## 1.2
+
+Forge Version: 1.12.2-14.23.5.2847  
+Total Mods: 250
+
+**Changes**
+
+- Replace ice dragonsteel singularity to redstone ingot singularity
+- Replace fire dragonsteel gem singularity to quartz ingot singularity
+- Replace crystaltine singularity to glowstone singularity
+- Replace fluxed phyto-gro singularity to silicon carbide singularity
+- Replace resonating gem singularity to mixed metal singularity
+- Removed Black Widows spawn from Nether
+- Fixed the recipe of lapis ingot
+- Fixed the recipe of redstone ingot
+- Fixed the recipe of ultimate crafting table
+- Changed the recipe of draconic staff of power
+- Changed the uncrafter blacklist mod
+- Added a recipe for Ink Sac
+- Added few menu main photos
+- Optimized foamfix setting
+
+**Updated Mods**
+
+- Craft Presence
+- Craft Tweaker 2
+- Mod Tweaker
+
+**Added Mod**
+
+- Rf Tool Dimension
+
 ## 1.1
 
 Forge Version: 1.12.2-14.23.5.2847  

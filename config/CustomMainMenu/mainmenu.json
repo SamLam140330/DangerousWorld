@@ -140,7 +140,7 @@
         },
         "version":
         {
-            "text": "Version 1.1",
+            "text": "Version 1.2",
             "posX": -58,
             "posY": -22,
             "color": -1,
@@ -175,7 +175,9 @@
                 "mainmenu:textures/menu8.png",
                 "mainmenu:textures/menu9.png",
                 "mainmenu:textures/menu10.png",
-                "mainmenu:textures/menu11.png"
+                "mainmenu:textures/menu11.png",
+				"mainmenu:textures/menu12.png",
+				"mainmenu:textures/menu13.png"
 				],
                 "displayDuration": 100,
                 "fadeDuration": 30,
