@@ -408,7 +408,7 @@
             "draconicevolution:draconic_energy_core",
             "draconicevolution:draconic_energy_core",
             "ic2:energy_crystal,1,0,{charge: 1000000.0}",
-            "avaritia:singularity,1,3",
+			"extendedcrafting:singularity,1,3",
             "aoa3:limonite_pickaxe",
             "divinerpg:eden_pickaxe",
             "extraplanets:red_gem_pickaxe",
