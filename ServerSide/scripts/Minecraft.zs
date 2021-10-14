@@ -36,6 +36,11 @@ recipes.addShaped("Minecraft Tiny Torch", <actuallyadditions:block_tiny_torch> *
 [<actuallyadditions:item_misc:10>],
 [<ore:stickWood>]]);
 
+recipes.addShaped("Ink Sac", <minecraft:dye>, [
+[<ore:blockCoal>, <ore:blockCoal>, <ore:blockCoal>],
+[<ore:blockCoal>, <ore:blockCoal>, <ore:blockCoal>],
+[<ore:blockCoal>, <ore:blockCoal>, <ore:blockCoal>]]);
+
 furnace.remove(<ore:ingotIron>, <ore:oreIron>);
 furnace.addRecipe(<minecraft:iron_nugget> * 6, <ore:oreIron>);
 
