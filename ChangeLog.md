@@ -1,5 +1,14 @@
 # Dangerous World Modpack Changelog
 
+## 1.3
+
+Forge Version: 1.12.2-14.23.5.2860  
+Total Mods: 250
+
+**Changes**
+
+- Updated forge version to fix the log4j vulnerability [CVE-2021-44228](https://logging.apache.org/log4j/2.x/security.html)
+
 ## 1.2
 
 Forge Version: 1.12.2-14.23.5.2847  
