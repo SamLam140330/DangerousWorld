@@ -8,6 +8,22 @@ Total Mods: 250
 **Changes**
 
 - Updated forge version to fix the log4j vulnerability [CVE-2021-44228](https://logging.apache.org/log4j/2.x/security.html)
+- Fixed the recipe of transmutation table from Project E
+
+**Updated Mods**
+
+- Animus
+- Biomes O' Plenty
+- Carry On
+- Chunk Pregenerator
+- Craft Tweaker
+- Draconic Additions
+- Dynamic Surroundings
+- Entity Culling
+- Hammer Lib
+- Thaumic Augmentation
+- The Betweenlands
+- DC Integration (Server-side)
 
 ## 1.2
 
