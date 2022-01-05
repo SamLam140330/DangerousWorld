@@ -56,4 +56,4 @@ usernamecache.json
 /ServerSide/ops.json
 /ServerSide/whitelist.json
 /ServerSide/world
-/ServerSide/config/Discord-Integration.cfg
+/ServerSide/config/Discord-Integration.toml
