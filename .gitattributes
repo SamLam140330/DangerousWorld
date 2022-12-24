@@ -1,5 +1,5 @@
-*.xml text eol=lf
-*.recipes text eol=lf
-*.xsd text eol=lf
-*.json text eol=lf
-*.md text eol=lf
+*.xml text eol=crlf
+*.recipes text eol=crlf
+*.xsd text eol=crlf
+*.json text eol=crlf
+*.md text eol=crlf
