@@ -1,5 +1,32 @@
 # Dangerous World Modpack Changelog
 
+## 1.4-alpha
+
+Forge Version: 1.12.2-14.23.5.2860  
+Total Mods: 255
+
+**Change**
+
+- Fix the Serialization vulnerability
+- Update some mods
+
+**Updated Mods**
+
+- Controlling
+- CraftPresence
+- CraftTweaker
+- FastWorkbench
+- FTB Quests
+- ItemFilters
+- JourneyMap
+- Just Enough Items
+- LagGoggles
+- ModTweaker
+- ReAuth
+- Serializationisbad
+- TheBetweenlands
+- UniLib
+
 ## 1.3
 
 Forge Version: 1.12.2-14.23.5.2860  
